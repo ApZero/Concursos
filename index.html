@@ -439,10 +439,10 @@ function loadMeta(){
 }
 function saveMeta(){ localStorage.setItem(META_KEY, JSON.stringify(META)); }
 
-function uid(url){
-  // Estable a partir de la URL del concurso
+function uid(key){
+  // Estable a partir de la URL (o, si no hay URL, del título+fecha)
   let h = 0;
-  for(let i=0;i<url.length;i++){ h = (h*31 + url.charCodeAt(i)) | 0; }
+  for(let i=0;i<key.length;i++){ h = (h*31 + key.charCodeAt(i)) | 0; }
   return 'c' + Math.abs(h);
 }
 
@@ -455,44 +455,107 @@ function toast(msg, ms=3200){
 }
 
 /* ---------------- Parsing de la lista de concursos ---------------- */
-// Reconoce líneas con el formato:
-// [TITULO (Pais)](URL) ... (DD:MM:YYYY / Categoria / Premio / Abierto a: Condiciones)
+// Este parser funciona con DOS tipos de entrada:
+//  1) Markdown/texto plano con enlaces tipo  [TITULO (Pais)](URL)  (como el que
+//     devuelve un lector de páginas tipo r.jina.ai)
+//  2) Texto plano SIN enlaces, tal cual queda al copiar y pegar directamente
+//     la página del navegador (Ctrl+A / Ctrl+C), donde solo queda el texto
+//     visible: "TITULO (Pais)  (DD:MM:YYYY / Categoria / Premio / Abierto a: Condiciones)"
+// En ambos casos, cada entrada se reconoce por el bloque final entre paréntesis
+// con la fecha. El título es lo que hay justo antes de ese bloque.
 function parseListingText(text){
+  if(!text) return [];
+  const flat = text.replace(/\r/g, '');
   const found = [];
-  const lines = text.split('\n');
-  const lineRe = /\[([^\]]+)\]\((https?:\/\/www\.escritores\.org\/recursos-para-escritores\/[^\)\s]+)\)[^(]*\((\d{2}):(\d{2}):(\d{4})\s*\/\s*([^\/]+)\/\s*([^\/]+)\/\s*Abierto a:?\s*([^\)]*)\)/i;
-  for(const raw of lines){
-    const m = raw.match(lineRe);
-    if(!m) continue;
-    let [, fullTitle, url, dd, mm, yyyy, category, prize, conditions] = m;
+  // [\s\S]*? (en vez de [^\n]*?) para que el título pueda quedar en una línea
+  // distinta a la del bloque de fecha, que es como a veces queda al copiar
+  // la página tal cual desde el navegador.
+  const entryRe = /([\s\S]*?)\(\s*(\d{2}):(\d{2}):(\d{4})\s*\/\s*([^\/\n\)]+)\/\s*([^\/\n\)]+)\/\s*Abierto a:?\s*([^\)\n]*)\)/gi;
+  let m;
+  while((m = entryRe.exec(flat)) !== null){
+    let [, rawTitleChunk, dd, mm, yyyy, category, prize, conditions] = m;
+    const chunkLines = rawTitleChunk.split('\n').map(s=>s.trim()).filter(Boolean);
+    let titleChunk = chunkLines.length ? chunkLines[chunkLines.length-1] : '';
+    titleChunk = titleChunk.replace(/^[-*•\u2022\d.\)\s]+/, '').trim();
+
+    let url = '';
+    const linkMatch = titleChunk.match(/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/);
+    let titleText = titleChunk;
+    if(linkMatch){
+      titleText = linkMatch[1].trim();
+      url = linkMatch[2].trim();
+    } else {
+      titleText = titleChunk.replace(/!\[[^\]]*\]\([^)]*\)/g, '').trim();
+    }
+    if(!titleText) continue;
+
     let country = '';
-    const cm = fullTitle.match(/^(.*)\s\(([^()]+)\)\s*$/);
-    let title = fullTitle.trim();
+    const cm = titleText.match(/^(.*)\s\(([^()]{2,40})\)\s*$/);
+    let title = titleText;
     if(cm){ title = cm[1].trim(); country = cm[2].trim(); }
+    if(!title) continue;
+
     const deadline = `${yyyy}-${mm}-${dd}`;
     found.push({
-      url: url.trim(),
+      url,
       title,
       country,
       deadline,
-      category: category.trim(),
-      prize: prize.trim(),
-      conditions: conditions.trim()
+      category: (category||'').trim(),
+      prize: (prize||'').trim(),
+      conditions: (conditions||'').trim()
     });
   }
-  // También intenta detectar entradas sin match de "Abierto a" (formato ligeramente distinto)
-  return dedupeByUrl(found);
+  return dedupeEntries(found);
 }
-function dedupeByUrl(list){
+
+// Alternativa cuando se puede traer el HTML crudo de la página (vía proxy):
+// usa el DOM real para emparejar cada enlace de convocatoria con su bloque
+// de fecha, así siempre se recupera la URL aunque el texto no traiga el link.
+function parseListingHtml(html){
+  try{
+    const doc = new DOMParser().parseFromString(html, 'text/html');
+    const anchors = Array.from(doc.querySelectorAll('a[href*="recursos-para-escritores"]'));
+    const found = [];
+    for(const a of anchors){
+      const title = (a.textContent || '').trim();
+      if(!title || title.length < 4) continue;
+      let container = a.closest('li') || a.closest('p') || a.parentElement;
+      let text = (container ? container.textContent : '').replace(/\s+/g,' ').trim();
+      const m = text.match(/\(\s*(\d{2}):(\d{2}):(\d{4})\s*\/\s*([^\/\)]+)\/\s*([^\/\)]+)\/\s*Abierto a:?\s*([^\)]*)\)/i);
+      let entry = { url: a.href, title, country:'', deadline:'', category:'', prize:'', conditions:'' };
+      if(m){
+        const [, dd, mm, yyyy, category, prize, conditions] = m;
+        entry.deadline = `${yyyy}-${mm}-${dd}`;
+        entry.category = category.trim();
+        entry.prize = prize.trim();
+        entry.conditions = conditions.trim();
+      }
+      const cm = title.match(/^(.*)\s\(([^()]{2,40})\)\s*$/);
+      if(cm){ entry.title = cm[1].trim(); entry.country = cm[2].trim(); }
+      found.push(entry);
+    }
+    return dedupeEntries(found);
+  }catch(err){
+    console.error('parseListingHtml error', err);
+    return [];
+  }
+}
+
+function dedupeEntries(list){
   const seen = new Set(); const out = [];
-  for(const item of list){ if(!seen.has(item.url)){ seen.add(item.url); out.push(item); } }
+  for(const item of list){
+    const key = item.url || (item.title + '|' + item.deadline);
+    if(!seen.has(key)){ seen.add(key); out.push(item); }
+  }
   return out;
 }
 
 function mergeParsedIntoData(parsed){
   let added = 0;
   for(const item of parsed){
-    const id = uid(item.url);
+    const key = item.url || (item.title + '|' + item.deadline);
+    const id = uid(key);
     if(DATA[id]) continue; // ya existe: no se sobreescriben ediciones del usuario
     DATA[id] = {
       id, url:item.url, title:item.title, country:item.country,
@@ -506,16 +569,38 @@ function mergeParsedIntoData(parsed){
   return added;
 }
 
+// Trae el contenido de una URL probando varias vías, en orden, hasta que una
+// funcione. Devuelve { kind:'text'|'html', content } o lanza si todas fallan.
+async function fetchViaFallbacks(targetUrl){
+  const attempts = [
+    { kind:'text', build: u => READER_PREFIX + u },
+    { kind:'html', build: u => 'https://api.allorigins.win/raw?url=' + encodeURIComponent(u) },
+    { kind:'html', build: u => 'https://corsproxy.io/?url=' + encodeURIComponent(u) }
+  ];
+  let lastErr = null;
+  for(const attempt of attempts){
+    try{
+      const resp = await fetch(attempt.build(targetUrl), {cache:'no-store'});
+      if(!resp.ok) throw new Error('HTTP ' + resp.status);
+      const content = await resp.text();
+      if(!content || content.length < 40) throw new Error('Respuesta vacía');
+      return { kind: attempt.kind, content };
+    }catch(err){
+      lastErr = err;
+      console.warn('Falló vía', attempt.build(targetUrl), err);
+    }
+  }
+  throw lastErr || new Error('Todas las vías de conexión fallaron');
+}
+
 async function fetchListingAndMerge(manual){
   const btn = document.getElementById('btnRefresh');
   const original = btn.textContent;
   btn.disabled = true;
   btn.innerHTML = '<span class="spin">⟳</span> Buscando…';
   try{
-    const resp = await fetch(READER_PREFIX + LISTING_URL, {cache:'no-store'});
-    if(!resp.ok) throw new Error('HTTP ' + resp.status);
-    const text = await resp.text();
-    const parsed = parseListingText(text);
+    const { kind, content } = await fetchViaFallbacks(LISTING_URL);
+    const parsed = kind === 'html' ? parseListingHtml(content) : parseListingText(content);
     if(parsed.length === 0) throw new Error('No se reconocieron concursos en la respuesta');
     const added = mergeParsedIntoData(parsed);
     META.lastCheck = new Date().toISOString();
@@ -525,7 +610,7 @@ async function fetchListingAndMerge(manual){
     toast(added > 0 ? `${added} concurso(s) nuevo(s) añadido(s) a "Nuevos".` : 'Sin novedades: no hay concursos nuevos.');
   }catch(err){
     console.error(err);
-    toast('No se pudo conectar automáticamente. Usa "Importar texto" y pega la página manualmente.', 5000);
+    toast('No se pudo conectar automáticamente (las tres vías fallaron). Usa "Importar texto" y pega la página manualmente.', 5500);
     if(manual) document.getElementById('importOverlay').classList.add('open');
   }finally{
     btn.disabled = false;
@@ -718,8 +803,10 @@ function openEdit(id, focusResult){
   const c = DATA[id];
   document.getElementById('modalCountry').textContent = c.country || 'País no indicado';
   document.getElementById('modalTitle').textContent = c.title;
-  document.getElementById('readerUrl').textContent = c.url;
-  document.getElementById('openOriginal').href = c.url;
+  document.getElementById('readerUrl').textContent = c.url || 'Sin enlace guardado — añádelo abajo';
+  const openLink = document.getElementById('openOriginal');
+  if(c.url){ openLink.href = c.url; openLink.textContent = 'Abrir original ↗'; }
+  else{ openLink.href = 'https://www.google.com/search?q=' + encodeURIComponent('site:escritores.org ' + c.title); openLink.textContent = 'Buscarlo en Google ↗'; }
   document.getElementById('readerContent').innerHTML = '<div class="reader-hint">Pulsa <b>Cargar texto</b> para traer el contenido de la convocatoria y leerlo aquí mismo mientras completas los campos.</div>';
   document.querySelectorAll('.reader-tab').forEach(t=>t.classList.toggle('active', t.dataset.rt==='text'));
 
@@ -845,18 +932,23 @@ document.querySelectorAll('.reader-tab').forEach(tab=>{
 document.getElementById('btnLoadReader').addEventListener('click', async ()=>{
   if(!editingId) return;
   const c = DATA[editingId];
+  if(!c.url){ toast('Este concurso no tiene un enlace guardado todavía. Añádelo en el campo "Enlace".'); return; }
   const content = document.getElementById('readerContent');
   content.innerHTML = '<div class="reader-hint">Cargando texto…</div>';
   document.querySelectorAll('.reader-tab').forEach(t=>t.classList.toggle('active', t.dataset.rt==='text'));
   try{
-    const resp = await fetch(READER_PREFIX + c.url, {cache:'no-store'});
-    if(!resp.ok) throw new Error('HTTP '+resp.status);
-    const text = await resp.text();
+    const { kind, content: raw } = await fetchViaFallbacks(c.url);
+    let text = raw;
+    if(kind === 'html'){
+      const doc = new DOMParser().parseFromString(raw, 'text/html');
+      const main = doc.querySelector('article') || doc.querySelector('#content') || doc.body;
+      text = (main ? main.textContent : raw).replace(/\n{3,}/g, '\n\n').replace(/[ \t]{2,}/g,' ').trim();
+    }
     readerLoadedText = text;
     content.innerHTML = `<pre>${escapeHtml(text)}</pre>`;
   }catch(err){
     console.error(err);
-    content.innerHTML = `<div class="reader-hint">No se pudo cargar el texto automáticamente (posible límite de conexiones o bloqueo). Puedes abrir el original con el botón de arriba y copiar/pegar lo que necesites en las notas.</div>`;
+    content.innerHTML = `<div class="reader-hint">No se pudo cargar el texto automáticamente (las vías de conexión disponibles fallaron). Puedes abrir el original con el botón de arriba y copiar/pegar lo que necesites en las notas.</div>`;
   }
 });
 

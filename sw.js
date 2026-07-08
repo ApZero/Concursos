@@ -1,4 +1,4 @@
-const CACHE = 'concursos-shell-v1';
+const CACHE = 'concursos-shell-v2';
 const SHELL = ['./', './index.html', './manifest.json'];
 
 self.addEventListener('install', (e) => {
