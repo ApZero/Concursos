@@ -993,14 +993,18 @@ document.getElementById('btnRunImport').addEventListener('click', ()=>{
 });
 
 /* ---------------- Exportar / Restaurar backup ---------------- */
-document.getElementById('btnExport').addEventListener('click', ()=>{
+function downloadBackup(auto){
   const blob = new Blob([JSON.stringify(DATA, null, 2)], {type:'application/json'});
   const a = document.createElement('a');
   a.href = URL.createObjectURL(blob);
   const today = new Date().toISOString().slice(0,10);
-  a.download = `concursos-backup-${today}.json`;
+  a.download = auto ? `concursos-backup-auto-${today}.json` : `concursos-backup-${today}.json`;
+  document.body.appendChild(a);
   a.click();
-});
+  a.remove();
+  setTimeout(()=>URL.revokeObjectURL(a.href), 4000);
+}
+document.getElementById('btnExport').addEventListener('click', ()=>downloadBackup(false));
 document.getElementById('btnImportJson').addEventListener('click', ()=>{
   document.getElementById('fileImportJson').click();
 });
@@ -1022,6 +1026,18 @@ document.getElementById('fileImportJson').addEventListener('change', (e)=>{
   reader.readAsText(file);
   e.target.value = '';
 });
+
+function maybeAutoBackup(){
+  if(Object.keys(DATA).length === 0) return; // nada que respaldar todavía
+  const last = META.lastBackup ? new Date(META.lastBackup) : null;
+  const dayMs = 24*60*60*1000;
+  if(!last || (Date.now() - last.getTime()) > dayMs){
+    downloadBackup(true);
+    META.lastBackup = new Date().toISOString();
+    saveMeta();
+    toast('Copia de seguridad automática descargada a tu carpeta de Descargas.', 4500);
+  }
+}
 
 /* ---------------- Botón de búsqueda manual + auto-check diario ---------------- */
 document.getElementById('btnRefresh').addEventListener('click', ()=>fetchListingAndMerge(true));
@@ -1045,6 +1061,7 @@ if('serviceWorker' in navigator){
 updateLastCheckLabel();
 render();
 setTimeout(maybeAutoCheck, 800);
+setTimeout(maybeAutoBackup, 1600);
 </script>
 </body>
 </html>
