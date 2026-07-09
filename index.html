@@ -7,7 +7,8 @@
 <meta name="description" content="Seguimiento personal de concursos literarios">
 <link rel="manifest" href="manifest.json">
 <meta name="theme-color" content="#2B2620">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%232B2620'/%3E%3Ctext x='50' y='68' font-size='58' text-anchor='middle' fill='%23EDE6D6' font-family='Georgia'%3EA%3C/text%3E%3C/svg%3E">
+<link rel="icon" href="icons/icon-192.png" type="image/png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
@@ -561,6 +562,35 @@ function dedupeEntries(list){
   return out;
 }
 
+// Normaliza un título para poder comparar aunque cambien mayúsculas, tildes
+// o algún espacio de más (ej. al comparar un título pegado a mano con el
+// mismo título recuperado del listado en línea).
+function normalizeTitle(s){
+  return (s || '')
+    .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase()
+    .replace(/[^a-z0-9 ]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+// Recorre los concursos guardados sin enlace y les asigna la URL si aparece
+// en la lista recién descargada, comparando por título normalizado.
+function fillMissingUrls(parsed){
+  const byTitle = new Map();
+  for(const item of parsed){
+    if(item.url) byTitle.set(normalizeTitle(item.title), item.url);
+  }
+  let filled = 0;
+  for(const c of Object.values(DATA)){
+    if(!c.url){
+      const match = byTitle.get(normalizeTitle(c.title));
+      if(match){ c.url = match; filled++; }
+    }
+  }
+  return filled;
+}
+
 function mergeParsedIntoData(parsed){
   let added = 0;
   for(const item of parsed){
@@ -613,11 +643,15 @@ async function fetchListingAndMerge(manual){
     const parsed = kind === 'html' ? parseListingHtml(content) : parseListingText(content);
     if(parsed.length === 0) throw new Error('No se reconocieron concursos en la respuesta');
     const added = mergeParsedIntoData(parsed);
+    const filled = fillMissingUrls(parsed);
     META.lastCheck = new Date().toISOString();
     saveMeta();
     saveData();
     updateLastCheckLabel();
-    toast(added > 0 ? `${added} concurso(s) nuevo(s) añadido(s) a "Nuevos".` : 'Sin novedades: no hay concursos nuevos.');
+    const parts = [];
+    parts.push(added > 0 ? `${added} concurso(s) nuevo(s) añadido(s)` : 'sin concursos nuevos');
+    if(filled > 0) parts.push(`${filled} enlace(s) completado(s)`);
+    toast(parts.join(' · ') + '.');
   }catch(err){
     console.error(err);
     toast('No se pudo conectar automáticamente (las tres vías fallaron). Usa "Importar texto" y pega la página manualmente.', 5500);
@@ -1012,16 +1046,28 @@ document.getElementById('closeImport').addEventListener('click', ()=>{
 document.getElementById('importOverlay').addEventListener('click', (e)=>{
   if(e.target.id === 'importOverlay') document.getElementById('importOverlay').classList.remove('open');
 });
-document.getElementById('btnRunImport').addEventListener('click', ()=>{
+document.getElementById('btnRunImport').addEventListener('click', async ()=>{
   const text = document.getElementById('importText').value;
   if(!text.trim()){ toast('Pega primero el texto de la página.'); return; }
   const parsed = parseListingText(text);
   if(parsed.length === 0){ toast('No se reconoció ningún concurso en ese texto.'); return; }
   const added = mergeParsedIntoData(parsed);
+  let filled = fillMissingUrls(parsed); // por si el texto pegado sí traía enlaces
   saveData();
   document.getElementById('importText').value = '';
   document.getElementById('importOverlay').classList.remove('open');
-  toast(`${added} concurso(s) nuevo(s) importado(s).`);
+  toast(`${added} concurso(s) nuevo(s) importado(s). Buscando enlaces…`);
+  // El texto pegado a mano normalmente no trae URLs; intenta completarlas
+  // automáticamente contactando la página en línea, sin bloquear al usuario.
+  try{
+    const { kind, content } = await fetchViaFallbacks(LISTING_URL);
+    const onlineParsed = kind === 'html' ? parseListingHtml(content) : parseListingText(content);
+    filled += fillMissingUrls(onlineParsed);
+    saveData();
+  }catch(err){
+    console.warn('No se pudieron completar enlaces automáticamente', err);
+  }
+  toast(filled > 0 ? `${added} importado(s), ${filled} enlace(s) completado(s) automáticamente.` : `${added} concurso(s) importado(s). No se pudieron completar los enlaces automáticamente por ahora — reintenta más tarde con "Buscar nuevos concursos".`, 5000);
 });
 
 /* ---------------- Exportar / Restaurar backup ---------------- */
