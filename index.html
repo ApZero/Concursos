@@ -199,6 +199,16 @@ main{max-width:1080px;margin:0 auto;padding:18px 20px 40px;}
 }
 .card .meta-row span{white-space:nowrap;}
 .card .meta-row b{color:var(--ink);font-weight:600;}
+.card .conditions-line{
+  font-size:12.5px;
+  color:var(--ink-soft);
+  line-height:1.4;
+  display:-webkit-box;
+  -webkit-line-clamp:2;
+  -webkit-box-orient:vertical;
+  overflow:hidden;
+}
+.card .conditions-line b{color:var(--olive);font-weight:600;}
 .card .deadline-line{
   font-family:'JetBrains Mono',monospace;
   font-size:11.5px;
@@ -733,6 +743,7 @@ function cardHtml(c){
       ${c.category ? `<span><b>${escapeHtml(c.category)}</b></span>` : ''}
       ${c.prize ? `<span>· ${escapeHtml(c.prize)}</span>` : ''}
     </div>
+    ${c.conditions ? `<div class="conditions-line"><b>Abierto a:</b> ${escapeHtml(c.conditions)}</div>` : ''}
     ${resultBadge}
     <div class="deadline-line">Plazo: ${c.deadline ? formatDate(c.deadline) : 'sin especificar'}</div>
     <div class="actions">
@@ -929,6 +940,31 @@ document.querySelectorAll('.reader-tab').forEach(tab=>{
   });
 });
 
+// Limpia el HTML de una página de convocatoria para mostrar solo el texto
+// legible: quita scripts/estilos/menús y se queda con el bloque de contenido
+// más largo entre los selectores habituales de esta plantilla Joomla.
+function extractReadableText(html){
+  const doc = new DOMParser().parseFromString(html, 'text/html');
+  doc.querySelectorAll('script,style,noscript,iframe,svg,nav,header,footer,form,.breadcrumb,.pagination,aside').forEach(el=>el.remove());
+  const candidates = ['article','.item-page','.com-content-article','#content','main','.article-content','.contentpane'];
+  let best = null, bestLen = 0;
+  for(const sel of candidates){
+    const el = doc.querySelector(sel);
+    if(el){
+      const len = el.textContent.trim().length;
+      if(len > bestLen){ best = el; bestLen = len; }
+    }
+  }
+  const target = best || doc.body;
+  const raw = target ? target.textContent : '';
+  return raw
+    .replace(/\u00a0/g, ' ')
+    .replace(/[ \t]{2,}/g, ' ')
+    .split('\n').map(l=>l.trim()).filter(Boolean).join('\n')
+    .replace(/\n{2,}/g, '\n\n')
+    .trim();
+}
+
 document.getElementById('btnLoadReader').addEventListener('click', async ()=>{
   if(!editingId) return;
   const c = DATA[editingId];
@@ -938,17 +974,13 @@ document.getElementById('btnLoadReader').addEventListener('click', async ()=>{
   document.querySelectorAll('.reader-tab').forEach(t=>t.classList.toggle('active', t.dataset.rt==='text'));
   try{
     const { kind, content: raw } = await fetchViaFallbacks(c.url);
-    let text = raw;
-    if(kind === 'html'){
-      const doc = new DOMParser().parseFromString(raw, 'text/html');
-      const main = doc.querySelector('article') || doc.querySelector('#content') || doc.body;
-      text = (main ? main.textContent : raw).replace(/\n{3,}/g, '\n\n').replace(/[ \t]{2,}/g,' ').trim();
-    }
+    let text = kind === 'html' ? extractReadableText(raw) : raw;
+    if(!text || text.length < 80) throw new Error('Contenido extraído demasiado corto');
     readerLoadedText = text;
     content.innerHTML = `<pre>${escapeHtml(text)}</pre>`;
   }catch(err){
     console.error(err);
-    content.innerHTML = `<div class="reader-hint">No se pudo cargar el texto automáticamente (las vías de conexión disponibles fallaron). Puedes abrir el original con el botón de arriba y copiar/pegar lo que necesites en las notas.</div>`;
+    content.innerHTML = `<div class="reader-hint">No se pudo mostrar el texto de esta convocatoria (la página bloqueó la conexión o el contenido no se pudo extraer con claridad). Prueba "Vista incrustada" o abre el original con el botón de arriba.</div>`;
   }
 });
 
