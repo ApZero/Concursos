@@ -329,6 +329,7 @@ footer.app-footer{
   </div>
   <div class="header-actions">
     <button class="btn olive" id="btnRefresh">Buscar nuevos concursos</button>
+    <button class="btn ghost small" id="btnAutoLink" title="Busca en internet el enlace exacto de cada concurso que no lo tenga">Buscar enlaces faltantes</button>
     <button class="btn ghost small" id="btnImport">Importar texto</button>
     <button class="btn ghost small" id="btnExport">Exportar</button>
     <button class="btn ghost small" id="btnImportJson">Restaurar</button>
@@ -375,6 +376,7 @@ footer.app-footer{
       <div class="modal-reader">
         <div class="reader-bar">
           <span class="url" id="readerUrl"></span>
+          <button class="btn ghost small" id="btnFindLink" style="display:none;">Buscar enlace</button>
           <a class="btn ghost small" id="openOriginal" href="#" target="_blank" rel="noopener">Abrir original ↗</a>
         </div>
         <div class="reader-tabs">
@@ -633,6 +635,80 @@ async function fetchViaFallbacks(targetUrl){
   throw lastErr || new Error('Todas las vías de conexión fallaron');
 }
 
+// Si un enlace de resultado de búsqueda viene envuelto en un redirector de
+// DuckDuckGo (https://duckduckgo.com/l/?uddg=...), lo desenvuelve y devuelve
+// la URL real de destino.
+function unwrapSearchRedirect(href){
+  try{
+    const u = new URL(href, 'https://duckduckgo.com');
+    if(u.hostname.includes('duckduckgo.com') && u.searchParams.has('uddg')){
+      return decodeURIComponent(u.searchParams.get('uddg'));
+    }
+    return href;
+  }catch(e){ return href; }
+}
+
+// Busca, entre los enlaces de una página de resultados de búsqueda (ya sea
+// en HTML o en markdown), el primero que apunte a una convocatoria de
+// escritores.org.
+function findEscritoresLinkInSearchResults(kind, content){
+  let hrefs = [];
+  if(kind === 'html'){
+    try{
+      const doc = new DOMParser().parseFromString(content, 'text/html');
+      hrefs = Array.from(doc.querySelectorAll('a[href]')).map(a => a.getAttribute('href') || '');
+    }catch(e){ hrefs = []; }
+  } else {
+    const re = /\]\((https?:[^\s)]+)\)/g;
+    let m;
+    while((m = re.exec(content)) !== null) hrefs.push(m[1]);
+  }
+  for(const raw of hrefs){
+    const target = unwrapSearchRedirect(raw);
+    if(target && target.includes('escritores.org/recursos-para-escritores')){
+      return target.split('#')[0];
+    }
+  }
+  return null;
+}
+
+// Busca en internet el enlace exacto de un concurso a partir de su título,
+// restringiendo la búsqueda al propio sitio de escritores.org.
+async function searchLinkForTitle(title){
+  const query = `site:escritores.org "${title}"`;
+  const searchUrl = 'https://html.duckduckgo.com/html/?q=' + encodeURIComponent(query);
+  const { kind, content } = await fetchViaFallbacks(searchUrl);
+  return findEscritoresLinkInSearchResults(kind, content);
+}
+
+function saveDataSilent(){ localStorage.setItem(STORAGE_KEY, JSON.stringify(DATA)); }
+
+// Recorre todos los concursos sin enlace y busca el suyo uno por uno,
+// con una pequeña pausa entre cada búsqueda para no saturar el servicio.
+async function autoLinkAll(){
+  const missing = Object.values(DATA).filter(c => !c.url);
+  if(missing.length === 0){ toast('Todos los concursos ya tienen enlace.'); return; }
+  const btn = document.getElementById('btnAutoLink');
+  const original = btn.textContent;
+  btn.disabled = true;
+  let found = 0;
+  for(let i=0; i<missing.length; i++){
+    const c = missing[i];
+    btn.innerHTML = `<span class="spin">⟳</span> Buscando (${i+1}/${missing.length})…`;
+    try{
+      const url = await searchLinkForTitle(c.title);
+      if(url){ c.url = url; found++; saveDataSilent(); }
+    }catch(err){
+      console.warn('No se encontró enlace para', c.title, err);
+    }
+    if(i < missing.length - 1) await new Promise(r => setTimeout(r, 700));
+  }
+  render();
+  btn.disabled = false;
+  btn.textContent = original;
+  toast(`${found} de ${missing.length} enlace(s) encontrado(s) automáticamente.`, 5000);
+}
+
 async function fetchListingAndMerge(manual){
   const btn = document.getElementById('btnRefresh');
   const original = btn.textContent;
@@ -852,6 +928,7 @@ function openEdit(id, focusResult){
   const openLink = document.getElementById('openOriginal');
   if(c.url){ openLink.href = c.url; openLink.textContent = 'Abrir original ↗'; }
   else{ openLink.href = 'https://www.google.com/search?q=' + encodeURIComponent('site:escritores.org ' + c.title); openLink.textContent = 'Buscarlo en Google ↗'; }
+  document.getElementById('btnFindLink').style.display = c.url ? 'none' : 'inline-block';
   document.getElementById('readerContent').innerHTML = '<div class="reader-hint">Pulsa <b>Cargar texto</b> para traer el contenido de la convocatoria y leerlo aquí mismo mientras completas los campos.</div>';
   document.querySelectorAll('.reader-tab').forEach(t=>t.classList.toggle('active', t.dataset.rt==='text'));
 
@@ -1119,6 +1196,38 @@ function maybeAutoBackup(){
 
 /* ---------------- Botón de búsqueda manual + auto-check diario ---------------- */
 document.getElementById('btnRefresh').addEventListener('click', ()=>fetchListingAndMerge(true));
+document.getElementById('btnAutoLink').addEventListener('click', ()=>autoLinkAll());
+
+document.getElementById('btnFindLink').addEventListener('click', async ()=>{
+  if(!editingId) return;
+  const c = DATA[editingId];
+  const btn = document.getElementById('btnFindLink');
+  const original = btn.textContent;
+  btn.disabled = true;
+  btn.innerHTML = '<span class="spin">⟳</span> Buscando…';
+  try{
+    const url = await searchLinkForTitle(c.title);
+    if(url){
+      c.url = url;
+      saveData();
+      document.getElementById('readerUrl').textContent = url;
+      document.getElementById('openOriginal').href = url;
+      document.getElementById('openOriginal').textContent = 'Abrir original ↗';
+      btn.style.display = 'none';
+      const urlField = document.getElementById('f_url');
+      if(urlField) urlField.value = url;
+      toast('Enlace encontrado y guardado.');
+    } else {
+      toast('No se encontró un enlace exacto — prueba "Buscarlo en Google" o pégalo a mano.', 4500);
+    }
+  }catch(err){
+    console.error(err);
+    toast('No se pudo buscar en este momento (conexión fallida). Intenta de nuevo en un rato.', 4500);
+  }finally{
+    btn.disabled = false;
+    btn.textContent = original;
+  }
+});
 
 function maybeAutoCheck(){
   const last = META.lastCheck ? new Date(META.lastCheck) : null;
