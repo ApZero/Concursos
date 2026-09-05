@@ -709,28 +709,53 @@ async function autoLinkAll(){
   toast(`${found} de ${missing.length} enlace(s) encontrado(s) automáticamente.`, 5000);
 }
 
+// Intenta leer data/listado.json, que un flujo de GitHub Actions genera
+// automáticamente cada día conectándose a escritores.org desde el propio
+// servidor de GitHub (sin restricciones de CORS, porque no es un navegador).
+// Al vivir en el mismo sitio que la app, este fetch nunca falla por CORS ni
+// depende de ningún proxy externo — es la vía principal y la más fiable.
+async function fetchLocalListing(){
+  const resp = await fetch('data/listado.json?_=' + Date.now(), {cache:'no-store'});
+  if(!resp.ok) throw new Error('data/listado.json no disponible (HTTP ' + resp.status + ')');
+  const payload = await resp.json();
+  const contests = Array.isArray(payload.contests) ? payload.contests : [];
+  if(contests.length === 0) throw new Error('data/listado.json está vacío todavía');
+  return { contests, updatedAt: payload.updatedAt || null };
+}
+
 async function fetchListingAndMerge(manual){
   const btn = document.getElementById('btnRefresh');
   const original = btn.textContent;
   btn.disabled = true;
   btn.innerHTML = '<span class="spin">⟳</span> Buscando…';
+  let usedFallback = false;
   try{
-    const { kind, content } = await fetchViaFallbacks(LISTING_URL);
-    const parsed = kind === 'html' ? parseListingHtml(content) : parseListingText(content);
+    let parsed, sourceUpdatedAt = null;
+    try{
+      const local = await fetchLocalListing();
+      parsed = local.contests;
+      sourceUpdatedAt = local.updatedAt;
+    }catch(localErr){
+      console.warn('Sin data/listado.json utilizable, probando conexión directa:', localErr);
+      usedFallback = true;
+      const { kind, content } = await fetchViaFallbacks(LISTING_URL);
+      parsed = kind === 'html' ? parseListingHtml(content) : parseListingText(content);
+    }
     if(parsed.length === 0) throw new Error('No se reconocieron concursos en la respuesta');
     const added = mergeParsedIntoData(parsed);
     const filled = fillMissingUrls(parsed);
     META.lastCheck = new Date().toISOString();
+    if(sourceUpdatedAt) META.sourceUpdatedAt = sourceUpdatedAt;
     saveMeta();
     saveData();
     updateLastCheckLabel();
     const parts = [];
     parts.push(added > 0 ? `${added} concurso(s) nuevo(s) añadido(s)` : 'sin concursos nuevos');
     if(filled > 0) parts.push(`${filled} enlace(s) completado(s)`);
-    toast(parts.join(' · ') + '.');
+    toast(parts.join(' · ') + (usedFallback ? ' (vía conexión directa).' : '.'));
   }catch(err){
     console.error(err);
-    toast('No se pudo conectar automáticamente (las tres vías fallaron). Usa "Importar texto" y pega la página manualmente.', 5500);
+    toast('No se pudo conectar automáticamente (todas las vías fallaron). Usa "Importar texto" y pega la página manualmente.', 5500);
     if(manual) document.getElementById('importOverlay').classList.add('open');
   }finally{
     btn.disabled = false;
@@ -742,7 +767,12 @@ function updateLastCheckLabel(){
   const el = document.getElementById('lastCheck');
   if(META.lastCheck){
     const d = new Date(META.lastCheck);
-    el.textContent = 'Última búsqueda: ' + d.toLocaleDateString('es-ES', {day:'2-digit',month:'short',year:'numeric'}) + ' ' + d.toLocaleTimeString('es-ES',{hour:'2-digit',minute:'2-digit'});
+    let text = 'Última búsqueda: ' + d.toLocaleDateString('es-ES', {day:'2-digit',month:'short',year:'numeric'}) + ' ' + d.toLocaleTimeString('es-ES',{hour:'2-digit',minute:'2-digit'});
+    if(META.sourceUpdatedAt){
+      const su = new Date(META.sourceUpdatedAt);
+      text += ' · listado del ' + su.toLocaleDateString('es-ES', {day:'2-digit',month:'short'});
+    }
+    el.textContent = text;
   } else {
     el.textContent = 'Aún no se ha buscado';
   }
@@ -1135,10 +1165,16 @@ document.getElementById('btnRunImport').addEventListener('click', async ()=>{
   document.getElementById('importOverlay').classList.remove('open');
   toast(`${added} concurso(s) nuevo(s) importado(s). Buscando enlaces…`);
   // El texto pegado a mano normalmente no trae URLs; intenta completarlas
-  // automáticamente contactando la página en línea, sin bloquear al usuario.
+  // automáticamente, primero con el listado local (si existe) y si no con
+  // conexión directa, sin bloquear al usuario.
   try{
-    const { kind, content } = await fetchViaFallbacks(LISTING_URL);
-    const onlineParsed = kind === 'html' ? parseListingHtml(content) : parseListingText(content);
+    let onlineParsed;
+    try{
+      onlineParsed = (await fetchLocalListing()).contests;
+    }catch(_e){
+      const { kind, content } = await fetchViaFallbacks(LISTING_URL);
+      onlineParsed = kind === 'html' ? parseListingHtml(content) : parseListingText(content);
+    }
     filled += fillMissingUrls(onlineParsed);
     saveData();
   }catch(err){
