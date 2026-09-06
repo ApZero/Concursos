@@ -28,7 +28,7 @@
   --radius: 3px;
 }
 *{box-sizing:border-box;}
-html,body{margin:0;padding:0;}
+html,body{margin:0;padding:0;overflow-x:hidden;}
 body{
   background:var(--cream);
   background-image:
@@ -147,9 +147,15 @@ header.app-header{
 
 /* ---------- Grid ---------- */
 main{max-width:1080px;margin:0 auto;padding:18px 20px 40px;}
+@media (max-width:420px){
+  main{padding-left:14px;padding-right:14px;}
+  header.app-header{padding-left:14px;padding-right:14px;}
+  .toolbar{padding-left:14px;padding-right:14px;}
+  footer.app-footer{padding-left:14px;padding-right:14px;}
+}
 .grid{
   display:grid;
-  grid-template-columns:repeat(auto-fill,minmax(290px,1fr));
+  grid-template-columns:repeat(auto-fill,minmax(min(290px,100%),1fr));
   gap:14px;
 }
 .empty{
@@ -254,12 +260,19 @@ main{max-width:1080px;margin:0 auto;padding:18px 20px 40px;}
 .modal-body{
   display:grid;grid-template-columns:1fr 1fr;gap:0;overflow:hidden;flex:1;min-height:0;
 }
-@media (max-width:760px){.modal-body{grid-template-columns:1fr;}}
-.modal-form{padding:18px 20px;overflow-y:auto;}
+@media (max-width:760px){
+  .modal-body{
+    display:flex;flex-direction:column;
+    overflow-y:auto;overflow-x:hidden;
+  }
+  .modal-form{flex:0 0 auto;max-height:38vh;}
+  .modal-reader{flex:1 0 auto;min-height:62vh;}
+}
+.modal-form{padding:18px 20px;overflow-y:auto;min-width:0;}
 .modal-reader{
   border-left:1px solid var(--rule);
   background:var(--paper2);
-  display:flex;flex-direction:column;min-height:0;
+  display:flex;flex-direction:column;min-height:0;min-width:0;
 }
 @media (max-width:760px){.modal-reader{border-left:none;border-top:1px solid var(--rule);}}
 .reader-bar{
@@ -270,9 +283,12 @@ main{max-width:1080px;margin:0 auto;padding:18px 20px 40px;}
 .reader-tabs{display:flex;gap:4px;padding:8px 14px 0;}
 .reader-tab{font-size:11.5px;font-weight:600;padding:6px 10px;cursor:pointer;color:var(--ink-soft);border-bottom:2px solid transparent;}
 .reader-tab.active{color:var(--ink);border-color:var(--terracotta);}
-.reader-content{flex:1;overflow-y:auto;padding:14px;font-size:13px;line-height:1.55;}
-.reader-content pre{white-space:pre-wrap;word-wrap:break-word;font-family:'Inter',sans-serif;font-size:13px;margin:0;}
-.reader-content iframe{width:100%;height:100%;border:0;background:#fff;display:block;}
+.reader-content{flex:1;overflow-y:auto;padding:14px;font-size:13px;line-height:1.55;min-height:0;}
+.reader-content pre{white-space:pre-wrap;word-wrap:break-word;overflow-wrap:anywhere;font-family:'Inter',sans-serif;font-size:13px;margin:0;}
+.reader-content iframe{width:100%;border:0;background:#fff;display:block;}
+.iframe-wrap{height:100%;display:flex;flex-direction:column;}
+.iframe-wrap iframe{flex:1;min-height:0;}
+.iframe-hint{font-size:11.5px;color:var(--ink-soft);padding:8px 14px;border-bottom:1px dashed var(--rule);flex:0 0 auto;}
 .reader-hint{font-size:12px;color:var(--ink-soft);padding:14px;}
 .reader-hint code{background:var(--card);padding:1px 5px;border-radius:3px;font-family:'JetBrains Mono',monospace;font-size:11px;}
 
@@ -1146,7 +1162,11 @@ function loadReaderIframe(){
     pane.innerHTML = '<div class="reader-hint">Este concurso no tiene un enlace guardado todavía.</div>';
     return;
   }
-  pane.innerHTML = `<iframe src="${escapeAttr(c.url)}" loading="lazy"></iframe>`;
+  pane.innerHTML = `
+    <div class="iframe-wrap">
+      <div class="iframe-hint">La página original puede no adaptarse a pantallas chicas — si se ve recortada, usa dos dedos para desplazarte hacia los costados, o abre "Abrir original" arriba.</div>
+      <iframe src="${escapeAttr(c.url)}" loading="lazy"></iframe>
+    </div>`;
 }
 
 document.getElementById('btnLoadReader').addEventListener('click', () => {
