@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-05T23:49:40.378Z",
+  "updatedAt": "2026-09-06T12:28:32.229Z",
   "sourceUrl": "https://www.escritores.org/concursos/concursos-1/concursos-literarios",
-  "count": 227,
+  "count": 225,
   "contests": [
     {
       "url": "https://www.escritores.org/recursos-para-escritores",
@@ -128,24 +128,6 @@
       "category": "",
       "prize": "",
       "conditions": ""
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42011-premio-nacional-de-poesia-ramon-lopez-velarde-2026",
-      "title": "PREMIO NACIONAL DE POESÍA \"RAMÓN LÓPEZ VELARDE\" 2026",
-      "country": "México",
-      "deadline": "2026-09-05",
-      "category": "Poesía",
-      "prize": "$250,000.00 MXN y diploma",
-      "conditions": "residentes en México"
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42027-programa-internacional-escritores-en-residencia-en-granada-2026",
-      "title": "PROGRAMA INTERNACIONAL «ESCRITORES EN RESIDENCIA EN GRANADA» 2026",
-      "country": "España",
-      "deadline": "2026-09-06",
-      "category": "Beca",
-      "prize": "estancia de 30 pernoctaciones en Granada para dos escritores o escritoras. Gastos de viaje",
-      "conditions": "sin restricciones por nacionalidad o residencia. Haber publicado al menos dos libros individuales. Nivel medio-alto de inglés y/o español"
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41910-ix-certamen-de-relato-y-poesia-sobre-salud-mental-balsamo-de-fierabras",
