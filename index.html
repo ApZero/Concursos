@@ -272,7 +272,7 @@ main{max-width:1080px;margin:0 auto;padding:18px 20px 40px;}
 .reader-tab.active{color:var(--ink);border-color:var(--terracotta);}
 .reader-content{flex:1;overflow-y:auto;padding:14px;font-size:13px;line-height:1.55;}
 .reader-content pre{white-space:pre-wrap;word-wrap:break-word;font-family:'Inter',sans-serif;font-size:13px;margin:0;}
-.reader-content iframe{width:100%;height:100%;border:0;background:#fff;min-height:400px;}
+.reader-content iframe{width:100%;height:100%;border:0;background:#fff;display:block;}
 .reader-hint{font-size:12px;color:var(--ink-soft);padding:14px;}
 .reader-hint code{background:var(--card);padding:1px 5px;border-radius:3px;font-family:'JetBrains Mono',monospace;font-size:11px;}
 
@@ -329,6 +329,7 @@ footer.app-footer{
   </div>
   <div class="header-actions">
     <button class="btn olive" id="btnRefresh">Buscar nuevos concursos</button>
+    <button class="btn ghost small" id="btnAddManual">+ Añadir concurso</button>
     <button class="btn ghost small" id="btnAutoLink" title="Busca en internet el enlace exacto de cada concurso que no lo tenga">Buscar enlaces faltantes</button>
     <button class="btn ghost small" id="btnImport">Importar texto</button>
     <button class="btn ghost small" id="btnExport">Exportar</button>
@@ -383,11 +384,12 @@ footer.app-footer{
           <div class="reader-tab active" data-rt="text">Texto limpio</div>
           <div class="reader-tab" data-rt="iframe">Vista incrustada</div>
         </div>
-        <div class="reader-content" id="readerContent">
-          <div class="reader-hint">Pulsa <b>Cargar texto</b> para traer el contenido de la convocatoria y leerlo aquí mismo mientras completas los campos.</div>
+        <div class="reader-content" id="readerTextContent">
+          <div class="reader-hint">Este concurso no tiene un enlace guardado todavía.</div>
         </div>
+        <div class="reader-content" id="readerIframeContent" style="display:none;padding:0;"></div>
         <div style="padding:10px 14px;border-top:1px solid var(--rule);display:flex;gap:8px;">
-          <button class="btn small" id="btnLoadReader">Cargar texto</button>
+          <button class="btn small" id="btnLoadReader">Recargar texto</button>
           <button class="btn ghost small" id="btnAutofill" title="Intenta detectar plazo, premio, extensión y tema en el texto cargado">Autocompletar campos</button>
         </div>
       </div>
@@ -603,7 +605,7 @@ function mergeParsedIntoData(parsed){
       id, url:item.url, title:item.title, country:item.country,
       deadline:item.deadline, category:item.category, prize:item.prize,
       conditions:item.conditions, length:'', theme:'', notes:'',
-      status:'nuevo', textSent:false, submissionDate:'', resultDate:'', result:'pendiente',
+      status:'nuevo', textSent:false, submissionDate:'', resultDate:'', result:'pendiente', wonPrize:'',
       addedDate: new Date().toISOString()
     };
     added++;
@@ -787,8 +789,9 @@ function daysUntil(dateStr){
 }
 
 function populateFilters(){
+  const relevant = Object.values(DATA).filter(c => c.status === currentTab);
   const cats = new Set(), countries = new Set();
-  Object.values(DATA).forEach(c=>{ if(c.category) cats.add(c.category); if(c.country) countries.add(c.country); });
+  relevant.forEach(c=>{ if(c.category) cats.add(c.category); if(c.country) countries.add(c.country); });
   fillSelect('filterCategory', cats, 'Todas las categorías');
   fillSelect('filterCountry', countries, 'Todos los países');
 }
@@ -869,7 +872,7 @@ function cardHtml(c){
     stampBottom = dleft === 1 ? 'día' : 'días';
   }
   const resultBadge = c.status === 'finalizado'
-    ? `<span class="result-badge ${c.result}">${resultLabel(c.result)}</span>` : '';
+    ? `<span class="result-badge ${c.result}">${resultLabel(c.result)}</span>${c.wonPrize ? ` <span style="font-size:11.5px;color:var(--ink-soft);">${escapeHtml(c.wonPrize)}</span>` : ''}` : '';
 
   return `
   <div class="card" data-id="${c.id}">
@@ -941,6 +944,8 @@ document.getElementById('tabs').addEventListener('click', (e)=>{
   if(!tab) return;
   currentTab = tab.dataset.tab;
   document.querySelectorAll('.tab').forEach(t=>t.classList.toggle('active', t===tab));
+  document.getElementById('filterCategory').value = '';
+  document.getElementById('filterCountry').value = '';
   render();
 });
 document.getElementById('searchBox').addEventListener('input', render);
@@ -959,8 +964,11 @@ function openEdit(id, focusResult){
   if(c.url){ openLink.href = c.url; openLink.textContent = 'Abrir original ↗'; }
   else{ openLink.href = 'https://www.google.com/search?q=' + encodeURIComponent('site:escritores.org ' + c.title); openLink.textContent = 'Buscarlo en Google ↗'; }
   document.getElementById('btnFindLink').style.display = c.url ? 'none' : 'inline-block';
-  document.getElementById('readerContent').innerHTML = '<div class="reader-hint">Pulsa <b>Cargar texto</b> para traer el contenido de la convocatoria y leerlo aquí mismo mientras completas los campos.</div>';
   document.querySelectorAll('.reader-tab').forEach(t=>t.classList.toggle('active', t.dataset.rt==='text'));
+  document.getElementById('readerTextContent').style.display = 'block';
+  document.getElementById('readerIframeContent').style.display = 'none';
+  loadReaderText();
+  loadReaderIframe();
 
   document.getElementById('modalForm').innerHTML = formHtml(c);
   document.getElementById('btnDismiss').style.display = c.status==='descartado' ? 'none' : 'inline-block';
@@ -1001,7 +1009,7 @@ function formHtml(c){
     <div class="field"><label>Fecha de envío</label><input type="date" id="f_submissionDate" value="${c.submissionDate||''}"></div>
     `;
   }
-  if(c.status === 'finalizado'){
+  if(c.status === 'participando' || c.status === 'finalizado'){
     html += `
     <div class="section-label">Resultado</div>
     <div class="field-row">
@@ -1014,7 +1022,8 @@ function formHtml(c){
           <option value="nada" ${c.result==='nada'?'selected':''}>Sin premio</option>
         </select>
       </div>
-    </div>`;
+    </div>
+    <div class="field"><label>Premio obtenido</label><input id="f_wonPrize" value="${escapeAttr(c.wonPrize)}" placeholder="ej. 500€ y publicación, accésit, mención..."></div>`;
   }
   return html;
 }
@@ -1037,6 +1046,7 @@ document.getElementById('btnSave').addEventListener('click', ()=>{
   if(document.getElementById('f_submissionDate')) c.submissionDate = val('f_submissionDate');
   if(document.getElementById('f_resultDate')) c.resultDate = val('f_resultDate');
   if(document.getElementById('f_result')) c.result = val('f_result');
+  if(document.getElementById('f_wonPrize')) c.wonPrize = val('f_wonPrize');
   // Si se completó un resultado real, mover automáticamente a "finalizado"
   if(c.status === 'participando' && document.getElementById('f_result') && val('f_result') !== 'pendiente'){
     c.status = 'finalizado';
@@ -1069,15 +1079,8 @@ document.querySelectorAll('.reader-tab').forEach(tab=>{
   tab.addEventListener('click', ()=>{
     document.querySelectorAll('.reader-tab').forEach(t=>t.classList.toggle('active', t===tab));
     const rt = tab.dataset.rt;
-    const content = document.getElementById('readerContent');
-    if(rt === 'iframe'){
-      const c = DATA[editingId];
-      content.innerHTML = `<iframe src="${escapeAttr(c.url)}" loading="lazy"></iframe><div class="reader-hint">Si esta zona aparece en blanco, el sitio bloquea la vista incrustada — usa "Abrir original" o la pestaña "Texto limpio".</div>`;
-    } else {
-      content.innerHTML = readerLoadedText
-        ? `<pre>${escapeHtml(readerLoadedText)}</pre>`
-        : '<div class="reader-hint">Pulsa <b>Cargar texto</b> para traer el contenido de la convocatoria.</div>';
-    }
+    document.getElementById('readerTextContent').style.display = rt === 'text' ? 'block' : 'none';
+    document.getElementById('readerIframeContent').style.display = rt === 'iframe' ? 'block' : 'none';
   });
 });
 
@@ -1106,23 +1109,49 @@ function extractReadableText(html){
     .trim();
 }
 
-document.getElementById('btnLoadReader').addEventListener('click', async ()=>{
+// Trae y muestra el texto limpio de la convocatoria del concurso que esté
+// abierto en ese momento. Se llama sola al abrir la ficha (si hay enlace) y
+// también desde el botón "Recargar texto".
+async function loadReaderText(){
   if(!editingId) return;
   const c = DATA[editingId];
-  if(!c.url){ toast('Este concurso no tiene un enlace guardado todavía. Añádelo en el campo "Enlace".'); return; }
-  const content = document.getElementById('readerContent');
-  content.innerHTML = '<div class="reader-hint">Cargando texto…</div>';
-  document.querySelectorAll('.reader-tab').forEach(t=>t.classList.toggle('active', t.dataset.rt==='text'));
+  const pane = document.getElementById('readerTextContent');
+  if(!c.url){
+    pane.innerHTML = '<div class="reader-hint">Este concurso no tiene un enlace guardado todavía. Añádelo en el campo "Enlace", o usa "Buscar enlace" arriba.</div>';
+    readerLoadedText = '';
+    return;
+  }
+  pane.innerHTML = '<div class="reader-hint">Cargando texto…</div>';
   try{
     const { kind, content: raw } = await fetchViaFallbacks(c.url);
     let text = kind === 'html' ? extractReadableText(raw) : raw;
     if(!text || text.length < 80) throw new Error('Contenido extraído demasiado corto');
     readerLoadedText = text;
-    content.innerHTML = `<pre>${escapeHtml(text)}</pre>`;
+    pane.innerHTML = `<pre>${escapeHtml(text)}</pre>`;
   }catch(err){
     console.error(err);
-    content.innerHTML = `<div class="reader-hint">No se pudo mostrar el texto de esta convocatoria (la página bloqueó la conexión o el contenido no se pudo extraer con claridad). Prueba "Vista incrustada" o abre el original con el botón de arriba.</div>`;
+    readerLoadedText = '';
+    pane.innerHTML = `<div class="reader-hint">No se pudo mostrar el texto de esta convocatoria (la página bloqueó la conexión o el contenido no se pudo extraer con claridad). Prueba "Vista incrustada" o abre el original con el botón de arriba.</div>`;
   }
+}
+
+// Prepara la vista incrustada (iframe) del concurso abierto. Se llama sola al
+// abrir la ficha; si el sitio bloquea que lo incrusten, quedará en blanco y
+// el aviso de abajo lo explica.
+function loadReaderIframe(){
+  if(!editingId) return;
+  const c = DATA[editingId];
+  const pane = document.getElementById('readerIframeContent');
+  if(!c.url){
+    pane.innerHTML = '<div class="reader-hint">Este concurso no tiene un enlace guardado todavía.</div>';
+    return;
+  }
+  pane.innerHTML = `<iframe src="${escapeAttr(c.url)}" loading="lazy"></iframe>`;
+}
+
+document.getElementById('btnLoadReader').addEventListener('click', () => {
+  loadReaderText();
+  loadReaderIframe();
 });
 
 document.getElementById('btnAutofill').addEventListener('click', ()=>{
@@ -1233,6 +1262,22 @@ function maybeAutoBackup(){
 /* ---------------- Botón de búsqueda manual + auto-check diario ---------------- */
 document.getElementById('btnRefresh').addEventListener('click', ()=>fetchListingAndMerge(true));
 document.getElementById('btnAutoLink').addEventListener('click', ()=>autoLinkAll());
+document.getElementById('btnAddManual').addEventListener('click', ()=>{
+  const id = 'm' + Date.now().toString(36) + Math.floor(Math.random()*1000);
+  DATA[id] = {
+    id, url:'', title:'Nuevo concurso', country:'', deadline:'',
+    category:'', prize:'', conditions:'', length:'', theme:'', notes:'',
+    status:'nuevo', textSent:false, submissionDate:'', resultDate:'', result:'pendiente', wonPrize:'',
+    addedDate: new Date().toISOString()
+  };
+  saveData();
+  currentTab = 'nuevo';
+  document.querySelectorAll('.tab').forEach(t=>t.classList.toggle('active', t.dataset.tab==='nuevo'));
+  document.getElementById('filterCategory').value = '';
+  document.getElementById('filterCountry').value = '';
+  render();
+  openEdit(id);
+});
 
 document.getElementById('btnFindLink').addEventListener('click', async ()=>{
   if(!editingId) return;
@@ -1253,6 +1298,8 @@ document.getElementById('btnFindLink').addEventListener('click', async ()=>{
       const urlField = document.getElementById('f_url');
       if(urlField) urlField.value = url;
       toast('Enlace encontrado y guardado.');
+      loadReaderText();
+      loadReaderIframe();
     } else {
       toast('No se encontró un enlace exacto — prueba "Buscarlo en Google" o pégalo a mano.', 4500);
     }

@@ -1,4 +1,4 @@
-const CACHE = 'concursos-shell-v7';
+const CACHE = 'concursos-shell-v8';
 const SHELL = ['./', './index.html', './manifest.json', './icons/icon-192.png', './icons/icon-512.png', './icons/apple-touch-icon.png'];
 
 self.addEventListener('install', (e) => {
