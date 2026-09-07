@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-06T12:28:32.229Z",
+  "updatedAt": "2026-09-07T14:36:23.854Z",
   "sourceUrl": "https://www.escritores.org/concursos/concursos-1/concursos-literarios",
-  "count": 225,
+  "count": 227,
   "contests": [
     {
       "url": "https://www.escritores.org/recursos-para-escritores",
@@ -1633,6 +1633,15 @@
       "conditions": "sin restricciones"
     },
     {
+      "url": "https://www.escritores.org/recursos-para-escritores/42139-iv-concurso-de-relato-juan-maria-molina-jimenez-convocatoria-para-ceuta",
+      "title": "IV CONCURSO DE RELATO JUAN MARÍA MOLINA JIMÉNEZ (Convocatoria para CEUTA)",
+      "country": "España",
+      "deadline": "2026-11-08",
+      "category": "Relato",
+      "prize": "800 euros",
+      "conditions": "mayores de edad, nacidos o residentes en Ceuta"
+    },
+    {
       "url": "https://www.escritores.org/recursos-para-escritores/41959-xx-premio-internacional-de-novela-grafica-fnac-salamandra-graphic",
       "title": "XX PREMIO INTERNACIONAL DE NOVELA GRÁFICA FNAC-SALAMANDRA GRAPHIC",
       "country": "España",
@@ -1967,12 +1976,21 @@
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42100-certamen-literario-cbjse-sobre-el-centenario-de-la-botadura-del-buque-escuela-juan-sebastian-elcano",
-      "title": "CERTAMEN LITERARIO CBJSE SOBRE EL CENTENARIO DE LA BOTADURA DEL BUQUE ESCUELA JUAN SEBASTIÁN ELCANO (España) © Escritores.org. Contenido protegido. Más información: https://www.escritores.org/recursos-para-escritores/19593-copias",
-      "country": "",
+      "title": "CERTAMEN LITERARIO CBJSE SOBRE EL CENTENARIO DE LA BOTADURA DEL BUQUE ESCUELA JUAN SEBASTIÁN ELCANO",
+      "country": "España",
       "deadline": "2027-03-05",
       "category": "Relato corto y Microrrelato con temática Centenario del Juan Sebastián de Elcano",
       "prize": "500 euros, trofeo y diploma",
       "conditions": "Personas de cualquier nacionalidad mayores de 18 años que residan en España o que dispongan de dirección en España a la que enviarles el premio"
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42138-lvi-edicion-de-los-juegos-florales-a-la-santisima-vera-cruz",
+      "title": "LVI EDICIÓN DE LOS JUEGOS FLORALES A LA SANTÍSIMA VERA CRUZ",
+      "country": "España",
+      "deadline": "2027-04-16",
+      "category": "Poesía",
+      "prize": "1.500 euros y flor natural",
+      "conditions": "sin restricciones"
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/premios-literarios-resultados",
