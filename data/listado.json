@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-07T14:36:23.854Z",
+  "updatedAt": "2026-09-08T13:10:28.627Z",
   "sourceUrl": "https://www.escritores.org/concursos/concursos-1/concursos-literarios",
-  "count": 227,
+  "count": 229,
   "contests": [
     {
       "url": "https://www.escritores.org/recursos-para-escritores",
@@ -1354,6 +1354,15 @@
       "conditions": ""
     },
     {
+      "url": "https://www.escritores.org/recursos-para-escritores/42141-concurso-literario-muy-cuentos-de-miedo-no-apagues-la-luz",
+      "title": "CONCURSO LITERARIO «MUY CUENTOS DE MIEDO — NO APAGUES LA LUZ»",
+      "country": "España",
+      "deadline": "2026-10-20",
+      "category": "Cuento",
+      "prize": "Un mes de promoción activa del autor y su obra",
+      "conditions": "sin restricciones"
+    },
+    {
       "url": "https://www.escritores.org/recursos-para-escritores/42085-xxxviii-certamen-literario-alberto-magno-de-ciencia-ficcion",
       "title": "XXXVIII CERTAMEN LITERARIO ALBERTO MAGNO DE CIENCIA FICCIÓN",
       "country": "España",
@@ -1541,6 +1550,15 @@
       "category": "Poesía",
       "prize": "600 euros y trofeo alegórico",
       "conditions": "sin restricciones"
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42140-xiii-edicion-microrrelatos-escribir-por-derechos",
+      "title": "XIII EDICIÓN MICRORRELATOS ESCRIBIR POR DERECHOS",
+      "country": "España",
+      "deadline": "2026-10-31",
+      "category": "Microrrelato",
+      "prize": "reproducción de obra gráfica que artistas de reconocido prestigio han donado a Amnistía Internacional y un trofeo representativo del concurso",
+      "conditions": "mayores 16 años"
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41920-vi-edicion-certamen-literario-angeles-alvarez-arazola",
