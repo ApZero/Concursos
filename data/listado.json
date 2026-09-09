@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T13:10:28.627Z",
+  "updatedAt": "2026-09-09T13:15:47.885Z",
   "sourceUrl": "https://www.escritores.org/concursos/concursos-1/concursos-literarios",
   "count": 229,
   "contests": [
@@ -128,24 +128,6 @@
       "category": "",
       "prize": "",
       "conditions": ""
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/41910-ix-certamen-de-relato-y-poesia-sobre-salud-mental-balsamo-de-fierabras",
-      "title": "IX CERTAMEN DE RELATO Y POESÍA SOBRE SALUD MENTAL \"BÁLSAMO DE FIERABRÁS\"",
-      "country": "España",
-      "deadline": "2026-09-07",
-      "category": "Relato, Poesía, Vivencias",
-      "prize": "500 euros y diploma",
-      "conditions": "cualquier persona mayor de dieciocho años, natural de Castilla-La Mancha"
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/41932-xli-premio-calamo-gesto-de-poesia-erotica",
-      "title": "XLI PREMIO CÁLAMO/GESTO DE POESÍA ERÓTICA",
-      "country": "España",
-      "deadline": "2026-09-07",
-      "category": "Poesía",
-      "prize": "750 euros, publicación, 50 ejemplares para el autor",
-      "conditions": "mayores 18 años"
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42089-x-premio-internacional-de-poesia-jorge-manrique",
@@ -371,15 +353,6 @@
       "category": "Relato corto",
       "prize": "Escultura conmemorativa, 150 euros, bono regalo para dos adultos a escoger entre las rutas ofertadas por Piratas de Nabia en la Ría de Vigo, lote de libros y diploma",
       "conditions": "mayores 18 años residentes en España"
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/41799-xii-premio-internacional-de-poesia-jose-zorrilla",
-      "title": "XII PREMIO INTERNACIONAL DE POESÍA JOSÉ ZORRILLA",
-      "country": "España",
-      "deadline": "2026-09-15",
-      "category": "Poesía",
-      "prize": "3.000 euros, publicación",
-      "conditions": "sin restricciones"
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41560-iii-certamen-de-microrrelatos-manuel-ruiz-zorrilla",
@@ -947,6 +920,15 @@
       "category": "Novela",
       "prize": "30.000 euros",
       "conditions": "mayores de edad"
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/41799-xii-premio-internacional-de-poesia-jose-zorrilla",
+      "title": "XII PREMIO INTERNACIONAL DE POESÍA JOSÉ ZORRILLA",
+      "country": "España",
+      "deadline": "2026-09-30",
+      "category": "Poesía",
+      "prize": "3.000 euros, publicación",
+      "conditions": "sin restricciones"
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41998-premio-internacional-de-poesia-miguel-hernandez-comunidad-valenciana-2027",
@@ -1606,6 +1588,15 @@
       "conditions": "mayores de edad"
     },
     {
+      "url": "https://www.escritores.org/recursos-para-escritores/42142-iii-premio-de-novela-corta-angeles-martin",
+      "title": "III PREMIO DE NOVELA CORTA ÁNGELES MARTÍN",
+      "country": "España",
+      "deadline": "2026-11-01",
+      "category": "Novela",
+      "prize": "1.000 euros y edición",
+      "conditions": "escritoras, mayores de edad, que residan en España"
+    },
+    {
       "url": "https://www.escritores.org/recursos-para-escritores/41917-segundo-premio-de-poesia-el-laberinto-de-ariadna-2027",
       "title": "SEGUNDO PREMIO DE POESÍA “EL LABERINTO DE ARIADNA” 2027",
       "country": "España",
@@ -1730,6 +1721,15 @@
       "category": "",
       "prize": "",
       "conditions": ""
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42143-xiii-concurso-de-micropoemas-jose-garcia-nieto-2026",
+      "title": "XIII CONCURSO DE MICROPOEMAS JOSÉ GARCÍA NIETO 2026",
+      "country": "España",
+      "deadline": "2026-11-22",
+      "category": "Micropoemas",
+      "prize": "tableta electrónica y diploma acreditativo. Publicación en las plataformas digitales de las entidades colaboradoras",
+      "conditions": "mayores de edad"
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41962-iv-concurso-maga-de-relatos-cortos-e-ilustraciones-diversidad-funcional",
