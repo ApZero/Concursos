@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-09T13:15:47.885Z",
+  "updatedAt": "2026-09-10T13:13:12.188Z",
   "sourceUrl": "https://www.escritores.org/concursos/concursos-1/concursos-literarios",
-  "count": 229,
+  "count": 228,
   "contests": [
     {
       "url": "https://www.escritores.org/recursos-para-escritores",
@@ -128,15 +128,6 @@
       "category": "",
       "prize": "",
       "conditions": ""
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42089-x-premio-internacional-de-poesia-jorge-manrique",
-      "title": "X PREMIO INTERNACIONAL DE POESÍA JORGE MANRIQUE",
-      "country": "España",
-      "deadline": "2026-09-09",
-      "category": "Poesía",
-      "prize": "10.000 euros",
-      "conditions": "mayores de edad"
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42025-certamen-de-relato-corto-patrimonio-agroalimentario-rural-semillas-alimentos-y-paisajes",
