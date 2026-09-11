@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-10T13:13:12.188Z",
+  "updatedAt": "2026-09-11T13:07:18.121Z",
   "sourceUrl": "https://www.escritores.org/concursos/concursos-1/concursos-literarios",
-  "count": 228,
+  "count": 227,
   "contests": [
     {
       "url": "https://www.escritores.org/recursos-para-escritores",
@@ -124,60 +124,6 @@
       "url": "https://www.escritores.org/recursos-para-escritores/recursos-2/articulos-de-interes",
       "title": "Artículos de interés",
       "country": "",
-      "deadline": "",
-      "category": "",
-      "prize": "",
-      "conditions": ""
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42025-certamen-de-relato-corto-patrimonio-agroalimentario-rural-semillas-alimentos-y-paisajes",
-      "title": "CERTAMEN DE RELATO CORTO PATRIMONIO AGROALIMENTARIO RURAL: SEMILLAS, ALIMENTOS Y PAISAJES",
-      "country": "España",
-      "deadline": "",
-      "category": "",
-      "prize": "",
-      "conditions": ""
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/41862-concurso-de-ensayo-historico-norte-argentino-pionero-del-desarrollo",
-      "title": "CONCURSO DE ENSAYO HISTÓRICO \"NORTE ARGENTINO, PIONERO DEL DESARROLLO\"",
-      "country": "Argentina",
-      "deadline": "2026-09-10",
-      "category": "Ensayo",
-      "prize": "$1.500.000",
-      "conditions": "ciudadanos argentinos o extranjeros con domicilio en la República Argentina, mayores de dieciocho (18"
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/41839-xlviii-premio-internacional-afundacion-de-periodismo-julio-camba",
-      "title": "XLVIII PREMIO INTERNACIONAL AFUNDACIÓN DE PERIODISMO JULIO CAMBA",
-      "country": "España",
-      "deadline": "2026-09-10",
-      "category": "Periodismo",
-      "prize": "10.000 euros y diploma",
-      "conditions": "mayores de edad, con trabajos de periodismo literario o artículos de opinión, firmados o con seudónimo, con una extensión máxima de mil doscientas palabras, publicados en lengua castellana entre el 1 de septiembre de 2025 y el 31 de agosto de 2026"
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42107-segundo-concurso-literario-internacional-aulha-2026-en-homenaje-a-la-escritora-carmen-molinas-bonilla",
-      "title": "SEGUNDO CONCURSO LITERARIO INTERNACIONAL AULHA 2026 EN HOMENAJE A LA ESCRITORA “CARMEN MOLINAS BONILLA”",
-      "country": "Uruguay",
-      "deadline": "2026-09-10",
-      "category": "Relato corto y Poesía",
-      "prize": "Trofeo y diploma",
-      "conditions": "mayores 18 años"
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/41905-xxvii-concurso-de-relato-corto",
-      "title": "XXVII CONCURSO DE RELATO CORTO",
-      "country": "España",
-      "deadline": "2026-09-11",
-      "category": "Relato corto",
-      "prize": "600 euros y placa",
-      "conditions": "mayores 16 años residentes en España"
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42083-premio-nacional-de-cuento-beatriz-espejo-2026",
-      "title": "PREMIO NACIONAL DE CUENTO BEATRIZ ESPEJO 2026",
-      "country": "México",
       "deadline": "",
       "category": "",
       "prize": "",
@@ -994,6 +940,15 @@
       "conditions": "residentes en España"
     },
     {
+      "url": "https://www.escritores.org/recursos-para-escritores/42146-xiv-concurso-de-relato-literario-ugt-sevilla",
+      "title": "XIV CONCURSO DE RELATO LITERARIO UGT SEVILLA",
+      "country": "España",
+      "deadline": "2026-10-02",
+      "category": "Relato",
+      "prize": "1.000 euros",
+      "conditions": "residentes en España"
+    },
+    {
       "url": "https://www.escritores.org/recursos-para-escritores/42050-vi-premio-literario-carlos-gimenez",
       "title": "VI PREMIO LITERARIO CARLOS GIMÉNEZ",
       "country": "España",
@@ -1253,6 +1208,15 @@
       "category": "Trayectoria",
       "prize": "Diploma y trofeo",
       "conditions": "escritores propuestos por una institución, organización, academia, e intelectuales independientes"
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42144-vi-certamen-literario-la-buena-letra",
+      "title": "VI CERTAMEN LITERARIO LA BUENA LETRA",
+      "country": "España",
+      "deadline": "2026-10-15",
+      "category": "Cuento y Poesía",
+      "prize": "150 euros y diploma",
+      "conditions": "mayores 18 años residentes en España"
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41957-iii-premio-novela-grafica",
@@ -1532,6 +1496,15 @@
       "category": "Microrrelato",
       "prize": "reproducción de obra gráfica que artistas de reconocido prestigio han donado a Amnistía Internacional y un trofeo representativo del concurso",
       "conditions": "mayores 16 años"
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42148-iii-concurso-de-microrrelatos-mancomunidad-del-bajo-andarax-2026-el-poder-de-la-palabra-contra-la-violencia-hacia-las-mujeres",
+      "title": "III CONCURSO DE MICRORRELATOS MANCOMUNIDAD DEL BAJO ANDARAX 2026 - EL PODER DE LA PALABRA CONTRA LA VIOLENCIA HACIA LAS MUJERES",
+      "country": "España",
+      "deadline": "2026-10-31",
+      "category": "Microrrelato",
+      "prize": "300 euros y diploma",
+      "conditions": "personas nacidas o con residencia legal en la Comunidad Autónoma de Andalucía"
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41920-vi-edicion-certamen-literario-angeles-alvarez-arazola",
@@ -1858,6 +1831,15 @@
       "conditions": "mayores de 18 años, residentes en la Península Ibérica"
     },
     {
+      "url": "https://www.escritores.org/recursos-para-escritores/42145-xi-certamen-de-poesia-social-ciudad-de-algeciras-julia-guerra",
+      "title": "XI CERTAMEN DE POESÍA SOCIAL CIUDAD DE ALGECIRAS “JULIA GUERRA”",
+      "country": "España",
+      "deadline": "2026-12-15",
+      "category": "Poesía",
+      "prize": "300 euros y diploma",
+      "conditions": "mayores de 18 años, residentes en España"
+    },
+    {
       "url": "https://www.escritores.org/recursos-para-escritores/42032-viii-concurso-de-relatos-cortos-la-ilustre-fregona-de-zahara-de-los-atunes",
       "title": "VIII CONCURSO DE RELATOS CORTOS “LA ILUSTRE FREGONA” DE ZAHARA DE LOS ATUNES",
       "country": "España",
@@ -1882,6 +1864,15 @@
       "deadline": "2026-12-30",
       "category": "Investigación",
       "prize": "1.500 euros y publicación",
+      "conditions": "sin restricciones"
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42147-xi-certamen-de-relatos-de-la-fundacion-pintor-julio-visconti",
+      "title": "XI CERTAMEN DE RELATOS DE LA FUNDACIÓN PINTOR JULIO VISCONTI",
+      "country": "España",
+      "deadline": "2026-12-30",
+      "category": "Relato",
+      "prize": "900 euros y diploma",
       "conditions": "sin restricciones"
     },
     {
