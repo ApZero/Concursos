@@ -216,6 +216,16 @@ main{max-width:1080px;margin:0 auto;padding:18px 20px 40px;}
   overflow:hidden;
 }
 .card .conditions-line b{color:var(--olive);font-weight:600;}
+.card .length-line{
+  font-size:12.5px;
+  color:var(--ink-soft);
+  line-height:1.4;
+  display:-webkit-box;
+  -webkit-line-clamp:1;
+  -webkit-box-orient:vertical;
+  overflow:hidden;
+}
+.card .length-line b{color:var(--olive);font-weight:600;}
 .card .deadline-line{
   font-family:'JetBrains Mono',monospace;
   font-size:11.5px;
@@ -347,6 +357,7 @@ footer.app-footer{
     <button class="btn olive" id="btnRefresh">Buscar nuevos concursos</button>
     <button class="btn ghost small" id="btnAddManual">+ Añadir concurso</button>
     <button class="btn ghost small" id="btnAutoLink" title="Busca en internet el enlace exacto de cada concurso que no lo tenga">Buscar enlaces faltantes</button>
+    <button class="btn ghost small" id="btnAutoLength" title="Lee la convocatoria de cada concurso y detecta la extensión pedida (palabras, folios, páginas...)">Detectar extensión</button>
     <button class="btn ghost small" id="btnImport">Importar texto</button>
     <button class="btn ghost small" id="btnExport">Exportar</button>
     <button class="btn ghost small" id="btnImportJson">Restaurar</button>
@@ -727,6 +738,35 @@ async function autoLinkAll(){
   toast(`${found} de ${missing.length} enlace(s) encontrado(s) automáticamente.`, 5000);
 }
 
+// Recorre los concursos con enlace pero sin extensión detectada, trae el
+// texto de cada convocatoria y busca ahí la extensión pedida (palabras,
+// folios, páginas, versos...), con una pequeña pausa entre cada una.
+async function autoDetectLengthsAll(){
+  const missing = Object.values(DATA).filter(c => c.url && !c.length && c.status !== 'descartado');
+  if(missing.length === 0){ toast('No hay concursos con enlace pendientes de extensión.'); return; }
+  const btn = document.getElementById('btnAutoLength');
+  const original = btn.textContent;
+  btn.disabled = true;
+  let found = 0;
+  for(let i=0; i<missing.length; i++){
+    const c = missing[i];
+    btn.innerHTML = `<span class="spin">⟳</span> Leyendo (${i+1}/${missing.length})…`;
+    try{
+      const { kind, content: raw } = await fetchViaFallbacks(c.url);
+      const text = kind === 'html' ? extractReadableText(raw) : raw;
+      const length = detectLength(text);
+      if(length){ c.length = length; found++; saveDataSilent(); }
+    }catch(err){
+      console.warn('No se pudo detectar la extensión de', c.title, err);
+    }
+    if(i < missing.length - 1) await new Promise(r => setTimeout(r, 700));
+  }
+  render();
+  btn.disabled = false;
+  btn.textContent = original;
+  toast(`${found} de ${missing.length} extensión(es) detectada(s) — revísalas, la detección automática no siempre acierta.`, 5500);
+}
+
 // Intenta leer data/listado.json, que un flujo de GitHub Actions genera
 // automáticamente cada día conectándose a escritores.org desde el propio
 // servidor de GitHub (sin restricciones de CORS, porque no es un navegador).
@@ -903,6 +943,7 @@ function cardHtml(c){
       ${c.prize ? `<span>· ${escapeHtml(c.prize)}</span>` : ''}
     </div>
     ${c.conditions ? `<div class="conditions-line"><b>Abierto a:</b> ${escapeHtml(c.conditions)}</div>` : ''}
+    ${c.length ? `<div class="length-line"><b>Extensión:</b> ${escapeHtml(c.length)}</div>` : ''}
     ${resultBadge}
     <div class="deadline-line">Plazo: ${c.deadline ? formatDate(c.deadline) : 'sin especificar'}</div>
     <div class="actions">
@@ -1144,6 +1185,7 @@ async function loadReaderText(){
     if(!text || text.length < 80) throw new Error('Contenido extraído demasiado corto');
     readerLoadedText = text;
     pane.innerHTML = `<pre>${escapeHtml(text)}</pre>`;
+    runAutofill(true); // completa solo los campos vacíos, sin pedirlo
   }catch(err){
     console.error(err);
     readerLoadedText = '';
@@ -1174,23 +1216,59 @@ document.getElementById('btnLoadReader').addEventListener('click', () => {
   loadReaderIframe();
 });
 
-document.getElementById('btnAutofill').addEventListener('click', ()=>{
-  if(!readerLoadedText){ toast('Primero carga el texto de la convocatoria.'); return; }
+// Busca la extensión pedida (palabras, folios, páginas, versos, cuartillas,
+// caracteres, líneas...) en el texto de la convocatoria. Primero intenta la
+// forma más directa ("Extensión: ..."), y si no aparece así, busca cualquier
+// frase que combine un número con una de esas unidades — porque muchas
+// convocatorias lo redactan como "no superará los 3000 palabras" en vez de
+// usar una etiqueta clara.
+function detectLength(text){
+  if(!text) return '';
+  const labelRe = /(?:extensi[oó]n|longitud)[^\n:]*:\s*([^\n]{3,140})/i;
+  const labelMatch = text.match(labelRe);
+  if(labelMatch) return labelMatch[1].trim();
+
+  const unit = '(?:palabras?|folios?|p[aá]ginas?|cuartillas?|versos?|caracteres|l[ií]neas?|hojas?)';
+  const numUnitRe = new RegExp('\\d{1,3}(?:[.,]\\d{3})?(?:\\s*(?:a|y|-|–)\\s*\\d{1,3}(?:[.,]\\d{3})?)?\\s*' + unit, 'i');
+  const sentences = text.split(/(?<=[.\n])\s+/);
+  for(const s of sentences){
+    const clean = s.trim();
+    if(clean.length > 6 && clean.length < 260 && numUnitRe.test(clean)){
+      return clean;
+    }
+  }
+  return '';
+}
+
+// Completa los campos vacíos del formulario a partir del texto ya cargado.
+// silent=true (usado al cargar el texto automáticamente) no avisa si no
+// encontró nada, para no interrumpir; silent=false (botón manual) siempre
+// avisa del resultado.
+function runAutofill(silent){
+  if(!readerLoadedText){
+    if(!silent) toast('Primero carga el texto de la convocatoria.');
+    return;
+  }
   const t = readerLoadedText;
-  const patterns = {
-    f_length: /(?:extensi[oó]n|longitud)[^\n:]*:\s*([^\n]{3,120})/i,
-    f_theme: /tema[^\n:]*:\s*([^\n]{3,150})/i,
-    f_prize: /premio[^\n:]*:\s*([^\n]{3,150})/i,
-    f_conditions: /(?:podr[aá]n participar|abierto a|requisitos)[^\n:]*:?\s*([^\n]{3,200})/i
+  const detected = {
+    f_length: detectLength(t),
+    f_theme: (t.match(/tema[^\n:]*:\s*([^\n]{3,150})/i) || [])[1],
+    f_prize: (t.match(/premio[^\n:]*:\s*([^\n]{3,150})/i) || [])[1],
+    f_conditions: (t.match(/(?:podr[aá]n participar|abierto a|requisitos)[^\n:]*:?\s*([^\n]{3,200})/i) || [])[1]
   };
   let filled = 0;
-  for(const [fieldId, re] of Object.entries(patterns)){
-    const m = t.match(re);
+  for(const [fieldId, value] of Object.entries(detected)){
     const el = document.getElementById(fieldId);
-    if(m && el && !el.value){ el.value = m[1].trim(); filled++; }
+    if(value && el && !el.value){ el.value = value.trim(); filled++; }
   }
-  toast(filled>0 ? `Se completaron ${filled} campo(s) — revísalos antes de guardar.` : 'No se detectaron patrones reconocibles; complétalos manualmente leyendo el texto.');
-});
+  if(filled > 0){
+    toast(`Se completaron ${filled} campo(s) automáticamente a partir del texto — revísalos antes de guardar.`);
+  } else if(!silent){
+    toast('No se detectaron patrones reconocibles; complétalos manualmente leyendo el texto.');
+  }
+}
+
+document.getElementById('btnAutofill').addEventListener('click', ()=>runAutofill(false));
 
 /* ---------------- Importar texto manual ---------------- */
 document.getElementById('btnImport').addEventListener('click', ()=>{
@@ -1282,6 +1360,7 @@ function maybeAutoBackup(){
 /* ---------------- Botón de búsqueda manual + auto-check diario ---------------- */
 document.getElementById('btnRefresh').addEventListener('click', ()=>fetchListingAndMerge(true));
 document.getElementById('btnAutoLink').addEventListener('click', ()=>autoLinkAll());
+document.getElementById('btnAutoLength').addEventListener('click', ()=>autoDetectLengthsAll());
 document.getElementById('btnAddManual').addEventListener('click', ()=>{
   const id = 'm' + Date.now().toString(36) + Math.floor(Math.random()*1000);
   DATA[id] = {
