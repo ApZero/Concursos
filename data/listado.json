@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T13:32:21.419Z",
+  "updatedAt": "2026-09-13T16:54:05.400Z",
   "sourceUrl": "https://www.escritores.org/concursos/concursos-1/concursos-literarios",
   "count": 227,
   "contests": [
@@ -10,7 +10,8 @@
       "deadline": "",
       "category": "",
       "prize": "",
-      "conditions": ""
+      "conditions": "",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/recursos-1/agentes-literarios",
@@ -19,7 +20,8 @@
       "deadline": "",
       "category": "",
       "prize": "",
-      "conditions": ""
+      "conditions": "",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/recursos-1/asociaciones-de-escritores",
@@ -28,7 +30,8 @@
       "deadline": "",
       "category": "",
       "prize": "",
-      "conditions": ""
+      "conditions": "",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/recursos-1/becas-universitarias",
@@ -37,7 +40,8 @@
       "deadline": "",
       "category": "",
       "prize": "",
-      "conditions": ""
+      "conditions": "",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/recursos-1/bibliotecas-digitales",
@@ -46,7 +50,8 @@
       "deadline": "",
       "category": "",
       "prize": "",
-      "conditions": ""
+      "conditions": "",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/recursos-1/diccionarios-digitales",
@@ -55,7 +60,8 @@
       "deadline": "",
       "category": "",
       "prize": "",
-      "conditions": ""
+      "conditions": "",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/recursos-1/colaboraciones",
@@ -64,7 +70,8 @@
       "deadline": "",
       "category": "",
       "prize": "",
-      "conditions": ""
+      "conditions": "",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/recursos-1/bibliografia",
@@ -73,7 +80,8 @@
       "deadline": "",
       "category": "",
       "prize": "",
-      "conditions": ""
+      "conditions": "",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/recursos-2/orientacion-legal",
@@ -82,7 +90,8 @@
       "deadline": "",
       "category": "",
       "prize": "",
-      "conditions": ""
+      "conditions": "",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/recursos-2/revistas-literarias",
@@ -91,7 +100,8 @@
       "deadline": "",
       "category": "",
       "prize": "",
-      "conditions": ""
+      "conditions": "",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/recursos-2/editoriales-datos-de-contacto",
@@ -100,7 +110,8 @@
       "deadline": "",
       "category": "",
       "prize": "",
-      "conditions": ""
+      "conditions": "",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/recursos-2/software-para-escritores",
@@ -109,7 +120,8 @@
       "deadline": "",
       "category": "",
       "prize": "",
-      "conditions": ""
+      "conditions": "",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/recursos-2/prensa-agencias-periodicos",
@@ -118,7 +130,8 @@
       "deadline": "",
       "category": "",
       "prize": "",
-      "conditions": ""
+      "conditions": "",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/recursos-2/articulos-de-interes",
@@ -127,7 +140,8 @@
       "deadline": "",
       "category": "",
       "prize": "",
-      "conditions": ""
+      "conditions": "",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42058-xiii-concurso-de-relatos-cortos-y-cuentos-cuentale-tu-cuento-a-la-nota-latina",
@@ -136,7 +150,8 @@
       "deadline": "2026-09-14",
       "category": "Relato corto y Cuento",
       "prize": "Certificado. Gift Card Visa de $100. Entrevista publicada en lanota-latina.com y en Instagram",
-      "conditions": "comunidad hispana residente en los Estados Unidos"
+      "conditions": "comunidad hispana residente en los Estados Unidos",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42093-ix-certamen-nacional-de-loas-a-la-virgen-del-brezo-2026",
@@ -145,7 +160,8 @@
       "deadline": "2026-09-14",
       "category": "Poesía",
       "prize": "200 euros",
-      "conditions": "mayores de edad de nacionalidad española"
+      "conditions": "mayores de edad de nacionalidad española",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42060-concurso-de-relato-corto-sin-barreras",
@@ -154,7 +170,8 @@
       "deadline": "2026-09-15",
       "category": "Relato corto",
       "prize": "700 euros y diploma",
-      "conditions": "de 15 a 25 años y mayores de 60 años"
+      "conditions": "de 15 a 25 años y mayores de 60 años",
+      "acceptsEmail": false
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41885-iii-premios-ateneo-de-sevilla-de-poesia-generacion-del-27-y-ateneo-de-sevilla-joven-de-poesia-generacion-del-27",
@@ -163,7 +180,8 @@
       "deadline": "2026-09-15",
       "category": "Poesía",
       "prize": "Premio Ateneo de Sevilla 3.000 euros más publicación. Premio Ateneo de Sevilla joven, 1.500 euros, más publicación",
-      "conditions": "premio Ateneo de Sevilla: mayores de edad. Premio Ateneo de Sevilla joven, mayores de edad, con menos de 35 años en el momento de publicarse la presente convocatoria"
+      "conditions": "premio Ateneo de Sevilla: mayores de edad. Premio Ateneo de Sevilla joven, mayores de edad, con menos de 35 años en el momento de publicarse la presente convocatoria",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41497-v-concurso-de-guion-teatral-la-llegada-del-comendador-a-la-casa-del-ventoso-2026",
@@ -172,7 +190,8 @@
       "deadline": "2026-09-15",
       "category": "Guion teatral",
       "prize": "400 euros",
-      "conditions": "mayores 18 años"
+      "conditions": "mayores 18 años",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42078-novena-edicion-del-concurso-hablando-en-cobre",
@@ -181,7 +200,8 @@
       "deadline": "2026-09-15",
       "category": "Microrrelato",
       "prize": "2.000 euros",
-      "conditions": "mayores de edad con nacionalidad española o residencia legal en España"
+      "conditions": "mayores de edad con nacionalidad española o residencia legal en España",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42043-iii-concurso-de-relato-breve-negro-y-policiaco-negrateiz-fundacion-vital",
@@ -190,7 +210,8 @@
       "deadline": "2026-09-15",
       "category": "Relato breve",
       "prize": "400 euros",
-      "conditions": "mayores 18 años residentes en España"
+      "conditions": "mayores 18 años residentes en España",
+      "acceptsEmail": false
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41942-42-edicion-del-premio-de-teatro-ciudad-de-guadalajara-2026",
@@ -199,7 +220,8 @@
       "deadline": "2026-09-15",
       "category": "Teatro",
       "prize": "6.000 euros",
-      "conditions": "mayores 18 años"
+      "conditions": "mayores 18 años",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42054-iii-certamen-nacional-de-microrrelato-guadiana",
@@ -208,7 +230,8 @@
       "deadline": "2026-09-15",
       "category": "Microrrelato",
       "prize": "400 euros",
-      "conditions": "mayores de edad"
+      "conditions": "mayores de edad",
+      "acceptsEmail": false
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41813-vi-premio-internacional-verso-libre-mx-2026-a-la-trayectoria-academica-artistica-literaria-y-difusion-cultural",
@@ -217,7 +240,8 @@
       "deadline": "",
       "category": "",
       "prize": "",
-      "conditions": ""
+      "conditions": "",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41567-premios-albacara-2026-9-premio-de-narrativa-ciudad-de-la-cruz",
@@ -226,7 +250,8 @@
       "deadline": "2026-09-15",
       "category": "Narrativa",
       "prize": "1.500 euros, publicación",
-      "conditions": "mayores de edad"
+      "conditions": "mayores de edad",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41568-premios-albacara-2026-9-premio-de-poesia-mistica-san-juan-de-la-cruz",
@@ -235,7 +260,8 @@
       "deadline": "2026-09-15",
       "category": "Poesía",
       "prize": "3.500 euros, publicación",
-      "conditions": "mayores de edad"
+      "conditions": "mayores de edad",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42028-xxvi-certamen-nacional-de-poesia-guadiana",
@@ -244,7 +270,8 @@
       "deadline": "2026-09-15",
       "category": "Poesía",
       "prize": "400 euros",
-      "conditions": "mayores de edad"
+      "conditions": "mayores de edad",
+      "acceptsEmail": false
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41963-eslografias-iv-certamen-literario-de-simurg-red-de-bibliotecas-y-archivos-del-csic-2026",
@@ -253,7 +280,8 @@
       "deadline": "2026-09-15",
       "category": "Texto publicitario, eslogan",
       "prize": "Diploma, lote de libros, publicación en antología y pieza audiovisual",
-      "conditions": "sin restricciones"
+      "conditions": "sin restricciones",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41892-iii-certamen-de-relatos-pilar-sarasola",
@@ -262,7 +290,8 @@
       "deadline": "2026-09-15",
       "category": "Relato",
       "prize": "400 euros",
-      "conditions": "mayores de edad"
+      "conditions": "mayores de edad",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41877-xvi-certamen-creadores-por-la-paz-y-la-libertad",
@@ -271,7 +300,8 @@
       "deadline": "2026-09-15",
       "category": "Poesía y Novela corta",
       "prize": "1.000 euros y placa",
-      "conditions": "mayores de edad residentes en España"
+      "conditions": "mayores de edad residentes en España",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42090-primer-concurso-opalo",
@@ -280,7 +310,8 @@
       "deadline": "2026-09-15",
       "category": "Poesía y Narrativa",
       "prize": "publicacion del cuento en Instagram y un diploma",
-      "conditions": "mayores de edad residentes en Argentina"
+      "conditions": "mayores de edad residentes en Argentina",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42117-ii-certamen-de-relatos-cortos-cachi-villalba",
@@ -289,7 +320,8 @@
       "deadline": "2026-09-15",
       "category": "Relato corto",
       "prize": "Escultura conmemorativa, 150 euros, bono regalo para dos adultos a escoger entre las rutas ofertadas por Piratas de Nabia en la Ría de Vigo, lote de libros y diploma",
-      "conditions": "mayores 18 años residentes en España"
+      "conditions": "mayores 18 años residentes en España",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41560-iii-certamen-de-microrrelatos-manuel-ruiz-zorrilla",
@@ -298,7 +330,8 @@
       "deadline": "2026-09-15",
       "category": "Microrrelato",
       "prize": "300 euros",
-      "conditions": "mayores 18 años residentes en España"
+      "conditions": "mayores 18 años residentes en España",
+      "acceptsEmail": false
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42122-xxx-premio-nostromo-la-aventura-maritima",
@@ -307,7 +340,8 @@
       "deadline": "2026-09-15",
       "category": "Novela",
       "prize": "5.000 euros y publicación",
-      "conditions": "sin restricciones"
+      "conditions": "sin restricciones",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42123-xi-premio-de-aforismos-rafael-perez-estrada-2026",
@@ -316,7 +350,8 @@
       "deadline": "2026-09-15",
       "category": "Aforismos",
       "prize": "3.000 euros y publicación",
-      "conditions": "sin restricciones"
+      "conditions": "sin restricciones",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42044-xxxi-certamen-literario-villa-de-villamayor-de-santiago",
@@ -325,7 +360,8 @@
       "deadline": "2026-09-16",
       "category": "Relato breve",
       "prize": "300 euros y placa",
-      "conditions": "personas nacidas o residentes en Castilla-La Mancha"
+      "conditions": "personas nacidas o residentes en Castilla-La Mancha",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41986-xxviii-premio-de-poesia-jose-luis-hidalgo",
@@ -334,7 +370,8 @@
       "deadline": "2026-09-17",
       "category": "Poesía",
       "prize": "1.803,00 euros",
-      "conditions": "sin restricciones"
+      "conditions": "sin restricciones",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42018-premio-literario-tennessee-williams-2026",
@@ -343,7 +380,8 @@
       "deadline": "2026-09-18",
       "category": "Novela, Cuento, Poesía",
       "prize": "publicación, diploma, dotación económica, promoción",
-      "conditions": "mayores 18 años"
+      "conditions": "mayores 18 años",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42074-ii-certamen-de-poesia-elsa-hernandez-baute",
@@ -352,7 +390,8 @@
       "deadline": "2026-09-18",
       "category": "Poesía",
       "prize": "500 euros",
-      "conditions": "mayores de edad"
+      "conditions": "mayores de edad",
+      "acceptsEmail": false
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41854-xii-concurso-de-relatos-cortos-deportivos-y-iii-concurso-de-microrrelatos",
@@ -361,7 +400,8 @@
       "deadline": "2026-09-20",
       "category": "Relato corto y Microrrelato",
       "prize": "500 euros",
-      "conditions": "mayores 18 años"
+      "conditions": "mayores 18 años",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42022-v-certamen-internacional-de-microrrelato-jorge-alonso-curiel-2026",
@@ -370,7 +410,8 @@
       "deadline": "2026-09-20",
       "category": "Microrrelato",
       "prize": "Diploma acreditativo y entrevista",
-      "conditions": "mayores de edad"
+      "conditions": "mayores de edad",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41966-xii-certamen-de-relato-breve-de-la-red-de-bibliotecas-de-illescas-biblioteca-central",
@@ -379,7 +420,8 @@
       "deadline": "2026-09-20",
       "category": "Relato breve",
       "prize": "1.000 euros",
-      "conditions": "mayores de 16 años que posean el carné de usuario/a de la Red de Bibliotecas Públicas de Castilla-La Mancha"
+      "conditions": "mayores de 16 años que posean el carné de usuario/a de la Red de Bibliotecas Públicas de Castilla-La Mancha",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42099-concurso-un-libro-te-salva",
@@ -388,7 +430,8 @@
       "deadline": "2026-09-20",
       "category": "Microrrelato",
       "prize": "Publicación, tableta, tableta como reconocimiento, y sus relatos serán producidos por Radio Universidad de Guadalajara para su difusión en sus espacios y plataformas",
-      "conditions": "jóvenes de 15 a 25 años"
+      "conditions": "jóvenes de 15 a 25 años",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41185-x-concurso-internacional-maria-fonellosa-de-poesia-sobre-discapacidad",
@@ -397,7 +440,8 @@
       "deadline": "2026-09-21",
       "category": "Poesía",
       "prize": "Grabado y pliego de 25 sellos postales",
-      "conditions": "sin restricciones"
+      "conditions": "sin restricciones",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41849-xl-certamen-internacional-de-poesia-mistica-malagon-2026",
@@ -406,7 +450,8 @@
       "deadline": "2026-09-21",
       "category": "Poesía",
       "prize": "1.500 euros",
-      "conditions": "sin restricciones"
+      "conditions": "sin restricciones",
+      "acceptsEmail": false
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41779-47-premios-literarios-kutxa-fundazioa-poesia-y-novela",
@@ -415,7 +460,8 @@
       "deadline": "2026-09-21",
       "category": "Poesía y Novela",
       "prize": "edición del libro, trofeo y 20.000 euros",
-      "conditions": "mayores de edad residentes en España"
+      "conditions": "mayores de edad residentes en España",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42026-concurso-internacional-de-poesia-huerta-de-san-vicente-2026",
@@ -424,7 +470,8 @@
       "deadline": "2026-09-21",
       "category": "Poesía",
       "prize": "3.000 euros",
-      "conditions": "sin restricciones"
+      "conditions": "sin restricciones",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41993-i-concurso-de-relatos-cortos-afaraba",
@@ -433,7 +480,8 @@
       "deadline": "2026-09-21",
       "category": "Relato corto",
       "prize": "800 euros",
-      "conditions": "mayores de 18 años residentes en el Territorio Histórico de Álava/Araba"
+      "conditions": "mayores de 18 años residentes en el Territorio Histórico de Álava/Araba",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41830-certamen-internacional-de-poesia-mistica-san-juan-de-la-cruz-2026",
@@ -442,7 +490,8 @@
       "deadline": "2026-09-21",
       "category": "Poesía",
       "prize": "600 euros",
-      "conditions": "sin restricciones"
+      "conditions": "sin restricciones",
+      "acceptsEmail": false
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41969-ii-premio-de-poesia-julio-mariscal",
@@ -451,7 +500,8 @@
       "deadline": "2026-09-24",
       "category": "Poesía",
       "prize": "1.500 euros y figura conmemorativa",
-      "conditions": "residentes en España"
+      "conditions": "residentes en España",
+      "acceptsEmail": false
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41834-xlv-certamen-literario-internacional-fiestas-de-la-virgen-2026",
@@ -460,7 +510,8 @@
       "deadline": "2026-09-25",
       "category": "Verso y Prosa",
       "prize": "1.000 euros",
-      "conditions": "sin restricciones"
+      "conditions": "sin restricciones",
+      "acceptsEmail": false
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42126-xxvii-premio-de-ensayo-carmen-de-burgos",
@@ -469,7 +520,8 @@
       "deadline": "2026-09-25",
       "category": "Ensayo",
       "prize": "3.000 euros",
-      "conditions": "mayores de edad"
+      "conditions": "mayores de edad",
+      "acceptsEmail": false
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42030-xli-certamen-andaluz-de-poesia-villa-de-peligros",
@@ -478,7 +530,8 @@
       "deadline": "2026-09-25",
       "category": "Poesía",
       "prize": "1.500 euros y 75 ejemplares de la obra, que editará y distribuirá la Diputación de Granada",
-      "conditions": "personas mayores de edad que hayan nacido o residan en Andalucía"
+      "conditions": "personas mayores de edad que hayan nacido o residan en Andalucía",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41557-premios-ciudad-de-santander-2026-12-edicion-del-premio-de-las-letras-ciudad-de-santander",
@@ -487,7 +540,8 @@
       "deadline": "2026-09-25",
       "category": "trayectoria y por el conjunto de la obra",
       "prize": "5.000 euros",
-      "conditions": "La convocatoria no es abierta. Podrán proponer candidaturas las instituciones y asociaciones de carácter cultural radicadas en Cantabria, así como personalidades de la comunidad relacionadas con el ámbito de la Literatura. Los escritores propuestos para el premio habrán de tener una vinculación con la ciudad que derive de ser Santander, o cualquier otro municipio de nuestra región, su lugar de nacimiento o su residencia actual, o de haberlo sido durante un periodo superior a diez años."
+      "conditions": "La convocatoria no es abierta. Podrán proponer candidaturas las instituciones y asociaciones de carácter cultural radicadas en Cantabria, así como personalidades de la comunidad relacionadas con el ámbito de la Literatura. Los escritores propuestos para el premio habrán de tener una vinculación con la ciudad que derive de ser Santander, o cualquier otro municipio de nuestra región, su lugar de nacimiento o su residencia actual, o de haberlo sido durante un periodo superior a diez años.",
+      "acceptsEmail": false
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42017-tercer-concurso-de-microrrelatos-1-000-pasos",
@@ -496,7 +550,8 @@
       "deadline": "2026-09-26",
       "category": "Microrrelato",
       "prize": "300 euros",
-      "conditions": "mayores 18 años residentes en España"
+      "conditions": "mayores 18 años residentes en España",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41965-xlvi-concurso-de-cuentos-villa-de-errenteria",
@@ -505,7 +560,8 @@
       "deadline": "2026-09-27",
       "category": "Cuento",
       "prize": "800 euros",
-      "conditions": "sin restricciones"
+      "conditions": "sin restricciones",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42116-6-edicion-premio-silos-de-relatos-cortos",
@@ -514,7 +570,8 @@
       "deadline": "2026-09-27",
       "category": "Relato corto",
       "prize": "1.500 euros",
-      "conditions": "sin restricciones"
+      "conditions": "sin restricciones",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41618-concurso-manga-2026",
@@ -523,7 +580,8 @@
       "deadline": "2026-09-28",
       "category": "Manga",
       "prize": "4.500 euros",
-      "conditions": "sin restricciones"
+      "conditions": "sin restricciones",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42125-xxxix-premio-comillas-de-historia-biografia-y-memorias-2027",
@@ -532,7 +590,8 @@
       "deadline": "2026-09-28",
       "category": "Historia, Biografía y Memorias",
       "prize": "12.000 euros, publicación, estatuilla",
-      "conditions": "mayores 18 años"
+      "conditions": "mayores 18 años",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42000-iv-certamen-de-microrrelatos-y-poemas-para-mayores-de-65-anos-tribuna-ciudadana-2026",
@@ -541,7 +600,8 @@
       "deadline": "",
       "category": "",
       "prize": "",
-      "conditions": ""
+      "conditions": "",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42101-v-concurso-literario-la-torre-desde-quevedo",
@@ -550,7 +610,8 @@
       "deadline": "",
       "category": "",
       "prize": "",
-      "conditions": ""
+      "conditions": "",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41587-premio-fundacion-maria-elena-walsh-sara-facio",
@@ -559,7 +620,8 @@
       "deadline": "",
       "category": "",
       "prize": "",
-      "conditions": ""
+      "conditions": "",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41633-ii-certamen-de-relato-corto-milano-real",
@@ -568,7 +630,8 @@
       "deadline": "2026-09-30",
       "category": "Relato corto",
       "prize": "300 euros",
-      "conditions": "mayores de 18 años"
+      "conditions": "mayores de 18 años",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42109-xvi-premio-internacional-de-poesia-claudio-rodriguez",
@@ -577,7 +640,8 @@
       "deadline": "2026-09-30",
       "category": "Poesía",
       "prize": "7.000 euros y publicación",
-      "conditions": "sin restricciones"
+      "conditions": "sin restricciones",
+      "acceptsEmail": false
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42086-cuarto-concurso-nacional-argentores-del-texto-a-la-escena-2026",
@@ -586,7 +650,8 @@
       "deadline": "",
       "category": "",
       "prize": "",
-      "conditions": ""
+      "conditions": "",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41659-xv-certamen-internacional-de-microrrelatos-cardenal-mendoza",
@@ -595,7 +660,8 @@
       "deadline": "2026-09-30",
       "category": "Microrrelato",
       "prize": "2.000 euros, botella de brandy, caja de vinos",
-      "conditions": "mayores de edad"
+      "conditions": "mayores de edad",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41967-certamen-cartas-manuscritas-juana-pines",
@@ -604,7 +670,8 @@
       "deadline": "2026-09-30",
       "category": "Carta manuscrita",
       "prize": "Trofeo y 150 euros",
-      "conditions": "mayores de 16 años residentes en España"
+      "conditions": "mayores de 16 años residentes en España",
+      "acceptsEmail": false
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41709-vi-certamen-literario-internacional-de-la-casa-de-la-rioja-en-gipuzkoa",
@@ -613,7 +680,8 @@
       "deadline": "2026-09-30",
       "category": "Relato",
       "prize": "400 euros",
-      "conditions": "mayores 18 años"
+      "conditions": "mayores 18 años",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41670-xiv-certamen-nacional-de-poesia-para-jovenes-poetas-antonio-hernandez",
@@ -622,7 +690,8 @@
       "deadline": "2026-09-30",
       "category": "Poesía",
       "prize": "600 € en metálico y la edición de 200 ejemplares de la obra, de los que 45 se le entregarán al autor o autora",
-      "conditions": "residentes en España nacidos con posteridad al día 30 de septiembre de 1991"
+      "conditions": "residentes en España nacidos con posteridad al día 30 de septiembre de 1991",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41692-iii-concurso-de-microrrelatos-mancomunidad-del-bajo-andarax-2025-el-poder-de-la-palabra-contra-la-violencia-hacia-las-mujeres",
@@ -631,7 +700,8 @@
       "deadline": "2026-09-30",
       "category": "Microrrelato",
       "prize": "",
-      "conditions": "cualquier persona nacida o con residencia legal en la Comunidad Autónoma de Andalucía"
+      "conditions": "cualquier persona nacida o con residencia legal en la Comunidad Autónoma de Andalucía",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41896-premio-de-novela-subur-negre-del-ano-2026",
@@ -640,7 +710,8 @@
       "deadline": "2026-09-30",
       "category": "Novela",
       "prize": "Edición; Galardón; Diploma",
-      "conditions": "mayores de edad residentes en España"
+      "conditions": "mayores de edad residentes en España",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41798-ii-certamen-internacional-de-poesia-gaspar-esteva-sobre-derechos-humanos",
@@ -649,7 +720,8 @@
       "deadline": "2026-09-30",
       "category": "Poesía",
       "prize": "1.000 euros y diploma",
-      "conditions": "mayores 18 años"
+      "conditions": "mayores 18 años",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42056-i-premio-de-poesia-salvador-velazquez-martin-boe",
@@ -658,7 +730,8 @@
       "deadline": "2026-09-30",
       "category": "Poesía",
       "prize": "500 euros y diploma",
-      "conditions": "mayores de edad residentes en Andalucía"
+      "conditions": "mayores de edad residentes en Andalucía",
+      "acceptsEmail": false
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41866-xxxiv-premio-de-poesia-rincon-de-la-victoria-in-memoriam-salvador-rueda",
@@ -667,7 +740,8 @@
       "deadline": "",
       "category": "",
       "prize": "",
-      "conditions": ""
+      "conditions": "",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41867-ix-certamen-de-relatos-cortos-rincon-de-la-victoria-en-homenaje-a-gloria-fuertes",
@@ -676,7 +750,8 @@
       "deadline": "",
       "category": "",
       "prize": "",
-      "conditions": ""
+      "conditions": "",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41868-ix-premio-de-microrrelatos-rincon-de-la-victoria-antonio-garrido-moraga",
@@ -685,7 +760,8 @@
       "deadline": "",
       "category": "",
       "prize": "",
-      "conditions": ""
+      "conditions": "",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41883-ix-premio-internacional-de-relatos-sobre-olivar-aceite-de-oliva-y-oleoturismo",
@@ -694,7 +770,8 @@
       "deadline": "",
       "category": "",
       "prize": "",
-      "conditions": ""
+      "conditions": "",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41886-convocatorias-premios-provincia-de-guadalajara-y-rio-ungria-y-rio-henares-ano-2026-premio-camilo-jose-cela-de-narrativa-premio-jose-de-juan-garcia-de-periodismo-premio-de-investigacion-entografica-jose-ramon-lopez-de-los-mozos-premio-jose-antonio-ochaita-de-poesia",
@@ -703,7 +780,8 @@
       "deadline": "",
       "category": "",
       "prize": "",
-      "conditions": ""
+      "conditions": "",
+      "acceptsEmail": false
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41924-lii-premio-de-poesia-rafael-morales",
@@ -712,7 +790,8 @@
       "deadline": "",
       "category": "",
       "prize": "",
-      "conditions": ""
+      "conditions": "",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41925-xli-premio-de-poesia-joaquin-benito-de-lucas",
@@ -721,7 +800,8 @@
       "deadline": "2026-09-30",
       "category": "Poesía",
       "prize": "3.000 euros, edición, 25 ejemplares para el autor",
-      "conditions": "poetas que no tengan más de un poemario publicado"
+      "conditions": "poetas que no tengan más de un poemario publicado",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41939-iv-certamen-literario-floridablanca",
@@ -730,7 +810,8 @@
       "deadline": "",
       "category": "",
       "prize": "",
-      "conditions": ""
+      "conditions": "",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41944-1-edicion-premio-nuestro-legado-de-literatura-sobre-mayores-lgtbiq",
@@ -739,7 +820,8 @@
       "deadline": "2026-09-30",
       "category": "Novela, Cuento o Relato",
       "prize": "Publicación",
-      "conditions": "mayores de 18 años"
+      "conditions": "mayores de 18 años",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41947-v-concurso-de-relatos-enroque-corto",
@@ -748,7 +830,8 @@
       "deadline": "2026-09-30",
       "category": "Relato",
       "prize": "150 euros tarjeta regalo + placa conmemorativa",
-      "conditions": "residentes en España"
+      "conditions": "residentes en España",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42052-iv-certamen-literario-la-voz-de-la-mujer",
@@ -757,7 +840,8 @@
       "deadline": "2026-09-30",
       "category": "Relato corto",
       "prize": "300 euros y diploma",
-      "conditions": "residentes en España"
+      "conditions": "residentes en España",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41955-40-edicion-premios-tiflos",
@@ -766,7 +850,8 @@
       "deadline": "2026-09-30",
       "category": "Poesía, Cuento, Novela, Periodismo",
       "prize": "10.000 euros, diploma y edición impresa",
-      "conditions": "mayores 18 años"
+      "conditions": "mayores 18 años",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41973-xxxvi-edicion-del-premio-relato-corto-policia-nacional",
@@ -775,7 +860,8 @@
       "deadline": "2026-09-30",
       "category": "Relato corto",
       "prize": "3.000 €, diploma acreditativo y estatuilla",
-      "conditions": "mayores de edad residentes en España"
+      "conditions": "mayores de edad residentes en España",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41970-i-certamen-de-relato-corto-gastronomico-real-academia-de-gastronomia",
@@ -784,7 +870,8 @@
       "deadline": "2026-09-30",
       "category": "Relato corto",
       "prize": "5.000 euros, diploma y publicación",
-      "conditions": "mayores de edad"
+      "conditions": "mayores de edad",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41985-concurso-de-relato-corto-huellas-y-rodadas-2026",
@@ -793,7 +880,8 @@
       "deadline": "2026-09-30",
       "category": "Relato corto",
       "prize": "200 euros y diploma",
-      "conditions": "mayores 18 años"
+      "conditions": "mayores 18 años",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41997-certamen-de-relatos-cortos-juan-manuel-eguiagaray-2026",
@@ -802,7 +890,8 @@
       "deadline": "2026-09-30",
       "category": "Relato corto",
       "prize": "1.000 € y la Metopa Conmemorativa con placa alusiva al concurso",
-      "conditions": "asociados y simpatizantes de Agnyee"
+      "conditions": "asociados y simpatizantes de Agnyee",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42019-xxvi-bienal-de-poesia-provincia-de-leon-2026",
@@ -811,7 +900,8 @@
       "deadline": "2026-09-30",
       "category": "Poesía",
       "prize": "6.000 €",
-      "conditions": "sin restricciones"
+      "conditions": "sin restricciones",
+      "acceptsEmail": false
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42036-premio-tomas-belzunegui-2026",
@@ -820,7 +910,8 @@
       "deadline": "",
       "category": "",
       "prize": "",
-      "conditions": ""
+      "conditions": "",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42097-concurso-internacional-de-cuentos-cuentos-de-mi-pueblo-2026",
@@ -829,7 +920,8 @@
       "deadline": "2026-09-30",
       "category": "Cuento",
       "prize": "Publicación, diploma, caricatura",
-      "conditions": "mayores de edad"
+      "conditions": "mayores de edad",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42067-xvii-certamen-de-poesia-palabras-de-otono",
@@ -838,7 +930,8 @@
       "deadline": "2026-09-30",
       "category": "Poesía",
       "prize": "500 €",
-      "conditions": "residentes en la Comunidad de Madrid, mayores de 18 años"
+      "conditions": "residentes en la Comunidad de Madrid, mayores de 18 años",
+      "acceptsEmail": false
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42113-xiii-certamen-de-microrrelatos-del-ateneo-de-mairena-del-aljarafe",
@@ -847,7 +940,8 @@
       "deadline": "2026-09-30",
       "category": "Microrrelato",
       "prize": "450 euros",
-      "conditions": "mayores 18 años"
+      "conditions": "mayores 18 años",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42133-premio-nadal-de-novela-2027",
@@ -856,7 +950,8 @@
       "deadline": "2026-09-30",
       "category": "Novela",
       "prize": "30.000 euros",
-      "conditions": "mayores de edad"
+      "conditions": "mayores de edad",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41799-xii-premio-internacional-de-poesia-jose-zorrilla",
@@ -865,7 +960,8 @@
       "deadline": "2026-09-30",
       "category": "Poesía",
       "prize": "3.000 euros, publicación",
-      "conditions": "sin restricciones"
+      "conditions": "sin restricciones",
+      "acceptsEmail": false
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41998-premio-internacional-de-poesia-miguel-hernandez-comunidad-valenciana-2027",
@@ -874,7 +970,8 @@
       "deadline": "2026-10-01",
       "category": "Poesía",
       "prize": "8.000 euros",
-      "conditions": "sin restricciones"
+      "conditions": "sin restricciones",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42071-xxiv-premio-anaya-de-literatura-infantil-y-juvenil",
@@ -883,7 +980,8 @@
       "deadline": "2026-10-01",
       "category": "Infantil y Juvenil",
       "prize": "12.000 euros",
-      "conditions": "sin restricciones"
+      "conditions": "sin restricciones",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42070-goles-que-cuentan-mujeres-en-el-futbol-narraciones-sobre-futbol-practicado-por-mujeres",
@@ -892,7 +990,8 @@
       "deadline": "2026-10-01",
       "category": "Relato",
       "prize": "Publiacción",
-      "conditions": "mayores 18 años"
+      "conditions": "mayores 18 años",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42005-v-certamen-de-relato-corto-de-la-asociacion-de-escritores-de-madrid",
@@ -901,7 +1000,8 @@
       "deadline": "2026-10-01",
       "category": "Relato corto",
       "prize": "200€, diploma y una suscripción anual como miembro de la Asociación de Escritores de Madrid",
-      "conditions": "residentes en España"
+      "conditions": "residentes en España",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41838-xxii-certamen-internacional-de-teatro-ciudad-de-requena-2026",
@@ -910,7 +1010,8 @@
       "deadline": "2026-10-01",
       "category": "Teatro",
       "prize": "6.000 euros",
-      "conditions": "sin restricciones"
+      "conditions": "sin restricciones",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41927-premio-biblioteca-breve-2027",
@@ -919,7 +1020,8 @@
       "deadline": "2026-10-01",
       "category": "Novela",
       "prize": "30.000 euros",
-      "conditions": "sin restricciones"
+      "conditions": "sin restricciones",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41821-i-premio-internacional-de-novela-negra-angeles-alonso-espanol",
@@ -928,7 +1030,8 @@
       "deadline": "2026-10-01",
       "category": "Novela",
       "prize": "3.000 euros, publicación",
-      "conditions": "mayores de edad"
+      "conditions": "mayores de edad",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42003-xiv-concurso-relato-literario-alberto-fernandez-ballesteros",
@@ -937,7 +1040,8 @@
       "deadline": "2026-10-02",
       "category": "Relato",
       "prize": "1.000 euros",
-      "conditions": "residentes en España"
+      "conditions": "residentes en España",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42146-xiv-concurso-de-relato-literario-ugt-sevilla",
@@ -946,7 +1050,8 @@
       "deadline": "2026-10-02",
       "category": "Relato",
       "prize": "1.000 euros",
-      "conditions": "residentes en España"
+      "conditions": "residentes en España",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42050-vi-premio-literario-carlos-gimenez",
@@ -955,7 +1060,8 @@
       "deadline": "2026-10-03",
       "category": "Relato corto, Poesía, Cómic",
       "prize": "700 euros",
-      "conditions": "residentes en España"
+      "conditions": "residentes en España",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41809-certamen-internacional-de-poesia-san-francisco-de-asis-2026",
@@ -964,7 +1070,8 @@
       "deadline": "2026-10-04",
       "category": "Poesía",
       "prize": "4.000 euros, publicación, 25 ejemplares para el autor",
-      "conditions": "mayores 18 años"
+      "conditions": "mayores 18 años",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41916-certamen-literario-cima-2026",
@@ -973,7 +1080,8 @@
       "deadline": "2026-10-05",
       "category": "Poesía Libre, Narración Breve y Microcuento",
       "prize": "50 euros, diploma y libro",
-      "conditions": "socios y socias de las Asociaciones de Mayores integradas en esta Federación, así como las personas pertenecientes a las Asociaciones de los CEAMS de la Generalitat Valenciana y CMAPM del Excelentísimo Ayuntamiento de Valencia"
+      "conditions": "socios y socias de las Asociaciones de Mayores integradas en esta Federación, así como las personas pertenecientes a las Asociaciones de los CEAMS de la Generalitat Valenciana y CMAPM del Excelentísimo Ayuntamiento de Valencia",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42096-premios-de-poesia-carmen-soler-2026",
@@ -982,7 +1090,8 @@
       "deadline": "",
       "category": "",
       "prize": "",
-      "conditions": ""
+      "conditions": "",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41929-74-premio-de-novela-ateneo-ciudad-de-valladolid",
@@ -991,7 +1100,8 @@
       "deadline": "2026-10-09",
       "category": "Novela",
       "prize": "20.000 euros y publicación",
-      "conditions": "mayores de edad"
+      "conditions": "mayores de edad",
+      "acceptsEmail": false
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41578-iii-certamen-de-relato-historico-mantua-carpetanorum",
@@ -1000,7 +1110,8 @@
       "deadline": "2026-10-09",
       "category": "Relato histórico",
       "prize": "500 euros",
-      "conditions": "mayores de edad residentes en España"
+      "conditions": "mayores de edad residentes en España",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41982-iii-certamen-de-relatos-cortos-en-valenciano-y-castellano-online-sobre-memoria-democratica-el-moli",
@@ -1009,7 +1120,8 @@
       "deadline": "2026-10-09",
       "category": "Relato corto",
       "prize": "trofeo, diploma y un vale para compra de libros",
-      "conditions": "mayores 18 años"
+      "conditions": "mayores 18 años",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41900-xxi-certamen-de-relatos-breves-mujeres",
@@ -1018,7 +1130,8 @@
       "deadline": "2026-10-09",
       "category": "Relato breve",
       "prize": "2.000 euros",
-      "conditions": "mujeres con nacionalidad española y extranjeras con residencia en España"
+      "conditions": "mujeres con nacionalidad española y extranjeras con residencia en España",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42128-xxii-concurso-de-poesia-luis-lopez-anglada",
@@ -1027,7 +1140,8 @@
       "deadline": "2026-10-09",
       "category": "Poesía",
       "prize": "1.500 euros",
-      "conditions": "sin restricciones"
+      "conditions": "sin restricciones",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41769-certamenes-de-la-casa-de-leon-en-a-coruna",
@@ -1036,7 +1150,8 @@
       "deadline": "2026-10-09",
       "category": "Relato corto y Poesía",
       "prize": "Diploma y 300 euros",
-      "conditions": "sin restricciones"
+      "conditions": "sin restricciones",
+      "acceptsEmail": false
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41901-concurso-literario-nacional-serafin-j-garcia-trigesima-edicion",
@@ -1045,7 +1160,8 @@
       "deadline": "2026-10-10",
       "category": "Cuento y Poesía",
       "prize": "$10.000 pesos uruguayos",
-      "conditions": "ciudadanos uruguayos mayores de 15 años"
+      "conditions": "ciudadanos uruguayos mayores de 15 años",
+      "acceptsEmail": false
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41875-premio-de-relato-de-adultos-subur-negre-2026",
@@ -1054,7 +1170,8 @@
       "deadline": "2026-10-10",
       "category": "Relato",
       "prize": "Diploma, Recuerdo",
-      "conditions": "mayores de edad residentes en España"
+      "conditions": "mayores de edad residentes en España",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42029-iv-concurso-de-nanorrelatos-la-imagen-escrita",
@@ -1063,7 +1180,8 @@
       "deadline": "2026-10-10",
       "category": "Nanorrelato",
       "prize": "50 euros, un diploma, entradas para el auditorio Pilar Bardem de Rivas y publicación de la obra en la Página ER",
-      "conditions": "personas que pertenezcan a la Comunidad de Madrid"
+      "conditions": "personas que pertenezcan a la Comunidad de Madrid",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41588-concurso-nacional-de-poesia-agustin-acosta-2026",
@@ -1072,7 +1190,8 @@
       "deadline": "2026-10-12",
       "category": "Poesía",
       "prize": "no se indica",
-      "conditions": "poetas cubanos"
+      "conditions": "poetas cubanos",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42120-vii-premio-de-novela-corta-de-terror-e-historias-fantasticas-casa-de-cultura-marta-portal",
@@ -1081,7 +1200,8 @@
       "deadline": "2026-10-13",
       "category": "Novela corta",
       "prize": "700 euros, publicación, 100 ejemplares para el autor",
-      "conditions": "mayores de edad residentes en España"
+      "conditions": "mayores de edad residentes en España",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41309-xlvi-premio-mundial-fernando-rielo-de-poesia-mistica",
@@ -1090,7 +1210,8 @@
       "deadline": "2026-10-15",
       "category": "Poesía",
       "prize": "7.000 euros, medalla conmemorativa y la publicación de la obra",
-      "conditions": "sin restricciones"
+      "conditions": "sin restricciones",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42108-vii-edicion-relatos-cortos-vence-el-encierro-2026-aquelarre-de-libros",
@@ -1099,7 +1220,8 @@
       "deadline": "",
       "category": "",
       "prize": "",
-      "conditions": ""
+      "conditions": "",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42092-80-edicion-premio-adonais",
@@ -1108,7 +1230,8 @@
       "deadline": "",
       "category": "",
       "prize": "",
-      "conditions": ""
+      "conditions": "",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42077-decimoquinta-edicion-de-los-premios-de-relatos-cortos-vieiragrino",
@@ -1117,7 +1240,8 @@
       "deadline": "2026-10-15",
       "category": "Relato corto",
       "prize": "600 euros",
-      "conditions": "sin restricciones"
+      "conditions": "sin restricciones",
+      "acceptsEmail": false
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42040-segundo-concurso-mundial-de-palindromos-epicos",
@@ -1126,7 +1250,8 @@
       "deadline": "2026-10-15",
       "category": "Palíndromos",
       "prize": "Pergamino, edición y libro impreso",
-      "conditions": "sin restricciones"
+      "conditions": "sin restricciones",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42088-xxii-certamen-de-poesia-paco-molla",
@@ -1135,7 +1260,8 @@
       "deadline": "2026-10-15",
       "category": "Poesía",
       "prize": "3.000 euros",
-      "conditions": "mayores 18 años"
+      "conditions": "mayores 18 años",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41979-xi-concurso-de-relatos-cortos-asociacion-de-hipoacusicos-de-huesca",
@@ -1144,7 +1270,8 @@
       "deadline": "2026-10-15",
       "category": "Relato corto",
       "prize": "1.000 euros",
-      "conditions": "Modalidad A: dirigido a personas con discapacidad auditiva. Modalidad B: residentes en España mayores de 18 años"
+      "conditions": "Modalidad A: dirigido a personas con discapacidad auditiva. Modalidad B: residentes en España mayores de 18 años",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41946-noveno-certamen-de-textos-para-microteatro-fernando-lucianez",
@@ -1153,7 +1280,8 @@
       "deadline": "2026-10-15",
       "category": "Microteatro",
       "prize": "Estreno de la obra, durante el año 2027. El estreno devengará los derechos de autor previstos para estos casos por la SGAE, que serán a cargo de la Asociación Cultural TROTEA. Estatuilla artística con mención del premio. DVD de la representación completa de la obra y texto impreso de la misma",
-      "conditions": "sin restricciones"
+      "conditions": "sin restricciones",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41789-i-certamen-de-relatos-fantarquia",
@@ -1162,7 +1290,8 @@
       "deadline": "2026-10-15",
       "category": "Relato",
       "prize": "500€, la radioficción del relato en el podcast La Torre del Cuervo, la publicación del relato en Windumanoth, trofeo conmemorativo tallado por Cousas de Madeira",
-      "conditions": "mayores de edad"
+      "conditions": "mayores de edad",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41301-concursos-notas-migratorias-cesar-vallejo-y-macondos-del-siglo-xxi",
@@ -1171,7 +1300,8 @@
       "deadline": "2026-10-15",
       "category": "Relato, poesía, reportaje y ensayo",
       "prize": "Distinciones Honoríficas de carácter internacional, entregadas en Acto Protocolar con Toga y Birrete, en los claustros históricos del milenario Perú",
-      "conditions": "sin restricciones"
+      "conditions": "sin restricciones",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41569-premios-albacara-2026-46-premio-de-poesia-y-narrativa-para-juvenil-escuela-de-mandarines",
@@ -1180,7 +1310,8 @@
       "deadline": "2026-10-15",
       "category": "Poesía y Narrativa",
       "prize": "700 euros y diploma",
-      "conditions": "jóvenes del territorio español que tengan desde 14 hasta 18 años de edad"
+      "conditions": "jóvenes del territorio español que tengan desde 14 hasta 18 años de edad",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42034-i-certamen-internacional-de-relato-breve-de-torredonjimeno-maria-de-carvajal",
@@ -1189,7 +1320,8 @@
       "deadline": "2026-10-15",
       "category": "Relato",
       "prize": "1.000 euros y trofeo",
-      "conditions": "mayores de edad"
+      "conditions": "mayores de edad",
+      "acceptsEmail": false
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41945-x-premi-literari-badiu-de-les-lletres",
@@ -1198,7 +1330,8 @@
       "deadline": "2026-10-15",
       "category": "Poesía y Narrativa",
       "prize": "reproducción de uno de los elementos característicos de la cultura badalonesa, diploma y el libro con los trabajos seleccionados",
-      "conditions": "mayores 18 años"
+      "conditions": "mayores 18 años",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42098-premio-de-literatura-en-espanol-ernest-m-hemingway-2026-27",
@@ -1207,7 +1340,8 @@
       "deadline": "2026-10-15",
       "category": "Trayectoria",
       "prize": "Diploma y trofeo",
-      "conditions": "escritores propuestos por una institución, organización, academia, e intelectuales independientes"
+      "conditions": "escritores propuestos por una institución, organización, academia, e intelectuales independientes",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42144-vi-certamen-literario-la-buena-letra",
@@ -1216,7 +1350,8 @@
       "deadline": "2026-10-15",
       "category": "Cuento y Poesía",
       "prize": "150 euros y diploma",
-      "conditions": "mayores 18 años residentes en España"
+      "conditions": "mayores 18 años residentes en España",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41957-iii-premio-novela-grafica",
@@ -1225,7 +1360,8 @@
       "deadline": "2026-10-15",
       "category": "Novela Gráfica",
       "prize": "4.500 euros",
-      "conditions": "mayores 18 años"
+      "conditions": "mayores 18 años",
+      "acceptsEmail": false
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42130-xlv-premio-destino-infantil-apel-les-mestres",
@@ -1234,7 +1370,8 @@
       "deadline": "2026-10-15",
       "category": "Álbum ilustrado",
       "prize": "4.500 euros",
-      "conditions": "mayores de edad"
+      "conditions": "mayores de edad",
+      "acceptsEmail": false
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42031-i-premio-narrativa-elena-santiago-2026",
@@ -1243,7 +1380,8 @@
       "deadline": "2026-10-16",
       "category": "Narrativa",
       "prize": "2.000 euros y publicación",
-      "conditions": "oriundos de la provincia de León o residentes en la misma"
+      "conditions": "oriundos de la provincia de León o residentes en la misma",
+      "acceptsEmail": false
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42075-xxviii-certamen-literario-ciudad-de-tijola",
@@ -1252,7 +1390,8 @@
       "deadline": "2026-10-16",
       "category": "Novela corta",
       "prize": "1.000 euros, publicación, diploma",
-      "conditions": "residentes en España"
+      "conditions": "residentes en España",
+      "acceptsEmail": false
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42104-xxviii-certamen-de-relato-corto-tito-simon",
@@ -1261,7 +1400,8 @@
       "deadline": "2026-10-17",
       "category": "Relato corto",
       "prize": "500 euros y diploma",
-      "conditions": "sin restricciones"
+      "conditions": "sin restricciones",
+      "acceptsEmail": false
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42118-xx-premio-paco-rabal-de-periodismo-cultural",
@@ -1270,7 +1410,8 @@
       "deadline": "2026-10-18",
       "category": "Periodismo",
       "prize": "5.000 euros",
-      "conditions": "artículos aparecidos en medios escritos, en soporte físico o digital"
+      "conditions": "artículos aparecidos en medios escritos, en soporte físico o digital",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42135-primer-certamen-de-poesia-del-castellano-y-leones-de-catalunya-v2-0",
@@ -1279,7 +1420,8 @@
       "deadline": "",
       "category": "",
       "prize": "",
-      "conditions": ""
+      "conditions": "",
+      "acceptsEmail": false
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42091-xxiii-concurso-de-narrativa-femenina-princesa-galiana",
@@ -1288,7 +1430,8 @@
       "deadline": "",
       "category": "",
       "prize": "",
-      "conditions": ""
+      "conditions": "",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42141-concurso-literario-muy-cuentos-de-miedo-no-apagues-la-luz",
@@ -1297,7 +1440,8 @@
       "deadline": "2026-10-20",
       "category": "Cuento",
       "prize": "Un mes de promoción activa del autor y su obra",
-      "conditions": "sin restricciones"
+      "conditions": "sin restricciones",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42085-xxxviii-certamen-literario-alberto-magno-de-ciencia-ficcion",
@@ -1306,7 +1450,8 @@
       "deadline": "2026-10-23",
       "category": "Relato",
       "prize": "2.000 euros",
-      "conditions": "relatos originales e inéditos pertenecientes al género de la Ciencia Ficción y fantasía"
+      "conditions": "relatos originales e inéditos pertenecientes al género de la Ciencia Ficción y fantasía",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42119-xxii-libro-y-premio-internacional-de-cuentos-escritos-por-personas-con-discapacidad",
@@ -1315,7 +1460,8 @@
       "deadline": "2026-10-27",
       "category": "Cuento",
       "prize": "300 euros y diploma",
-      "conditions": "sin restricciones"
+      "conditions": "sin restricciones",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41884-7-edicion-pallars-sobira-pirineos",
@@ -1324,7 +1470,8 @@
       "deadline": "",
       "category": "",
       "prize": "",
-      "conditions": ""
+      "conditions": "",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42057-becas-2026-2027-del-ayuntamiento-de-madrid-para-estudiantes-de-postgrado-y-creadores-y-artistas-en-la-residencia-de-estudiantes",
@@ -1333,7 +1480,8 @@
       "deadline": "",
       "category": "",
       "prize": "",
-      "conditions": ""
+      "conditions": "",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41958-premio-aristas-de-novela-grafica-2026",
@@ -1342,7 +1490,8 @@
       "deadline": "2026-10-30",
       "category": "Novela Gráfica",
       "prize": "2.500€ y edición",
-      "conditions": "mayores 18 años"
+      "conditions": "mayores 18 años",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42134-convocatoria-abierta-libro-anuario-pedagogico-de-las-trabajadoras-y-trabajadores-de-la-educacion",
@@ -1351,7 +1500,8 @@
       "deadline": "2026-10-30",
       "category": "Pedagogía",
       "prize": "Publiación",
-      "conditions": "maestras, profesores, directivos y educadores de todos los niveles del sistema de escuelas públicas de la Ciudad Autónoma de Buenos Aires (CABA"
+      "conditions": "maestras, profesores, directivos y educadores de todos los niveles del sistema de escuelas públicas de la Ciudad Autónoma de Buenos Aires (CABA",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42112-xxxv-edicion-premios-otono-villa-de-chiva",
@@ -1360,7 +1510,8 @@
       "deadline": "2026-10-30",
       "category": "Novelas, conjuntos de relatos, narrativa breve, poesía y escritura teatral",
       "prize": "1.800 euros, 10 ejemplares de la edición impresa",
-      "conditions": "mayores 18 años"
+      "conditions": "mayores 18 años",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41968-ix-concurso-literario-de-relato-breve-para-mayores",
@@ -1369,7 +1520,8 @@
       "deadline": "2026-10-30",
       "category": "Relato breve",
       "prize": "225 euros",
-      "conditions": "mayores de 60 años residentes en España"
+      "conditions": "mayores de 60 años residentes en España",
+      "acceptsEmail": false
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42137-lxx-juegos-florales-guadalupanos-sahuayenses",
@@ -1378,7 +1530,8 @@
       "deadline": "2026-10-30",
       "category": "Poesía",
       "prize": "$70,000.00 pesos mexicanos y la entrega de la presea Poeta Alberto Barragán Degollado",
-      "conditions": "Mayores de 18 años (excepto poetas residentes en la ciudad de Sahuayo"
+      "conditions": "Mayores de 18 años (excepto poetas residentes en la ciudad de Sahuayo",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41801-iv-concurso-de-relatos-breves-la-tusa-de-mingorria",
@@ -1387,7 +1540,8 @@
       "deadline": "2026-10-31",
       "category": "Relato breve",
       "prize": "200 euros y diploma",
-      "conditions": "mayores 18 años"
+      "conditions": "mayores 18 años",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41941-xxvi-premio-internacional-de-relato-corto-encarna-leon",
@@ -1396,7 +1550,8 @@
       "deadline": "2026-10-31",
       "category": "Relato corto",
       "prize": "6.000 euros",
-      "conditions": "sin restricciones"
+      "conditions": "sin restricciones",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41384-ii-premio-ciencias-historicas-fundacion-monteleon",
@@ -1405,7 +1560,8 @@
       "deadline": "2026-10-31",
       "category": "Historia",
       "prize": "8.000 euros, publicación y 10 ejemplares para el autor",
-      "conditions": "obras de investigación inéditas y originales"
+      "conditions": "obras de investigación inéditas y originales",
+      "acceptsEmail": false
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41719-xxviii-certamen-de-teatro-minimo-rafael-guerrero",
@@ -1414,7 +1570,8 @@
       "deadline": "2026-10-31",
       "category": "Teatro",
       "prize": "Publicación de las obras y representación",
-      "conditions": "sin restricciones"
+      "conditions": "sin restricciones",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41851-ix-premio-de-poesia-joven-tino-barriuso",
@@ -1423,7 +1580,8 @@
       "deadline": "2026-10-31",
       "category": "Poesía",
       "prize": "2.500 €, 30 ejemplares del libro impreso y un trofeo conmemorativo",
-      "conditions": "autores nacidos a partir del 26 de mayo de 2001"
+      "conditions": "autores nacidos a partir del 26 de mayo de 2001",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41964-xxiii-edicion-concurso-de-microrrelatos-mineros-manuel-nevado-madrid",
@@ -1432,7 +1590,8 @@
       "deadline": "2026-10-31",
       "category": "Microrrelato",
       "prize": "600 euros, grabado, lote de libros",
-      "conditions": "sin restricciones"
+      "conditions": "sin restricciones",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41976-viii-certamen-de-poesia-a-la-virgen-de-los-dolores-de-las-salinas",
@@ -1441,7 +1600,8 @@
       "deadline": "2026-10-31",
       "category": "Poesía",
       "prize": "Trofeo y set de escritura",
-      "conditions": "mayores 18 años"
+      "conditions": "mayores 18 años",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42080-iii-concurso-de-microrrelato-asociacion-almansa-feminista-2026",
@@ -1450,7 +1610,8 @@
       "deadline": "2026-10-31",
       "category": "Microrrelato",
       "prize": "300 euros",
-      "conditions": "mayores 16 años"
+      "conditions": "mayores 16 años",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42084-ii-certamen-literario-la-cruz-escribe",
@@ -1459,7 +1620,8 @@
       "deadline": "2026-10-31",
       "category": "Relato y Poesía",
       "prize": "recuerdo conmemorativo y publicación",
-      "conditions": "sin restricciones"
+      "conditions": "sin restricciones",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42129-v-premio-de-comic-y-novela-grafica",
@@ -1468,7 +1630,8 @@
       "deadline": "2026-10-31",
       "category": "Cómic y Novela Gráfica",
       "prize": "1.200 euros",
-      "conditions": "mayores de edad"
+      "conditions": "mayores de edad",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42136-convocatoria-al-premio-de-poesia-raul-ferrer",
@@ -1477,7 +1640,8 @@
       "deadline": "2026-10-31",
       "category": "Poesía",
       "prize": "10.000 pesos y publicación",
-      "conditions": "autores cubanos"
+      "conditions": "autores cubanos",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42065-xlvi-certamen-poetico-nacional-exaltacion-al-olivo",
@@ -1486,7 +1650,8 @@
       "deadline": "2026-10-31",
       "category": "Poesía",
       "prize": "600 euros y trofeo alegórico",
-      "conditions": "sin restricciones"
+      "conditions": "sin restricciones",
+      "acceptsEmail": false
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42140-xiii-edicion-microrrelatos-escribir-por-derechos",
@@ -1495,7 +1660,8 @@
       "deadline": "2026-10-31",
       "category": "Microrrelato",
       "prize": "reproducción de obra gráfica que artistas de reconocido prestigio han donado a Amnistía Internacional y un trofeo representativo del concurso",
-      "conditions": "mayores 16 años"
+      "conditions": "mayores 16 años",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42148-iii-concurso-de-microrrelatos-mancomunidad-del-bajo-andarax-2026-el-poder-de-la-palabra-contra-la-violencia-hacia-las-mujeres",
@@ -1504,7 +1670,8 @@
       "deadline": "2026-10-31",
       "category": "Microrrelato",
       "prize": "300 euros y diploma",
-      "conditions": "personas nacidas o con residencia legal en la Comunidad Autónoma de Andalucía"
+      "conditions": "personas nacidas o con residencia legal en la Comunidad Autónoma de Andalucía",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41920-vi-edicion-certamen-literario-angeles-alvarez-arazola",
@@ -1513,7 +1680,8 @@
       "deadline": "2026-11-01",
       "category": "Microrrelato",
       "prize": "Obra artística",
-      "conditions": "mayores de edad"
+      "conditions": "mayores de edad",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42046-vi-concurso-de-relatos-de-astronomia-aster",
@@ -1522,7 +1690,8 @@
       "deadline": "2026-11-01",
       "category": "Relato",
       "prize": "Una \"Cena con estrellas\" para dos personas en el Observatorio Fabra",
-      "conditions": "sin restricciones"
+      "conditions": "sin restricciones",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41996-vii-premio-de-no-ficcion-libros-del-asteroide",
@@ -1531,7 +1700,8 @@
       "deadline": "2026-11-01",
       "category": "proyecto de libro de no ficción literaria, sin restricción de género; se valorarán propuestas de ensayo, memorias, biografía o reportaje",
       "prize": "10.000 euros y publicación",
-      "conditions": "sin restricciones"
+      "conditions": "sin restricciones",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41961-iii-certamen-nacional-de-poesia-manuel-campazas",
@@ -1540,7 +1710,8 @@
       "deadline": "2026-11-01",
       "category": "Poesía",
       "prize": "Trofeo, diploma, publicación en e-Book",
-      "conditions": "mayores 18 años, nacidos o residentes en España"
+      "conditions": "mayores 18 años, nacidos o residentes en España",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41893-xvi-certamen-terbi-de-relato-tematico-humor-cosmico",
@@ -1549,7 +1720,8 @@
       "deadline": "2026-11-01",
       "category": "Relato",
       "prize": "Trofeo conmemorativo",
-      "conditions": "mayores de edad"
+      "conditions": "mayores de edad",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42142-iii-premio-de-novela-corta-angeles-martin",
@@ -1558,7 +1730,8 @@
       "deadline": "2026-11-01",
       "category": "Novela",
       "prize": "1.000 euros y edición",
-      "conditions": "escritoras, mayores de edad, que residan en España"
+      "conditions": "escritoras, mayores de edad, que residan en España",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41917-segundo-premio-de-poesia-el-laberinto-de-ariadna-2027",
@@ -1567,7 +1740,8 @@
       "deadline": "2026-11-01",
       "category": "Poesía",
       "prize": "Publicación y obra artística",
-      "conditions": "mayores 18 años residentes en España"
+      "conditions": "mayores 18 años residentes en España",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41667-xxiii-premio-nacional-de-poesia-joven-grande-aguirre",
@@ -1576,7 +1750,8 @@
       "deadline": "2026-11-02",
       "category": "Poesía",
       "prize": "5.000 euros",
-      "conditions": "residentes en España con una edad que no supere los 30 años"
+      "conditions": "residentes en España con una edad que no supere los 30 años",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42045-premio-alfaguara-de-novela-2027",
@@ -1585,7 +1760,8 @@
       "deadline": "",
       "category": "",
       "prize": "",
-      "conditions": ""
+      "conditions": "",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42131-convocatoria-tierra-adentro-de-novela-inedita-2026",
@@ -1594,7 +1770,8 @@
       "deadline": "2026-11-07",
       "category": "Novela",
       "prize": "Publicación",
-      "conditions": "autores/as de nacionalidad española, nacionalizados o con residencia legal en España, que tengan su domicilio en territorio español, de entre 18 y 35 años de edad a la fecha de presentación de los manuscritos"
+      "conditions": "autores/as de nacionalidad española, nacionalizados o con residencia legal en España, que tengan su domicilio en territorio español, de entre 18 y 35 años de edad a la fecha de presentación de los manuscritos",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42132-xiv-premio-intergeneracional-de-ensayo-y-relato-breves-tema-valores-para-unir",
@@ -1603,7 +1780,8 @@
       "deadline": "2026-11-08",
       "category": "Ensayo y Relato breve",
       "prize": "Escultura",
-      "conditions": "sin restricciones"
+      "conditions": "sin restricciones",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42139-iv-concurso-de-relato-juan-maria-molina-jimenez-convocatoria-para-ceuta",
@@ -1612,7 +1790,8 @@
       "deadline": "2026-11-08",
       "category": "Relato",
       "prize": "800 euros",
-      "conditions": "mayores de edad, nacidos o residentes en Ceuta"
+      "conditions": "mayores de edad, nacidos o residentes en Ceuta",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41959-xx-premio-internacional-de-novela-grafica-fnac-salamandra-graphic",
@@ -1621,7 +1800,8 @@
       "deadline": "2026-11-13",
       "category": "Novela Gráfica",
       "prize": "25.000 euros, publicación",
-      "conditions": "sin restricciones"
+      "conditions": "sin restricciones",
+      "acceptsEmail": false
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41889-i-premio-espasa-calpe-de-novela-juvenil-2027",
@@ -1630,7 +1810,8 @@
       "deadline": "2026-11-15",
       "category": "Novela juvenil",
       "prize": "60.000 euros",
-      "conditions": "escritores de cualquier nacionalidad, desde 14 hasta 39 años de edad"
+      "conditions": "escritores de cualquier nacionalidad, desde 14 hasta 39 años de edad",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42020-ii-edicion-premio-literario-vidas-que-inspiran",
@@ -1639,7 +1820,8 @@
       "deadline": "2026-11-15",
       "category": "Novela",
       "prize": "3.000 euros y publicación",
-      "conditions": "mayores de edad residentes en España"
+      "conditions": "mayores de edad residentes en España",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42103-beca-de-residencia-2027-del-centro-de-creadores-contemporaneos-de-cuenca-4c",
@@ -1648,7 +1830,8 @@
       "deadline": "",
       "category": "",
       "prize": "",
-      "conditions": ""
+      "conditions": "",
+      "acceptsEmail": false
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42008-premio-de-ensayo-humanistico-humanidad-global-y-sistemas-inteligentes-nuevos-retos",
@@ -1657,7 +1840,8 @@
       "deadline": "2026-11-15",
       "category": "Ensayo",
       "prize": "200.000 euros",
-      "conditions": "sin restricciones"
+      "conditions": "sin restricciones",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42010-xxxi-premio-primavera-de-novela-2027",
@@ -1666,7 +1850,8 @@
       "deadline": "2026-11-15",
       "category": "Novela",
       "prize": "100.000 euros, publicación",
-      "conditions": "mayores de edad"
+      "conditions": "mayores de edad",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42111-concurso-internacional-tu-historia-en-pantalla",
@@ -1675,7 +1860,8 @@
       "deadline": "2026-11-15",
       "category": "Relato",
       "prize": "Adaptación y producción como cortometraje del relato ganador",
-      "conditions": "mayores 18 años"
+      "conditions": "mayores 18 años",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41820-iii-certamen-literario-de-relato-y-poesia-la-tribu-educa",
@@ -1684,7 +1870,8 @@
       "deadline": "",
       "category": "",
       "prize": "",
-      "conditions": ""
+      "conditions": "",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42143-xiii-concurso-de-micropoemas-jose-garcia-nieto-2026",
@@ -1693,7 +1880,8 @@
       "deadline": "2026-11-22",
       "category": "Micropoemas",
       "prize": "tableta electrónica y diploma acreditativo. Publicación en las plataformas digitales de las entidades colaboradoras",
-      "conditions": "mayores de edad"
+      "conditions": "mayores de edad",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41962-iv-concurso-maga-de-relatos-cortos-e-ilustraciones-diversidad-funcional",
@@ -1702,7 +1890,8 @@
       "deadline": "2026-11-26",
       "category": "Relato corto, Ilustración",
       "prize": "15 ejemplares de la Antología de Relatos Cortos e Ilustraciones 2026",
-      "conditions": "mayores de 18 años, que residan en territorio español y españoles residentes en el extranjero con Diversidad Funcional"
+      "conditions": "mayores de 18 años, que residan en territorio español y españoles residentes en el extranjero con Diversidad Funcional",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41625-vii-certamen-de-microrrelatos-de-voluntariado-en-cuidados-paliativos",
@@ -1711,7 +1900,8 @@
       "deadline": "2026-11-30",
       "category": "Microrrelato",
       "prize": "lote de libros por valor de 100 euros",
-      "conditions": "mayores 18 años"
+      "conditions": "mayores 18 años",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41915-ii-premio-literario-jorge-magico-gonzalez",
@@ -1720,7 +1910,8 @@
       "deadline": "2026-11-30",
       "category": "Poesía",
       "prize": "Edición y 50 ejemplares para el autor",
-      "conditions": "mayores de edad"
+      "conditions": "mayores de edad",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42127-premio-azorin-de-novela-2027",
@@ -1729,7 +1920,8 @@
       "deadline": "2026-11-30",
       "category": "Novela",
       "prize": "45.000 euros y publicación",
-      "conditions": "mayores de edad"
+      "conditions": "mayores de edad",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42121-xxxiii-premio-internacional-de-periodismo-gastronomico-alvaro-cunqueiro",
@@ -1738,7 +1930,8 @@
       "deadline": "2026-11-30",
       "category": "Periodismo",
       "prize": "4.000 euros",
-      "conditions": "Trabajo periodístico o academico"
+      "conditions": "Trabajo periodístico o academico",
+      "acceptsEmail": false
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41987-xxxiv-certamen-de-novela-corta-jose-luis-castillo-puche",
@@ -1747,7 +1940,8 @@
       "deadline": "2026-11-30",
       "category": "Novela",
       "prize": "3.000 euros",
-      "conditions": "sin restricciones"
+      "conditions": "sin restricciones",
+      "acceptsEmail": false
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42014-51-premio-el-ciervo-enrique-ferran-de-articulos-periodisticos",
@@ -1756,7 +1950,8 @@
       "deadline": "2026-11-30",
       "category": "Artículo",
       "prize": "500 euros y publicación",
-      "conditions": "sin restricciones"
+      "conditions": "sin restricciones",
+      "acceptsEmail": false
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42015-7-premio-de-poesia-lorenzo-gomis",
@@ -1765,7 +1960,8 @@
       "deadline": "2026-11-30",
       "category": "Poesía",
       "prize": "500 euros y publicación",
-      "conditions": "sin restricciones"
+      "conditions": "sin restricciones",
+      "acceptsEmail": false
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42066-certamenes-2026-del-ateneo-literario-de-artes-y-de-ciencias-de-puerto-real-v-concurso-de-sonetos-hernan-de-usero-vii-premio-de-poesia-rosa-butler-x-edicion-del-premio-de-novela-isaac-asimov-2026",
@@ -1774,7 +1970,8 @@
       "deadline": "2026-11-30",
       "category": "Poesía y Novela",
       "prize": "Placa acreditativa, diploma, publicación",
-      "conditions": "mayores de edad"
+      "conditions": "mayores de edad",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41960-i-premio-nacional-de-thriller-documental",
@@ -1783,7 +1980,8 @@
       "deadline": "2026-12-01",
       "category": "Thriller Documental",
       "prize": "Publicación. 350 euros en concepto de adelanto de regalías. Trofeo acreditativo",
-      "conditions": "mayores de edad con residencia en España"
+      "conditions": "mayores de edad con residencia en España",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42068-la-letra-con-orgullo-entra-microrrelatos-en-red",
@@ -1792,7 +1990,8 @@
       "deadline": "2026-12-01",
       "category": "Microrrelato",
       "prize": "300 euros. Impresión",
-      "conditions": "sin restricciones"
+      "conditions": "sin restricciones",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41991-iii-premio-internacional-de-poesia-gonzalo-de-berceo",
@@ -1801,7 +2000,8 @@
       "deadline": "2026-12-04",
       "category": "Poesía",
       "prize": "6.000 euros, publicación, 25 ejemplares para el autor",
-      "conditions": "sin restricciones"
+      "conditions": "sin restricciones",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42055-primer-concurso-ensayo-gran-mariscal-de-ayacucho",
@@ -1810,7 +2010,8 @@
       "deadline": "2026-12-09",
       "category": "Ensayo",
       "prize": "500 euros",
-      "conditions": "Estudiantes de educación media y universitaria residentes en el municipio Ayacucho del Estado Táchira. VENEZUELA"
+      "conditions": "Estudiantes de educación media y universitaria residentes en el municipio Ayacucho del Estado Táchira. VENEZUELA",
+      "acceptsEmail": false
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41852-v-concurso-de-relato-breve-sant-boi-negre",
@@ -1819,7 +2020,8 @@
       "deadline": "2026-12-10",
       "category": "Relato breve",
       "prize": "300 euros, lote de libros, diploma",
-      "conditions": "mayores 18 años"
+      "conditions": "mayores 18 años",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42002-v-certamen-de-relato-y-cuento-literaria-kalean",
@@ -1828,7 +2030,8 @@
       "deadline": "2026-12-15",
       "category": "Cuento, Relato",
       "prize": "Viaje en globo y publicación",
-      "conditions": "mayores de 18 años, residentes en la Península Ibérica"
+      "conditions": "mayores de 18 años, residentes en la Península Ibérica",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42145-xi-certamen-de-poesia-social-ciudad-de-algeciras-julia-guerra",
@@ -1837,7 +2040,8 @@
       "deadline": "2026-12-15",
       "category": "Poesía",
       "prize": "300 euros y diploma",
-      "conditions": "mayores de 18 años, residentes en España"
+      "conditions": "mayores de 18 años, residentes en España",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42032-viii-concurso-de-relatos-cortos-la-ilustre-fregona-de-zahara-de-los-atunes",
@@ -1846,7 +2050,8 @@
       "deadline": "2026-12-15",
       "category": "Relato corto",
       "prize": "300 euros y placa",
-      "conditions": "sin restricciones"
+      "conditions": "sin restricciones",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42033-xiii-concurso-internacional-de-poesia-de-zahara-de-los-atunes-2026",
@@ -1855,7 +2060,8 @@
       "deadline": "2026-12-15",
       "category": "Poesía",
       "prize": "300 euros y placa",
-      "conditions": "mayores 16 años"
+      "conditions": "mayores 16 años",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41869-vii-premio-de-investigacion-historica",
@@ -1864,7 +2070,8 @@
       "deadline": "2026-12-30",
       "category": "Investigación",
       "prize": "1.500 euros y publicación",
-      "conditions": "sin restricciones"
+      "conditions": "sin restricciones",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42147-xi-certamen-de-relatos-de-la-fundacion-pintor-julio-visconti",
@@ -1873,7 +2080,8 @@
       "deadline": "2026-12-30",
       "category": "Relato",
       "prize": "900 euros y diploma",
-      "conditions": "sin restricciones"
+      "conditions": "sin restricciones",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42059-vii-premio-internacional-de-poesia-joven-jose-antonio-santono",
@@ -1882,7 +2090,8 @@
       "deadline": "2026-12-31",
       "category": "Poesía",
       "prize": "escultura, la edición de la obra, de la cual uno de los poemas será traducido a varios idiomas, y 100 ejemplares",
-      "conditions": "poetas que tengan como máximo 35 años de edad al cierre de la entrega de originales"
+      "conditions": "poetas que tengan como máximo 35 años de edad al cierre de la entrega de originales",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42064-certamen-internacional-de-literatura-de-humor-la-flor-del-cactus-2027",
@@ -1891,7 +2100,8 @@
       "deadline": "2026-12-31",
       "category": "Narrativa y Poesía",
       "prize": "3.000 euros",
-      "conditions": "mayores 18 años"
+      "conditions": "mayores 18 años",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41712-xxxiii-premio-internacional-de-ensayo-jovellanos",
@@ -1900,7 +2110,8 @@
       "deadline": "2027-01-08",
       "category": "Ensayo",
       "prize": "9.000 euros, diploma, publicación",
-      "conditions": "sin restricciones"
+      "conditions": "sin restricciones",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41713-xiv-premio-internacional-de-poesia-jovellanos-el-mejor-poema-del-mundo",
@@ -1909,7 +2120,8 @@
       "deadline": "2027-01-08",
       "category": "Poesía",
       "prize": "2.000 euros, diploma, publicación",
-      "conditions": "sin restricciones"
+      "conditions": "sin restricciones",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42102-viii-premio-de-poesia-visual-paqui-jimenez-yepes",
@@ -1918,7 +2130,8 @@
       "deadline": "2027-01-31",
       "category": "Poesía",
       "prize": "Trofeo y diploma",
-      "conditions": "sin restricciones"
+      "conditions": "sin restricciones",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42021-xviii-concurso-de-ciencia-ficcion-y-fantasia-oscar-hurtado-2027",
@@ -1927,7 +2140,8 @@
       "deadline": "2027-02-14",
       "category": "Cuento, Poesía",
       "prize": "2000 CUP y diploma por categoría",
-      "conditions": "escritores de cualquier nacionalidad residentes en la isla de Cuba y cubanos en el exterior"
+      "conditions": "escritores de cualquier nacionalidad residentes en la isla de Cuba y cubanos en el exterior",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42061-vii-concurso-de-novela-villa-de-los-barrios",
@@ -1936,7 +2150,8 @@
       "deadline": "2027-02-15",
       "category": "Novela",
       "prize": "edición de 100 ejemplares, que se entregarán a su autor",
-      "conditions": "personas de 16 años en adelante residentes en la comarca del Campo de Gibraltar"
+      "conditions": "personas de 16 años en adelante residentes en la comarca del Campo de Gibraltar",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42110-concurso-internacional-de-relatos-cortos-prix-hemingway",
@@ -1945,7 +2160,8 @@
       "deadline": "",
       "category": "",
       "prize": "",
-      "conditions": ""
+      "conditions": "",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41848-iv-premio-de-album-ilustrado-de-fantasia-y-ciencia-ficcion-elia-barcelo",
@@ -1954,7 +2170,8 @@
       "deadline": "2027-02-26",
       "category": "Álbum Ilustrado",
       "prize": "3.200 euros",
-      "conditions": "mayores de edad"
+      "conditions": "mayores de edad",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41992-2n-certamen-anual-de-micro-teatre-vila-de-verdu-2027",
@@ -1963,7 +2180,8 @@
       "deadline": "2027-02-28",
       "category": "Teatro",
       "prize": "300 euros",
-      "conditions": "sin restricciones"
+      "conditions": "sin restricciones",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42063-xiii-certamen-internacional-de-microrrelatos-javier-tomeo-de-tematica-social-2026-2027-alcaniz",
@@ -1972,7 +2190,8 @@
       "deadline": "2027-02-28",
       "category": "Microrrelato",
       "prize": "200 Euros y diploma acreditativo",
-      "conditions": "microrrelatos con contenido social"
+      "conditions": "microrrelatos con contenido social",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42100-certamen-literario-cbjse-sobre-el-centenario-de-la-botadura-del-buque-escuela-juan-sebastian-elcano",
@@ -1981,7 +2200,8 @@
       "deadline": "2027-03-05",
       "category": "Relato corto y Microrrelato con temática Centenario del Juan Sebastián de Elcano",
       "prize": "500 euros, trofeo y diploma",
-      "conditions": "Personas de cualquier nacionalidad mayores de 18 años que residan en España o que dispongan de dirección en España a la que enviarles el premio"
+      "conditions": "Personas de cualquier nacionalidad mayores de 18 años que residan en España o que dispongan de dirección en España a la que enviarles el premio",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42138-lvi-edicion-de-los-juegos-florales-a-la-santisima-vera-cruz",
@@ -1990,7 +2210,8 @@
       "deadline": "2027-04-16",
       "category": "Poesía",
       "prize": "1.500 euros y flor natural",
-      "conditions": "sin restricciones"
+      "conditions": "sin restricciones",
+      "acceptsEmail": false
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/premios-literarios-resultados",
@@ -1999,7 +2220,8 @@
       "deadline": "",
       "category": "",
       "prize": "",
-      "conditions": ""
+      "conditions": "",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/-concursos-informacion-de-utilidad",
@@ -2008,7 +2230,8 @@
       "deadline": "",
       "category": "",
       "prize": "",
-      "conditions": ""
+      "conditions": "",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/concursos-literario/915",
@@ -2017,7 +2240,8 @@
       "deadline": "",
       "category": "",
       "prize": "",
-      "conditions": ""
+      "conditions": "",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/concursos-literario",
@@ -2026,7 +2250,8 @@
       "deadline": "",
       "category": "",
       "prize": "",
-      "conditions": ""
+      "conditions": "",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/concursos-literario/7737-apps-concursos-literarios",
@@ -2035,7 +2260,8 @@
       "deadline": "",
       "category": "",
       "prize": "",
-      "conditions": ""
+      "conditions": "",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/915-inscribete-en-escritores",
@@ -2044,7 +2270,8 @@
       "deadline": "",
       "category": "",
       "prize": "",
-      "conditions": ""
+      "conditions": "",
+      "acceptsEmail": true
     }
   ]
 }
