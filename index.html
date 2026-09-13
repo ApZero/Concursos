@@ -622,12 +622,35 @@ function fillMissingUrls(parsed){
   return filled;
 }
 
+// Busca si un concurso ya guardado corresponde al mismo que se acaba de leer
+// del listado, aunque tenga un id distinto. Primero por enlace exacto; si a
+// alguno de los dos le falta el enlace (por ejemplo, uno guardado antes de
+// que existiera el autocompletado de enlaces), cae a comparar por título
+// normalizado, que es como quedaban identificados antes de tener URL.
+function findExistingMatch(item){
+  const values = Object.values(DATA);
+  if(item.url){
+    const byUrl = values.find(c => c.url && c.url === item.url);
+    if(byUrl) return byUrl;
+  }
+  const normTitle = normalizeTitle(item.title);
+  if(!normTitle) return null;
+  return values.find(c => (!c.url || !item.url) && normalizeTitle(c.title) === normTitle) || null;
+}
+
 function mergeParsedIntoData(parsed){
   let added = 0;
   for(const item of parsed){
+    const existing = findExistingMatch(item);
+    if(existing){
+      // Ya existe: no se sobreescriben ediciones del usuario, pero si le
+      // faltaba el enlace, aprovechamos para completárselo aquí mismo.
+      if(!existing.url && item.url) existing.url = item.url;
+      continue;
+    }
     const key = item.url || (item.title + '|' + item.deadline);
     const id = uid(key);
-    if(DATA[id]) continue; // ya existe: no se sobreescriben ediciones del usuario
+    if(DATA[id]) continue;
     DATA[id] = {
       id, url:item.url, title:item.title, country:item.country,
       deadline:item.deadline, category:item.category, prize:item.prize,
@@ -638,6 +661,47 @@ function mergeParsedIntoData(parsed){
     added++;
   }
   return added;
+}
+
+const STATUS_RANK = { nuevo:0, descartado:0, participando:2, finalizado:3 };
+const MERGE_FIELDS = ['url','category','prize','conditions','length','theme','notes','country','deadline'];
+
+// Agrupa los concursos guardados por enlace (o por título normalizado, para
+// los que aún no tienen enlace) y fusiona los que resulten ser el mismo
+// concurso duplicado por error. Se queda con el que tenga el estado más
+// avanzado (participando/terminado antes que nuevo/descartado) y, entre
+// iguales, con el que tenga más campos completos; copia al que se queda
+// cualquier dato que le faltara y que el duplicado sí tenía, antes de
+// borrar el duplicado.
+function dedupeExistingData(){
+  const groups = new Map();
+  for(const c of Object.values(DATA)){
+    const key = c.url ? ('u:' + c.url) : ('t:' + normalizeTitle(c.title));
+    if(!key || key === 'u:' || key === 't:') continue;
+    if(!groups.has(key)) groups.set(key, []);
+    groups.get(key).push(c);
+  }
+  let removed = 0;
+  for(const group of groups.values()){
+    if(group.length < 2) continue;
+    group.sort((a, b) => {
+      const r = (STATUS_RANK[b.status] ?? 0) - (STATUS_RANK[a.status] ?? 0);
+      if(r !== 0) return r;
+      const fillsA = MERGE_FIELDS.filter(k => a[k]).length;
+      const fillsB = MERGE_FIELDS.filter(k => b[k]).length;
+      return fillsB - fillsA;
+    });
+    const keeper = group[0];
+    for(let i=1; i<group.length; i++){
+      const dup = group[i];
+      for(const k of MERGE_FIELDS){
+        if(!keeper[k] && dup[k]) keeper[k] = dup[k];
+      }
+      delete DATA[dup.id];
+      removed++;
+    }
+  }
+  return removed;
 }
 
 // Trae el contenido de una URL probando varias vías, en orden, hasta que una
@@ -1427,6 +1491,13 @@ if('serviceWorker' in navigator){
 }
 
 /* ---------------- Init ---------------- */
+{
+  const removedDupes = dedupeExistingData();
+  if(removedDupes > 0){
+    saveDataSilent();
+    setTimeout(()=>toast(`Se fusionaron ${removedDupes} concurso(s) duplicado(s) que había guardados dos veces.`, 5000), 400);
+  }
+}
 updateLastCheckLabel();
 render();
 setTimeout(maybeAutoCheck, 800);
