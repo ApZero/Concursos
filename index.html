@@ -197,6 +197,18 @@ main{max-width:1080px;margin:0 auto;padding:18px 20px 40px;}
   text-transform:uppercase;
   color:var(--olive);
 }
+.submission-badge{
+  font-family:'Inter',sans-serif;
+  font-size:10.5px;
+  letter-spacing:0;
+  text-transform:none;
+  font-weight:600;
+  padding:1px 6px;
+  border-radius:8px;
+  white-space:nowrap;
+}
+.submission-badge.email{background:rgba(107,115,83,.15);color:var(--olive);}
+.submission-badge.postal{background:rgba(150,49,31,.12);color:var(--danger);}
 .card h3{
   margin:0;font-size:16.5px;line-height:1.28;font-weight:600;
   padding-right:50px;
@@ -369,6 +381,12 @@ footer.app-footer{
   <input type="search" id="searchBox" placeholder="Buscar por título, tema, país...">
   <select id="filterCategory"><option value="">Todas las categorías</option></select>
   <select id="filterCountry"><option value="">Todos los países</option></select>
+  <select id="filterSubmission">
+    <option value="">Cualquier envío</option>
+    <option value="email">Solo email/online</option>
+    <option value="postal">Solo correo postal</option>
+    <option value="unknown">Sin especificar</option>
+  </select>
   <span class="status-note" id="lastCheck">—</span>
 </div>
 
@@ -644,8 +662,12 @@ function mergeParsedIntoData(parsed){
     const existing = findExistingMatch(item);
     if(existing){
       // Ya existe: no se sobreescriben ediciones del usuario, pero si le
-      // faltaba el enlace, aprovechamos para completárselo aquí mismo.
+      // faltaba el enlace o el dato de envío por email, aprovechamos para
+      // completárselos aquí mismo.
       if(!existing.url && item.url) existing.url = item.url;
+      if((existing.acceptsEmail === null || existing.acceptsEmail === undefined) && typeof item.acceptsEmail === 'boolean'){
+        existing.acceptsEmail = item.acceptsEmail;
+      }
       continue;
     }
     const key = item.url || (item.title + '|' + item.deadline);
@@ -655,6 +677,7 @@ function mergeParsedIntoData(parsed){
       id, url:item.url, title:item.title, country:item.country,
       deadline:item.deadline, category:item.category, prize:item.prize,
       conditions:item.conditions, length:'', theme:'', notes:'',
+      acceptsEmail: typeof item.acceptsEmail === 'boolean' ? item.acceptsEmail : null,
       status:'nuevo', textSent:false, submissionDate:'', resultDate:'', result:'pendiente', wonPrize:'',
       addedDate: new Date().toISOString()
     };
@@ -696,6 +719,9 @@ function dedupeExistingData(){
       const dup = group[i];
       for(const k of MERGE_FIELDS){
         if(!keeper[k] && dup[k]) keeper[k] = dup[k];
+      }
+      if((keeper.acceptsEmail === null || keeper.acceptsEmail === undefined) && typeof dup.acceptsEmail === 'boolean'){
+        keeper.acceptsEmail = dup.acceptsEmail;
       }
       delete DATA[dup.id];
       removed++;
@@ -937,10 +963,14 @@ function render(){
   const search = document.getElementById('searchBox').value.trim().toLowerCase();
   const fc = document.getElementById('filterCategory').value;
   const fp = document.getElementById('filterCountry').value;
+  const fs = document.getElementById('filterSubmission').value;
 
   let list = all.filter(c=>c.status===currentTab);
   if(fc) list = list.filter(c=>c.category===fc);
   if(fp) list = list.filter(c=>c.country===fp);
+  if(fs === 'email') list = list.filter(c=>c.acceptsEmail===true);
+  else if(fs === 'postal') list = list.filter(c=>c.acceptsEmail===false);
+  else if(fs === 'unknown') list = list.filter(c=>c.acceptsEmail===null||c.acceptsEmail===undefined);
   if(search){
     list = list.filter(c=>
       (c.title||'').toLowerCase().includes(search) ||
@@ -981,6 +1011,12 @@ function emptyMessage(tab){
   return `<h3>${h}</h3><p>${p}</p>`;
 }
 
+function submissionBadge(acceptsEmail){
+  if(acceptsEmail === true) return ` <span class="submission-badge email">✉ Email/online</span>`;
+  if(acceptsEmail === false) return ` <span class="submission-badge postal">📮 Solo correo postal</span>`;
+  return '';
+}
+
 function cardHtml(c){
   const dleft = daysUntil(c.deadline);
   let stampClass = '', stampTop='', stampBottom='';
@@ -1000,7 +1036,7 @@ function cardHtml(c){
       <div class="n">${stampTop}</div>
       <div class="u">${stampBottom}</div>
     </div>
-    <div class="country">${escapeHtml(c.country || 'País no indicado')}</div>
+    <div class="country">${escapeHtml(c.country || 'País no indicado')}${submissionBadge(c.acceptsEmail)}</div>
     <h3>${escapeHtml(c.title)}</h3>
     <div class="meta-row">
       ${c.category ? `<span><b>${escapeHtml(c.category)}</b></span>` : ''}
@@ -1072,6 +1108,7 @@ document.getElementById('tabs').addEventListener('click', (e)=>{
 document.getElementById('searchBox').addEventListener('input', render);
 document.getElementById('filterCategory').addEventListener('change', render);
 document.getElementById('filterCountry').addEventListener('change', render);
+document.getElementById('filterSubmission').addEventListener('change', render);
 
 /* ---------------- Modal de edición ---------------- */
 function openEdit(id, focusResult){
@@ -1119,6 +1156,14 @@ function formHtml(c){
       <div class="field"><label>Extensión / longitud</label><input id="f_length" value="${escapeAttr(c.length)}" placeholder="ej. máx. 3000 palabras"></div>
       <div class="field"><label>Tema</label><input id="f_theme" value="${escapeAttr(c.theme)}" placeholder="ej. libre, terror, infancia..."></div>
     </div>
+    <div class="field">
+      <label>Envío</label>
+      <select id="f_acceptsEmail">
+        <option value="" ${c.acceptsEmail===null||c.acceptsEmail===undefined?'selected':''}>Sin especificar</option>
+        <option value="yes" ${c.acceptsEmail===true?'selected':''}>Email / online</option>
+        <option value="no" ${c.acceptsEmail===false?'selected':''}>Solo correo postal</option>
+      </select>
+    </div>
     <div class="field"><label>Condiciones / quién puede participar</label><textarea id="f_conditions">${escapeHtml(c.conditions)}</textarea></div>
     <div class="field"><label>Notas</label><textarea id="f_notes" placeholder="Cualquier otro detalle relevante...">${escapeHtml(c.notes)}</textarea></div>
     <div class="field"><label>Enlace</label><input id="f_url" value="${escapeAttr(c.url)}"></div>
@@ -1163,6 +1208,8 @@ document.getElementById('btnSave').addEventListener('click', ()=>{
   c.deadline = val('f_deadline'); c.prize = val('f_prize'); c.length = val('f_length');
   c.theme = val('f_theme'); c.conditions = val('f_conditions'); c.notes = val('f_notes');
   c.url = val('f_url');
+  const emailVal = val('f_acceptsEmail');
+  c.acceptsEmail = emailVal === 'yes' ? true : emailVal === 'no' ? false : null;
   if(document.getElementById('f_textSent')) c.textSent = document.getElementById('f_textSent').checked;
   if(document.getElementById('f_submissionDate')) c.submissionDate = val('f_submissionDate');
   if(document.getElementById('f_resultDate')) c.resultDate = val('f_resultDate');
@@ -1430,6 +1477,7 @@ document.getElementById('btnAddManual').addEventListener('click', ()=>{
   DATA[id] = {
     id, url:'', title:'Nuevo concurso', country:'', deadline:'',
     category:'', prize:'', conditions:'', length:'', theme:'', notes:'',
+    acceptsEmail: null,
     status:'nuevo', textSent:false, submissionDate:'', resultDate:'', result:'pendiente', wonPrize:'',
     addedDate: new Date().toISOString()
   };
