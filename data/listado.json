@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-13T16:54:05.400Z",
+  "updatedAt": "2026-09-14T15:27:24.892Z",
   "sourceUrl": "https://www.escritores.org/concursos/concursos-1/concursos-literarios",
-  "count": 227,
+  "count": 229,
   "contests": [
     {
       "url": "https://www.escritores.org/recursos-para-escritores",
@@ -1424,6 +1424,16 @@
       "acceptsEmail": false
     },
     {
+      "url": "https://www.escritores.org/recursos-para-escritores/42150-vii-edicion-del-premio-de-periodismo-david-gistau",
+      "title": "VII EDICIÓN DEL PREMIO DE PERIODISMO DAVID GISTAU",
+      "country": "España",
+      "deadline": "2026-10-19",
+      "category": "Periodismo",
+      "prize": "10.000 euros",
+      "conditions": "colaboraciones y piezas de periodismo narrativo, en sus formatos de crónica, reportaje u opinión, firmadas por su autor o autores (o bajo pseudónimo",
+      "acceptsEmail": true
+    },
+    {
       "url": "https://www.escritores.org/recursos-para-escritores/42091-xxiii-concurso-de-narrativa-femenina-princesa-galiana",
       "title": "XXIII CONCURSO DE NARRATIVA FEMENINA “PRINCESA GALIANA”",
       "country": "España",
@@ -2121,6 +2131,16 @@
       "category": "Poesía",
       "prize": "2.000 euros, diploma, publicación",
       "conditions": "sin restricciones",
+      "acceptsEmail": true
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42149-iii-concurso-literario-de-relatos-breves-y-de-poesia-escritores-del-barrio-aefep",
+      "title": "III CONCURSO LITERARIO DE RELATOS BREVES Y DE POESÍA “ESCRITORES DEL BARRIO” AEFEP",
+      "country": "España",
+      "deadline": "2027-01-20",
+      "category": "Poesía y Relato",
+      "prize": "Placa conmemorativa y cheque regalo por valor de 100 €",
+      "conditions": "personas residentes o vinculadas al distrito Fuencarral-El Pardo, de cualquier nacionalidad y mayores de 18 años",
       "acceptsEmail": true
     },
     {
