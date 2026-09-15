@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T15:27:24.892Z",
+  "updatedAt": "2026-09-15T13:59:39.453Z",
   "sourceUrl": "https://www.escritores.org/concursos/concursos-1/concursos-literarios",
   "count": 229,
   "contests": [
@@ -141,26 +141,6 @@
       "category": "",
       "prize": "",
       "conditions": "",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42058-xiii-concurso-de-relatos-cortos-y-cuentos-cuentale-tu-cuento-a-la-nota-latina",
-      "title": "XIII CONCURSO DE RELATOS CORTOS Y CUENTOS “CUÉNTALE TU CUENTO A LA NOTA LATINA”",
-      "country": "EE.UU.",
-      "deadline": "2026-09-14",
-      "category": "Relato corto y Cuento",
-      "prize": "Certificado. Gift Card Visa de $100. Entrevista publicada en lanota-latina.com y en Instagram",
-      "conditions": "comunidad hispana residente en los Estados Unidos",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42093-ix-certamen-nacional-de-loas-a-la-virgen-del-brezo-2026",
-      "title": "IX CERTAMEN NACIONAL DE LOAS A LA VIRGEN DEL BREZO 2026",
-      "country": "España",
-      "deadline": "2026-09-14",
-      "category": "Poesía",
-      "prize": "200 euros",
-      "conditions": "mayores de edad de nacionalidad española",
       "acceptsEmail": true
     },
     {
@@ -1464,6 +1444,16 @@
       "acceptsEmail": true
     },
     {
+      "url": "https://www.escritores.org/recursos-para-escritores/42159-xxiii-concurso-de-relatos-2026-lema-referentes-erreferenteak",
+      "title": "XXIII CONCURSO DE RELATOS – 2026 - LEMA: “REFERENTES / ERREFERENTEAK”",
+      "country": "",
+      "deadline": "2026-10-23",
+      "category": "Relato",
+      "prize": "300 euros",
+      "conditions": "sin restricciones",
+      "acceptsEmail": true
+    },
+    {
       "url": "https://www.escritores.org/recursos-para-escritores/42119-xxii-libro-y-premio-internacional-de-cuentos-escritos-por-personas-con-discapacidad",
       "title": "XXII LIBRO Y PREMIO INTERNACIONAL DE CUENTOS ESCRITOS POR PERSONAS CON DISCAPACIDAD",
       "country": "España",
@@ -2112,6 +2102,16 @@
       "prize": "3.000 euros",
       "conditions": "mayores 18 años",
       "acceptsEmail": true
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42160-48-premio-internacional-de-poesia-joven-arcipestre-de-hita",
+      "title": "48º PREMIO INTERNACIONAL DE POESÍA JOVEN \"ARCIPESTRE DE HITA\"",
+      "country": "España",
+      "deadline": "2026-12-31",
+      "category": "Poesía",
+      "prize": "Publicación de 1.000 ejemplares, 50 para el autor",
+      "conditions": "mneros 35 años",
+      "acceptsEmail": false
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41712-xxxiii-premio-internacional-de-ensayo-jovellanos",
