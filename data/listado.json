@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-16T13:53:32.809Z",
+  "updatedAt": "2026-09-17T13:57:25.171Z",
   "sourceUrl": "https://www.escritores.org/concursos/concursos-1/concursos-literarios",
-  "count": 216,
+  "count": 220,
   "contests": [
     {
       "url": "https://www.escritores.org/recursos-para-escritores",
@@ -744,6 +744,16 @@
       "acceptsEmail": false
     },
     {
+      "url": "https://www.escritores.org/recursos-para-escritores/42168-xxiii-premio-de-poesia-cesar-simon",
+      "title": "XXIII PREMIO DE POESÍA “CÉSAR SIMÓN”",
+      "country": "España",
+      "deadline": "2026-09-30",
+      "category": "Poesía",
+      "prize": "2.500 euros y publicación",
+      "conditions": "mayores de edad",
+      "acceptsEmail": true
+    },
+    {
       "url": "https://www.escritores.org/recursos-para-escritores/41998-premio-internacional-de-poesia-miguel-hernandez-comunidad-valenciana-2027",
       "title": "PREMIO INTERNACIONAL DE POESÍA \"MIGUEL HERNÁNDEZ-COMUNIDAD VALENCIANA\"' 2027",
       "country": "España",
@@ -1194,6 +1204,16 @@
       "acceptsEmail": false
     },
     {
+      "url": "https://www.escritores.org/recursos-para-escritores/42170-x-concurso-de-microrrelatos-y-carteles-de-emt-madrid",
+      "title": "X CONCURSO DE MICRORRELATOS Y CARTELES DE EMT MADRID",
+      "country": "España",
+      "deadline": "2026-10-16",
+      "category": "Microrrelato",
+      "prize": "400 euros",
+      "conditions": "sin restricciones",
+      "acceptsEmail": true
+    },
+    {
       "url": "https://www.escritores.org/recursos-para-escritores/42075-xxviii-certamen-literario-ciudad-de-tijola",
       "title": "XXVIII CERTAMEN LITERARIO CIUDAD DE TÍJOLA",
       "country": "España",
@@ -1311,6 +1331,16 @@
       "category": "",
       "prize": "",
       "conditions": "",
+      "acceptsEmail": true
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42169-v-concurso-de-letras-de-fandango-mgg",
+      "title": "V CONCURSO DE LETRAS DE FANDANGO MGG",
+      "country": "España",
+      "deadline": "2026-10-29",
+      "category": "Letras de Fandango",
+      "prize": "400 euros",
+      "conditions": "sin restricciones",
       "acceptsEmail": true
     },
     {
@@ -1741,6 +1771,16 @@
       "category": "Micropoemas",
       "prize": "tableta electrónica y diploma acreditativo. Publicación en las plataformas digitales de las entidades colaboradoras",
       "conditions": "mayores de edad",
+      "acceptsEmail": true
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42171-xvi-certamen-internacional-de-microrrelatos-2026-cross-de-atapuerca",
+      "title": "XVI CERTAMEN INTERNACIONAL DE MICRORRELATOS 2026 «CROSS DE ATAPUERCA»",
+      "country": "España",
+      "deadline": "2026-11-23",
+      "category": "Microrrelato",
+      "prize": "600 euros",
+      "conditions": "mayores 16 años",
       "acceptsEmail": true
     },
     {
