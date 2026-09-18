@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-17T13:57:25.171Z",
+  "updatedAt": "2026-09-18T13:15:57.235Z",
   "sourceUrl": "https://www.escritores.org/concursos/concursos-1/concursos-literarios",
-  "count": 220,
+  "count": 218,
   "contests": [
     {
       "url": "https://www.escritores.org/recursos-para-escritores",
@@ -142,36 +142,6 @@
       "prize": "",
       "conditions": "",
       "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/41986-xxviii-premio-de-poesia-jose-luis-hidalgo",
-      "title": "XXVIII PREMIO DE POESÍA JOSÉ LUIS HIDALGO",
-      "country": "España",
-      "deadline": "2026-09-17",
-      "category": "Poesía",
-      "prize": "1.803,00 euros",
-      "conditions": "sin restricciones",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42018-premio-literario-tennessee-williams-2026",
-      "title": "PREMIO LITERARIO TENNESSEE WILLIAMS 2026",
-      "country": "EE.UU.",
-      "deadline": "2026-09-18",
-      "category": "Novela, Cuento, Poesía",
-      "prize": "publicación, diploma, dotación económica, promoción",
-      "conditions": "mayores 18 años",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42074-ii-certamen-de-poesia-elsa-hernandez-baute",
-      "title": "II CERTAMEN DE POESÍA ELSA HERNÁNDEZ BAUTE",
-      "country": "España",
-      "deadline": "2026-09-18",
-      "category": "Poesía",
-      "prize": "500 euros",
-      "conditions": "mayores de edad",
-      "acceptsEmail": false
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41854-xii-concurso-de-relatos-cortos-deportivos-y-iii-concurso-de-microrrelatos",
@@ -1781,6 +1751,16 @@
       "category": "Microrrelato",
       "prize": "600 euros",
       "conditions": "mayores 16 años",
+      "acceptsEmail": true
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42172-premio-latinoamericano-de-primera-novela-sergio-galindo",
+      "title": "PREMIO LATINOAMERICANO DE PRIMERA NOVELA SERGIO GALINDO 2027",
+      "country": "México",
+      "deadline": "",
+      "category": "",
+      "prize": "",
+      "conditions": "",
       "acceptsEmail": true
     },
     {
