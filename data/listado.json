@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-20T13:20:02.718Z",
+  "updatedAt": "2026-09-21T15:29:30.099Z",
   "sourceUrl": "https://www.escritores.org/concursos/concursos-1/concursos-literarios",
-  "count": 218,
+  "count": 214,
   "contests": [
     {
       "url": "https://www.escritores.org/recursos-para-escritores",
@@ -141,46 +141,6 @@
       "category": "",
       "prize": "",
       "conditions": "",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/41854-xii-concurso-de-relatos-cortos-deportivos-y-iii-concurso-de-microrrelatos",
-      "title": "XII CONCURSO DE RELATOS CORTOS DEPORTIVOS Y III CONCURSO DE MICRORRELATOS",
-      "country": "España",
-      "deadline": "2026-09-20",
-      "category": "Relato corto y Microrrelato",
-      "prize": "500 euros",
-      "conditions": "mayores 18 años",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42022-v-certamen-internacional-de-microrrelato-jorge-alonso-curiel-2026",
-      "title": "V CERTAMEN INTERNACIONAL DE MICRORRELATO 'JORGE ALONSO CURIEL' 2026",
-      "country": "España",
-      "deadline": "2026-09-20",
-      "category": "Microrrelato",
-      "prize": "Diploma acreditativo y entrevista",
-      "conditions": "mayores de edad",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/41966-xii-certamen-de-relato-breve-de-la-red-de-bibliotecas-de-illescas-biblioteca-central",
-      "title": "XII CERTAMEN DE RELATO BREVE DE LA RED DE BIBLIOTECAS DE ILLESCAS. BIBLIOTECA CENTRAL",
-      "country": "España",
-      "deadline": "2026-09-20",
-      "category": "Relato breve",
-      "prize": "1.000 euros",
-      "conditions": "mayores de 16 años que posean el carné de usuario/a de la Red de Bibliotecas Públicas de Castilla-La Mancha",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42099-concurso-un-libro-te-salva",
-      "title": "CONCURSO “UN LIBRO TE SALVA”",
-      "country": "México",
-      "deadline": "2026-09-20",
-      "category": "Microrrelato",
-      "prize": "Publicación, tableta, tableta como reconocimiento, y sus relatos serán producidos por Radio Universidad de Guadalajara para su difusión en sus espacios y plataformas",
-      "conditions": "jóvenes de 15 a 25 años",
       "acceptsEmail": true
     },
     {
