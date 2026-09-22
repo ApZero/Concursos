@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-21T15:29:30.099Z",
+  "updatedAt": "2026-09-22T13:46:53.234Z",
   "sourceUrl": "https://www.escritores.org/concursos/concursos-1/concursos-literarios",
-  "count": 214,
+  "count": 209,
   "contests": [
     {
       "url": "https://www.escritores.org/recursos-para-escritores",
@@ -142,66 +142,6 @@
       "prize": "",
       "conditions": "",
       "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/41185-x-concurso-internacional-maria-fonellosa-de-poesia-sobre-discapacidad",
-      "title": "X CONCURSO INTERNACIONAL \"MARÍA FONELLOSA\" DE POESÍA SOBRE DISCAPACIDAD",
-      "country": "España",
-      "deadline": "2026-09-21",
-      "category": "Poesía",
-      "prize": "Grabado y pliego de 25 sellos postales",
-      "conditions": "sin restricciones",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/41849-xl-certamen-internacional-de-poesia-mistica-malagon-2026",
-      "title": "XL CERTAMEN INTERNACIONAL DE POESÍA MÍSTICA. MALAGÓN 2026",
-      "country": "España",
-      "deadline": "2026-09-21",
-      "category": "Poesía",
-      "prize": "1.500 euros",
-      "conditions": "sin restricciones",
-      "acceptsEmail": false
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/41779-47-premios-literarios-kutxa-fundazioa-poesia-y-novela",
-      "title": "47 PREMIOS LITERARIOS KUTXA FUNDAZIOA. POESIA Y NOVELA",
-      "country": "España",
-      "deadline": "2026-09-21",
-      "category": "Poesía y Novela",
-      "prize": "edición del libro, trofeo y 20.000 euros",
-      "conditions": "mayores de edad residentes en España",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42026-concurso-internacional-de-poesia-huerta-de-san-vicente-2026",
-      "title": "CONCURSO INTERNACIONAL DE POESÍA HUERTA DE SAN VICENTE 2026",
-      "country": "España",
-      "deadline": "2026-09-21",
-      "category": "Poesía",
-      "prize": "3.000 euros",
-      "conditions": "sin restricciones",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/41993-i-concurso-de-relatos-cortos-afaraba",
-      "title": "I CONCURSO DE RELATOS CORTOS AFARABA",
-      "country": "España",
-      "deadline": "2026-09-21",
-      "category": "Relato corto",
-      "prize": "800 euros",
-      "conditions": "mayores de 18 años residentes en el Territorio Histórico de Álava/Araba",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/41830-certamen-internacional-de-poesia-mistica-san-juan-de-la-cruz-2026",
-      "title": "CERTAMEN INTERNACIONAL DE POESÍA MÍSTICA “SAN JUAN DE LA CRUZ” 2026",
-      "country": "España",
-      "deadline": "2026-09-21",
-      "category": "Poesía",
-      "prize": "600 euros",
-      "conditions": "sin restricciones",
-      "acceptsEmail": false
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41969-ii-premio-de-poesia-julio-mariscal",
@@ -1121,6 +1061,16 @@
       "category": "Álbum ilustrado",
       "prize": "4.500 euros",
       "conditions": "mayores de edad",
+      "acceptsEmail": false
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42173-xxxiii-certamen-de-cuentos-y-xii-certamen-de-poesia-villa-de-moraleja",
+      "title": "XXXIII CERTAMEN DE CUENTOS Y XII CERTAMEN DE POESÍA \"VILLA DE MORALEJA\"",
+      "country": "España",
+      "deadline": "2026-10-16",
+      "category": "Cuento y Poesía",
+      "prize": "800 euros y placa",
+      "conditions": "mayores 16 años",
       "acceptsEmail": false
     },
     {
