@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-23T13:58:09.456Z",
+  "updatedAt": "2026-09-24T13:54:48.269Z",
   "sourceUrl": "https://www.escritores.org/concursos/concursos-1/concursos-literarios",
-  "count": 209,
+  "count": 211,
   "contests": [
     {
       "url": "https://www.escritores.org/recursos-para-escritores",
@@ -1634,6 +1634,16 @@
       "acceptsEmail": true
     },
     {
+      "url": "https://www.escritores.org/recursos-para-escritores/42174-beca-de-creacion-literaria-leandro-gonzalez-alcorta-2026",
+      "title": "BECA DE CREACIÓN LITERARIA LEANDRO GONZÁLEZ ALCORTA 2026",
+      "country": "Cuba",
+      "deadline": "",
+      "category": "",
+      "prize": "",
+      "conditions": "",
+      "acceptsEmail": true
+    },
+    {
       "url": "https://www.escritores.org/recursos-para-escritores/41820-iii-certamen-literario-de-relato-y-poesia-la-tribu-educa",
       "title": "III CERTAMEN LITERARIO DE RELATO Y POESÍA \"LA TRIBU EDUCA\"",
       "country": "España",
@@ -1772,6 +1782,16 @@
       "prize": "Placa acreditativa, diploma, publicación",
       "conditions": "mayores de edad",
       "acceptsEmail": true
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42175-xxi-certamen-literario-manuel-oreste-rodiguez",
+      "title": "XXI CERTAMEN LITERARIO \"MANUEL ORESTE RODÍGUEZ\"",
+      "country": "España",
+      "deadline": "2026-11-30",
+      "category": "Narrativa y Poesía",
+      "prize": "1.000 euros",
+      "conditions": "sin restricciones",
+      "acceptsEmail": false
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41960-i-premio-nacional-de-thriller-documental",
