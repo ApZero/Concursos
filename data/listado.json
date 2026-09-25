@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-24T13:54:48.269Z",
+  "updatedAt": "2026-09-25T14:18:49.345Z",
   "sourceUrl": "https://www.escritores.org/concursos/concursos-1/concursos-literarios",
-  "count": 211,
+  "count": 212,
   "contests": [
     {
       "url": "https://www.escritores.org/recursos-para-escritores",
@@ -142,16 +142,6 @@
       "prize": "",
       "conditions": "",
       "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/41969-ii-premio-de-poesia-julio-mariscal",
-      "title": "II PREMIO DE POESÍA JULIO MARISCAL",
-      "country": "España",
-      "deadline": "2026-09-24",
-      "category": "Poesía",
-      "prize": "1.500 euros y figura conmemorativa",
-      "conditions": "residentes en España",
-      "acceptsEmail": false
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41834-xlv-certamen-literario-internacional-fiestas-de-la-virgen-2026",
@@ -654,16 +644,6 @@
       "acceptsEmail": true
     },
     {
-      "url": "https://www.escritores.org/recursos-para-escritores/42070-goles-que-cuentan-mujeres-en-el-futbol-narraciones-sobre-futbol-practicado-por-mujeres",
-      "title": "GOLES QUE CUENTAN: MUJERES EN EL FÚTBOL. NARRACIONES SOBRE FÚTBOL PRACTICADO POR MUJERES",
-      "country": "México",
-      "deadline": "2026-10-01",
-      "category": "Relato",
-      "prize": "Publiacción",
-      "conditions": "mayores 18 años",
-      "acceptsEmail": true
-    },
-    {
       "url": "https://www.escritores.org/recursos-para-escritores/42005-v-certamen-de-relato-corto-de-la-asociacion-de-escritores-de-madrid",
       "title": "V CERTAMEN DE RELATO CORTO DE LA ASOCIACIÓN DE ESCRITORES DE MADRID",
       "country": "España",
@@ -1141,6 +1121,16 @@
       "category": "Periodismo",
       "prize": "10.000 euros",
       "conditions": "colaboraciones y piezas de periodismo narrativo, en sus formatos de crónica, reportaje u opinión, firmadas por su autor o autores (o bajo pseudónimo",
+      "acceptsEmail": true
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42070-goles-que-cuentan-mujeres-en-el-futbol-narraciones-sobre-futbol-practicado-por-mujeres",
+      "title": "GOLES QUE CUENTAN: MUJERES EN EL FÚTBOL. NARRACIONES SOBRE FÚTBOL PRACTICADO POR MUJERES",
+      "country": "México",
+      "deadline": "2026-10-01",
+      "category": "Relato",
+      "prize": "Publiacción",
+      "conditions": "mayores 18 años",
       "acceptsEmail": true
     },
     {
@@ -1654,6 +1644,16 @@
       "acceptsEmail": true
     },
     {
+      "url": "https://www.escritores.org/recursos-para-escritores/42184-xxviii-certamen-de-relatos-breves-de-invierno-y-cuentos-de-navidad",
+      "title": "XXVIII CERTAMEN DE RELATOS BREVES DE INVIERNO Y CUENTOS DE NAVIDAD",
+      "country": "España",
+      "deadline": "2026-11-20",
+      "category": "Cuento",
+      "prize": "1.000 euros",
+      "conditions": "mayores de edad residentes en España",
+      "acceptsEmail": false
+    },
+    {
       "url": "https://www.escritores.org/recursos-para-escritores/42143-xiii-concurso-de-micropoemas-jose-garcia-nieto-2026",
       "title": "XIII CONCURSO DE MICROPOEMAS JOSÉ GARCÍA NIETO 2026",
       "country": "España",
@@ -1811,6 +1811,16 @@
       "category": "Microrrelato",
       "prize": "300 euros. Impresión",
       "conditions": "sin restricciones",
+      "acceptsEmail": true
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42185-vi-edicion-concurso-cor-ad-cor-de-poesia",
+      "title": "VIª EDICIÓN CONCURSO COR AD COR DE POESÍA",
+      "country": "España",
+      "deadline": "2026-12-03",
+      "category": "Poesía",
+      "prize": "Cena en Navidad con el jurado. Tarjeta individual del Club Renoir que, además de incluir dos entradas gratuitas y una tercera por el cumpleaños, incluye la compra de entradas a precio reducido en todos los Cines Renoir, así como acceso exclusivo a sorteos para preestrenos y regalos de merchandising",
+      "conditions": "estudiantes de cualquier universidad o centro de enseñanza superior dentro del territorio de la Comunidad de Madrid",
       "acceptsEmail": true
     },
     {
