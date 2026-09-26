@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-25T14:18:49.345Z",
+  "updatedAt": "2026-09-26T13:29:05.265Z",
   "sourceUrl": "https://www.escritores.org/concursos/concursos-1/concursos-literarios",
-  "count": 212,
+  "count": 207,
   "contests": [
     {
       "url": "https://www.escritores.org/recursos-para-escritores",
@@ -141,56 +141,6 @@
       "category": "",
       "prize": "",
       "conditions": "",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/41834-xlv-certamen-literario-internacional-fiestas-de-la-virgen-2026",
-      "title": "XLV CERTAMEN LITERARIO INTERNACIONAL FIESTAS DE LA VIRGEN 2026",
-      "country": "España",
-      "deadline": "2026-09-25",
-      "category": "Verso y Prosa",
-      "prize": "1.000 euros",
-      "conditions": "sin restricciones",
-      "acceptsEmail": false
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42126-xxvii-premio-de-ensayo-carmen-de-burgos",
-      "title": "XXVII PREMIO DE ENSAYO “CARMEN DE BURGOS”",
-      "country": "España",
-      "deadline": "2026-09-25",
-      "category": "Ensayo",
-      "prize": "3.000 euros",
-      "conditions": "mayores de edad",
-      "acceptsEmail": false
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42030-xli-certamen-andaluz-de-poesia-villa-de-peligros",
-      "title": "XLI CERTAMEN ANDALUZ DE POESÍA VILLA DE PELIGROS",
-      "country": "España",
-      "deadline": "2026-09-25",
-      "category": "Poesía",
-      "prize": "1.500 euros y 75 ejemplares de la obra, que editará y distribuirá la Diputación de Granada",
-      "conditions": "personas mayores de edad que hayan nacido o residan en Andalucía",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/41557-premios-ciudad-de-santander-2026-12-edicion-del-premio-de-las-letras-ciudad-de-santander",
-      "title": "PREMIOS CIUDAD DE SANTANDER 2026 - 12ª EDICIÓN DEL PREMIO DE LAS LETRAS \"CIUDAD DE SANTANDER\"",
-      "country": "España",
-      "deadline": "2026-09-25",
-      "category": "trayectoria y por el conjunto de la obra",
-      "prize": "5.000 euros",
-      "conditions": "La convocatoria no es abierta. Podrán proponer candidaturas las instituciones y asociaciones de carácter cultural radicadas en Cantabria, así como personalidades de la comunidad relacionadas con el ámbito de la Literatura. Los escritores propuestos para el premio habrán de tener una vinculación con la ciudad que derive de ser Santander, o cualquier otro municipio de nuestra región, su lugar de nacimiento o su residencia actual, o de haberlo sido durante un periodo superior a diez años.",
-      "acceptsEmail": false
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42017-tercer-concurso-de-microrrelatos-1-000-pasos",
-      "title": "TERCER CONCURSO DE MICRORRELATOS 1.000 PASOS",
-      "country": "España",
-      "deadline": "2026-09-26",
-      "category": "Microrrelato",
-      "prize": "300 euros",
-      "conditions": "mayores 18 años residentes en España",
       "acceptsEmail": true
     },
     {
