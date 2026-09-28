@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-27T14:24:44.922Z",
+  "updatedAt": "2026-09-28T17:11:04.350Z",
   "sourceUrl": "https://www.escritores.org/concursos/concursos-1/concursos-literarios",
-  "count": 207,
+  "count": 211,
   "contests": [
     {
       "url": "https://www.escritores.org/recursos-para-escritores",
@@ -141,26 +141,6 @@
       "category": "",
       "prize": "",
       "conditions": "",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/41965-xlvi-concurso-de-cuentos-villa-de-errenteria",
-      "title": "XLVI. CONCURSO DE CUENTOS VILLA DE ERRENTERIA",
-      "country": "España",
-      "deadline": "2026-09-27",
-      "category": "Cuento",
-      "prize": "800 euros",
-      "conditions": "sin restricciones",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42116-6-edicion-premio-silos-de-relatos-cortos",
-      "title": "6ª EDICIÓN PREMIO SILOS DE RELATOS CORTOS",
-      "country": "España",
-      "deadline": "2026-09-27",
-      "category": "Relato corto",
-      "prize": "1.500 euros",
-      "conditions": "sin restricciones",
       "acceptsEmail": true
     },
     {
@@ -1044,6 +1024,16 @@
       "acceptsEmail": false
     },
     {
+      "url": "https://www.escritores.org/recursos-para-escritores/40959-ii-concurso-de-microrrelatos-de-terror-maritimo",
+      "title": "II CONCURSO DE MICRORRELATOS DE TERROR MARÍTIMO",
+      "country": "España",
+      "deadline": "2026-10-17",
+      "category": "Microrrelato",
+      "prize": "productos de la tienda del museo valorado en 80 €.",
+      "conditions": "sin restricciones",
+      "acceptsEmail": true
+    },
+    {
       "url": "https://www.escritores.org/recursos-para-escritores/42118-xx-premio-paco-rabal-de-periodismo-cultural",
       "title": "XX PREMIO PACO RABAL DE PERIODISMO CULTURAL",
       "country": "España",
@@ -1154,6 +1144,16 @@
       "acceptsEmail": true
     },
     {
+      "url": "https://www.escritores.org/recursos-para-escritores/42188-concursos-de-poesia-fotografia-y-artesania-un-clavel-para-la-boda-imperial",
+      "title": "CONCURSOS DE POESÍA, FOTOGRAFÍA Y ARTESANIA \"UN CLAVEL PARA LA BODA IMPERIAL\"",
+      "country": "España",
+      "deadline": "2026-10-25",
+      "category": "Poesía",
+      "prize": "3.000 euros",
+      "conditions": "mayores 18 años",
+      "acceptsEmail": false
+    },
+    {
       "url": "https://www.escritores.org/recursos-para-escritores/42169-v-concurso-de-letras-de-fandango-mgg",
       "title": "V CONCURSO DE LETRAS DE FANDANGO MGG",
       "country": "España",
@@ -1201,6 +1201,16 @@
       "category": "Relato breve",
       "prize": "225 euros",
       "conditions": "mayores de 60 años residentes en España",
+      "acceptsEmail": false
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42189-xli-edicion-del-concurso-de-narrativa-ciudad-de-elda",
+      "title": "XLI EDICIÓN DEL CONCURSO DE NARRATIVA “CIUDAD DE ELDA”",
+      "country": "España",
+      "deadline": "2026-10-30",
+      "category": "Cuento",
+      "prize": "2.000 euros",
+      "conditions": "sin restricciones",
       "acceptsEmail": false
     },
     {
@@ -1564,6 +1574,16 @@
       "acceptsEmail": true
     },
     {
+      "url": "https://www.escritores.org/recursos-para-escritores/42190-concurso-intergeneracional-memoria-del-corazon",
+      "title": "CONCURSO INTERGENERACIONAL «MEMORIA DEL CORAZÓN»",
+      "country": "España",
+      "deadline": "",
+      "category": "",
+      "prize": "",
+      "conditions": "",
+      "acceptsEmail": true
+    },
+    {
       "url": "https://www.escritores.org/recursos-para-escritores/42164-convocatoria-concurso-chispa-joven-2026",
       "title": "CONVOCATORIA CONCURSO CHISPA JOVEN 2026",
       "country": "Cuba",
@@ -1654,6 +1674,16 @@
       "acceptsEmail": true
     },
     {
+      "url": "https://www.escritores.org/recursos-para-escritores/42187-48-concurso-literario-dr-alberto-manini-rios-2026",
+      "title": "48º. CONCURSO LITERARIO “DR. ALBERTO MANINI RÍOS” - 2026",
+      "country": "Uruguay",
+      "deadline": "2026-11-27",
+      "category": "Cuento y Poesía",
+      "prize": "trofeo, diploma y libros.",
+      "conditions": "mayores de 18 años que sean oriundos del país (Uruguay",
+      "acceptsEmail": false
+    },
+    {
       "url": "https://www.escritores.org/recursos-para-escritores/41625-vii-certamen-de-microrrelatos-de-voluntariado-en-cuidados-paliativos",
       "title": "VII CERTAMEN DE MICRORRELATOS DE VOLUNTARIADO EN CUIDADOS PALIATIVOS",
       "country": "España",
@@ -1742,6 +1772,16 @@
       "prize": "1.000 euros",
       "conditions": "sin restricciones",
       "acceptsEmail": false
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42186-xx-edicion-del-certamen-literario-de-la-vina-y-el-vino",
+      "title": "XX EDICIÓN DEL CERTAMEN LITERARIO «DE LA VIÑA Y EL VINO»",
+      "country": "España",
+      "deadline": "2026-11-30",
+      "category": "Poesía y Narrativa",
+      "prize": "1.200 euros y lote de vino",
+      "conditions": "mayores 18 años",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41960-i-premio-nacional-de-thriller-documental",
