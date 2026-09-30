@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-29T15:14:28.311Z",
+  "updatedAt": "2026-09-30T15:28:42.988Z",
   "sourceUrl": "https://www.escritores.org/concursos/concursos-1/concursos-literarios",
-  "count": 211,
+  "count": 212,
   "contests": [
     {
       "url": "https://www.escritores.org/recursos-para-escritores",
@@ -137,46 +137,6 @@
       "url": "https://www.escritores.org/recursos-para-escritores/recursos-2/articulos-de-interes",
       "title": "Artículos de interés",
       "country": "",
-      "deadline": "",
-      "category": "",
-      "prize": "",
-      "conditions": "",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/41618-concurso-manga-2026",
-      "title": "CONCURSO MANGA 2026",
-      "country": "España",
-      "deadline": "2026-09-28",
-      "category": "Manga",
-      "prize": "4.500 euros",
-      "conditions": "sin restricciones",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42125-xxxix-premio-comillas-de-historia-biografia-y-memorias-2027",
-      "title": "XXXIX PREMIO COMILLAS DE HISTORIA, BIOGRAFÍA Y MEMORIAS 2027",
-      "country": "España",
-      "deadline": "2026-09-28",
-      "category": "Historia, Biografía y Memorias",
-      "prize": "12.000 euros, publicación, estatuilla",
-      "conditions": "mayores 18 años",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42000-iv-certamen-de-microrrelatos-y-poemas-para-mayores-de-65-anos-tribuna-ciudadana-2026",
-      "title": "IV CERTAMEN DE MICRORRELATOS Y POEMAS PARA MAYORES DE 65 AÑOS TRIBUNA CIUDADANA 2026",
-      "country": "España",
-      "deadline": "",
-      "category": "",
-      "prize": "",
-      "conditions": "",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42101-v-concurso-literario-la-torre-desde-quevedo",
-      "title": "V CONCURSO LITERARIO \"LA TORRE DESDE QUEVEDO\"",
-      "country": "España",
       "deadline": "",
       "category": "",
       "prize": "",
@@ -1094,6 +1054,16 @@
       "acceptsEmail": true
     },
     {
+      "url": "https://www.escritores.org/recursos-para-escritores/42194-convocatoria-internacional-n-3-de-2026-revista-explorando-arte-y-cultura-de-latinoamerica-horizontes-que-nos-unen",
+      "title": "CONVOCATORIA INTERNACIONAL N.º 3 DE 2026. REVISTA EXPLORANDO ARTE Y CULTURA DE LATINOAMÉRICA. HORIZONTES QUE NOS UNEN",
+      "country": "Colombia",
+      "deadline": "2026-10-21",
+      "category": "Poesía, Cuento, Ensayo,...",
+      "prize": "Diploma, Publicación",
+      "conditions": "mayores 18 años",
+      "acceptsEmail": true
+    },
+    {
       "url": "https://www.escritores.org/recursos-para-escritores/42085-xxxviii-certamen-literario-alberto-magno-de-ciencia-ficcion",
       "title": "XXXVIII CERTAMEN LITERARIO ALBERTO MAGNO DE CIENCIA FICCIÓN",
       "country": "España",
@@ -1164,6 +1134,16 @@
       "acceptsEmail": true
     },
     {
+      "url": "https://www.escritores.org/recursos-para-escritores/42193-xv-concurso-intergeneracional-de-relatos-cortos-ubu-historias-que-nos-unen",
+      "title": "XV CONCURSO INTERGENERACIONAL DE RELATOS CORTOS UBU \"HISTORIAS QUE NOS UNEN\"",
+      "country": "España",
+      "deadline": "2026-10-29",
+      "category": "Relato corto",
+      "prize": "200 euros",
+      "conditions": "tres categorías de participación a las que podrán concurrir: • Estudiantes de la Universidad de Burgos. • Personas mayores de 60 años. • Participación conjunta. Una persona mayor de 60 años y una menor de 30 años. • En el caso de personas mayores y de concursantes de participación conjunta, los autores deberán tener residencia legal en España",
+      "acceptsEmail": true
+    },
+    {
       "url": "https://www.escritores.org/recursos-para-escritores/41958-premio-aristas-de-novela-grafica-2026",
       "title": "PREMIO ARISTAS DE NOVELA GRÁFICA 2026",
       "country": "España",
@@ -1202,6 +1182,16 @@
       "prize": "225 euros",
       "conditions": "mayores de 60 años residentes en España",
       "acceptsEmail": false
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42196-concurso-literario-aama-asociacion-amigos-del-museo-del-aire",
+      "title": "CONCURSO LITERARIO AAMA (Asociación Amigos del Museo del Aire)",
+      "country": "España",
+      "deadline": "2026-10-30",
+      "category": "Relato",
+      "prize": "Trofeo de diseño exclusivo para A.A.M.A. ● Un premio en metálico de 200 € ● Una membresía de A.A.M.A. para el año 2027",
+      "conditions": "sin restricciones",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42189-xli-edicion-del-concurso-de-narrativa-ciudad-de-elda",
@@ -1974,6 +1964,16 @@
       "acceptsEmail": true
     },
     {
+      "url": "https://www.escritores.org/recursos-para-escritores/42198-xxxv-edicion-del-premio-juan-march-cencillo-de-novela-breve",
+      "title": "XXXVª EDICIÓN DEL PREMIO JUAN MARCH CENCILLO DE NOVELA BREVE",
+      "country": "España",
+      "deadline": "2027-01-31",
+      "category": "Novela breve",
+      "prize": "12.000 euros y publicación",
+      "conditions": "sin restricciones",
+      "acceptsEmail": false
+    },
+    {
       "url": "https://www.escritores.org/recursos-para-escritores/42021-xviii-concurso-de-ciencia-ficcion-y-fantasia-oscar-hurtado-2027",
       "title": "XVIII CONCURSO DE CIENCIA FICCIÓN Y FANTASÍA OSCAR HURTADO 2027",
       "country": "Cuba",
@@ -2052,6 +2052,16 @@
       "prize": "1.500 euros y flor natural",
       "conditions": "sin restricciones",
       "acceptsEmail": false
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42195-iii-edicion-del-premio-de-novela-corta-de-ciencia-ficcion-y-fantasia-pedro-carbonell-castiller",
+      "title": "III EDICIÓN DEL PREMIO DE NOVELA CORTA DE CIENCIA FICCIÓN Y FANTASÍA - PEDRO CARBONELL CASTILLER",
+      "country": "España",
+      "deadline": "2027-08-31",
+      "category": "Novela corta",
+      "prize": "1.000 euros y publicación",
+      "conditions": "mayores 18 años",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/premios-literarios-resultados",
