@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-01T15:50:53.829Z",
+  "updatedAt": "2026-10-02T15:11:59.030Z",
   "sourceUrl": "https://www.escritores.org/concursos/concursos-1/concursos-literarios",
-  "count": 176,
+  "count": 167,
   "contests": [
     {
       "url": "https://www.escritores.org/recursos-para-escritores",
@@ -141,96 +141,6 @@
       "category": "",
       "prize": "",
       "conditions": "",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/41998-premio-internacional-de-poesia-miguel-hernandez-comunidad-valenciana-2027",
-      "title": "PREMIO INTERNACIONAL DE POESÍA \"MIGUEL HERNÁNDEZ-COMUNIDAD VALENCIANA\"' 2027",
-      "country": "España",
-      "deadline": "2026-10-01",
-      "category": "Poesía",
-      "prize": "8.000 euros",
-      "conditions": "sin restricciones",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42166-premio-nacional-de-poesia-adelaida-del-marmol-2026",
-      "title": "PREMIO NACIONAL DE POESÍA \"ADELAIDA DEL MÁRMOL\" 2026",
-      "country": "Cuba",
-      "deadline": "2026-10-01",
-      "category": "Poesía",
-      "prize": "10.000 pesos y publicación",
-      "conditions": "escritores cubanos residentes en el país",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42071-xxiv-premio-anaya-de-literatura-infantil-y-juvenil",
-      "title": "XXIV PREMIO ANAYA DE LITERATURA INFANTIL Y JUVENIL",
-      "country": "España",
-      "deadline": "2026-10-01",
-      "category": "Infantil y Juvenil",
-      "prize": "12.000 euros",
-      "conditions": "sin restricciones",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42005-v-certamen-de-relato-corto-de-la-asociacion-de-escritores-de-madrid",
-      "title": "V CERTAMEN DE RELATO CORTO DE LA ASOCIACIÓN DE ESCRITORES DE MADRID",
-      "country": "España",
-      "deadline": "2026-10-01",
-      "category": "Relato corto",
-      "prize": "200€, diploma y una suscripción anual como miembro de la Asociación de Escritores de Madrid",
-      "conditions": "residentes en España",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/41838-xxii-certamen-internacional-de-teatro-ciudad-de-requena-2026",
-      "title": "XXII CERTAMEN INTERNACIONAL DE TEATRO \"CIUDAD DE REQUENA\" 2026",
-      "country": "España",
-      "deadline": "2026-10-01",
-      "category": "Teatro",
-      "prize": "6.000 euros",
-      "conditions": "sin restricciones",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/41927-premio-biblioteca-breve-2027",
-      "title": "PREMIO BIBLIOTECA BREVE 2027",
-      "country": "España",
-      "deadline": "2026-10-01",
-      "category": "Novela",
-      "prize": "30.000 euros",
-      "conditions": "sin restricciones",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/41821-i-premio-internacional-de-novela-negra-angeles-alonso-espanol",
-      "title": "I PREMIO INTERNACIONAL DE NOVELA NEGRA “ÁNGELES ALONSO ESPAÑOL”",
-      "country": "España",
-      "deadline": "2026-10-01",
-      "category": "Novela",
-      "prize": "3.000 euros, publicación",
-      "conditions": "mayores de edad",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42003-xiv-concurso-relato-literario-alberto-fernandez-ballesteros",
-      "title": "XIV CONCURSO RELATO LITERARIO ALBERTO FERNÁNDEZ BALLESTEROS",
-      "country": "España",
-      "deadline": "2026-10-02",
-      "category": "Relato",
-      "prize": "1.000 euros",
-      "conditions": "residentes en España",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42146-xiv-concurso-de-relato-literario-ugt-sevilla",
-      "title": "XIV CONCURSO DE RELATO LITERARIO UGT SEVILLA",
-      "country": "España",
-      "deadline": "2026-10-02",
-      "category": "Relato",
-      "prize": "1.000 euros",
-      "conditions": "residentes en España",
       "acceptsEmail": true
     },
     {
