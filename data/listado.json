@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-04T14:30:36.603Z",
+  "updatedAt": "2026-10-05T17:35:38.260Z",
   "sourceUrl": "https://www.escritores.org/concursos/concursos-1/concursos-literarios",
-  "count": 166,
+  "count": 169,
   "contests": [
     {
       "url": "https://www.escritores.org/recursos-para-escritores",
@@ -137,36 +137,6 @@
       "url": "https://www.escritores.org/recursos-para-escritores/recursos-2/articulos-de-interes",
       "title": "Artículos de interés",
       "country": "",
-      "deadline": "",
-      "category": "",
-      "prize": "",
-      "conditions": "",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/41809-certamen-internacional-de-poesia-san-francisco-de-asis-2026",
-      "title": "CERTAMEN INTERNACIONAL DE POESÍA SAN FRANCISCO DE ASÍS 2026",
-      "country": "España",
-      "deadline": "2026-10-04",
-      "category": "Poesía",
-      "prize": "4.000 euros, publicación, 25 ejemplares para el autor",
-      "conditions": "mayores 18 años",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/41916-certamen-literario-cima-2026",
-      "title": "CERTAMEN LITERARIO CIMA 2026",
-      "country": "España",
-      "deadline": "2026-10-05",
-      "category": "Poesía Libre, Narración Breve y Microcuento",
-      "prize": "50 euros, diploma y libro",
-      "conditions": "socios y socias de las Asociaciones de Mayores integradas en esta Federación, así como las personas pertenecientes a las Asociaciones de los CEAMS de la Generalitat Valenciana y CMAPM del Excelentísimo Ayuntamiento de Valencia",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42096-premios-de-poesia-carmen-soler-2026",
-      "title": "PREMIOS DE POESÍA CARMEN SOLER 2026",
-      "country": "Paraguay",
       "deadline": "",
       "category": "",
       "prize": "",
@@ -524,7 +494,7 @@
       "acceptsEmail": false
     },
     {
-      "url": "https://www.escritores.org/recursos-para-escritores/40959-ii-concurso-de-microrrelatos-de-terror-maritimo",
+      "url": "https://www.escritores.org/recursos-para-escritores/42191-iii-concurso-de-microrrelatos-de-terror-maritimo",
       "title": "III CONCURSO DE MICRORRELATOS DE TERROR MARÍTIMO",
       "country": "España",
       "deadline": "2026-10-17",
@@ -724,6 +694,36 @@
       "acceptsEmail": false
     },
     {
+      "url": "https://www.escritores.org/recursos-para-escritores/42199-premio-jose-jacinto-milanes-2026",
+      "title": "PREMIO JOSÉ JACINTO MILANÉS 2026",
+      "country": "Cuba",
+      "deadline": "",
+      "category": "",
+      "prize": "",
+      "conditions": "",
+      "acceptsEmail": true
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42203-tercer-concurso-latinoamericano-de-cuentos-marta-brunet",
+      "title": "TERCER “CONCURSO LATINOAMERICANO DE CUENTOS MARTA BRUNET”",
+      "country": "Chile",
+      "deadline": "",
+      "category": "",
+      "prize": "",
+      "conditions": "",
+      "acceptsEmail": true
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42200-xiv-concurso-de-microrrelatos-san-silvestre-salmantina-2026",
+      "title": "XIV CONCURSO DE MICRORRELATOS “SAN SILVESTRE SALMANTINA 2026”",
+      "country": "España",
+      "deadline": "2026-10-30",
+      "category": "Microrrelato",
+      "prize": "500 euros",
+      "conditions": "sin restricciones",
+      "acceptsEmail": true
+    },
+    {
       "url": "https://www.escritores.org/recursos-para-escritores/42196-concurso-literario-aama-asociacion-amigos-del-museo-del-aire",
       "title": "CONCURSO LITERARIO AAMA (Asociación Amigos del Museo del Aire)",
       "country": "España",
@@ -901,6 +901,16 @@
       "category": "Relato",
       "prize": "1.200 euros",
       "conditions": "mayores de 18 años, sin distinción de nacionalidad, empadronados en la ciudad de Zaragoza",
+      "acceptsEmail": true
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42201-ii-concurso-de-microrrelatos-del-bienestar",
+      "title": "II CONCURSO DE MICRORRELATOS DEL BIENESTAR",
+      "country": "España",
+      "deadline": "2026-11-01",
+      "category": "Microrrelato",
+      "prize": "Pack Ritual Brilla y 100 marcapáginas con su microrrelato",
+      "conditions": "mayores de edad residentes en España",
       "acceptsEmail": true
     },
     {
@@ -1414,6 +1424,16 @@
       "acceptsEmail": true
     },
     {
+      "url": "https://www.escritores.org/recursos-para-escritores/42204-iii-certamen-de-relatos-cortos-jose-manuel-luque-pita",
+      "title": "III CERTAMEN DE RELATOS CORTOS “JOSÉ MANUEL LUQUE PITA”",
+      "country": "España",
+      "deadline": "2026-12-20",
+      "category": "Relato corto",
+      "prize": "Kit de productos y artículos de la tienda de la Desbandá. • Camiseta oficial. • Camiseta de la XI Marcha",
+      "conditions": "sin restricciones",
+      "acceptsEmail": true
+    },
+    {
       "url": "https://www.escritores.org/recursos-para-escritores/41869-vii-premio-de-investigacion-historica",
       "title": "VII PREMIO DE INVESTIGACIÓN HISTÓRICA",
       "country": "España",
@@ -1462,6 +1482,16 @@
       "prize": "Publicación de 1.000 ejemplares, 50 para el autor",
       "conditions": "mneros 35 años",
       "acceptsEmail": false
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42202-x-concurso-narrativa-breve-casa-de-cordoba-en-madrid-2026",
+      "title": "X CONCURSO NARRATIVA BREVE “CASA DE CÓRDOBA EN MADRID” 2026",
+      "country": "España",
+      "deadline": "2026-12-31",
+      "category": "Narrativa breve",
+      "prize": "300 euros y placa conmemorativa",
+      "conditions": "mayores 18 años, residentes en España",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41712-xxxiii-premio-internacional-de-ensayo-jovellanos",
