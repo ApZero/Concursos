@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-07T15:55:04.707Z",
+  "updatedAt": "2026-10-08T15:57:42.478Z",
   "sourceUrl": "https://www.escritores.org/concursos/concursos-1/concursos-literarios",
-  "count": 169,
+  "count": 174,
   "contests": [
     {
       "url": "https://www.escritores.org/recursos-para-escritores",
@@ -537,10 +537,20 @@
       "url": "https://www.escritores.org/recursos-para-escritores/42070-goles-que-cuentan-mujeres-en-el-futbol-narraciones-sobre-futbol-practicado-por-mujeres",
       "title": "GOLES QUE CUENTAN: MUJERES EN EL FÚTBOL. NARRACIONES SOBRE FÚTBOL PRACTICADO POR MUJERES",
       "country": "México",
-      "deadline": "2026-10-01",
+      "deadline": "2026-10-19",
       "category": "Relato",
       "prize": "Publiacción",
       "conditions": "mayores 18 años",
+      "acceptsEmail": true
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42211-beca-raul-guerra-garrido",
+      "title": "BECA «RAÚL GUERRA GARRIDO»",
+      "country": "España",
+      "deadline": "2026-10-19",
+      "category": "Beca",
+      "prize": "25.000 euros",
+      "conditions": "cualquier persona física escritor o escritora que presente un proyecto literario y que acredite la vecindad administrativa en cualquiera de los municipios que integran el Territorio Histórico de Gipuzkoa por plazo mínimo de cinco años, dentro de los diez últimos años",
       "acceptsEmail": true
     },
     {
@@ -1004,6 +1014,16 @@
       "acceptsEmail": true
     },
     {
+      "url": "https://www.escritores.org/recursos-para-escritores/42207-concurso-carmen-rubio-2026",
+      "title": "CONCURSO CARMEN RUBIO 2026",
+      "country": "Cuba",
+      "deadline": "2026-11-06",
+      "category": "Literatura Infantil",
+      "prize": "obra de arte de reconocido artista de la localidad, libros, afiches, diploma",
+      "conditions": "residentes en Cuba",
+      "acceptsEmail": true
+    },
+    {
       "url": "https://www.escritores.org/recursos-para-escritores/42131-convocatoria-tierra-adentro-de-novela-inedita-2026",
       "title": "CONVOCATORIA TIERRA ADENTRO DE NOVELA INÉDITA 2026",
       "country": "España",
@@ -1324,6 +1344,16 @@
       "acceptsEmail": true
     },
     {
+      "url": "https://www.escritores.org/recursos-para-escritores/42209-i-certamen-de-poesia-joven-abindarraez-villa-de-cartama",
+      "title": "I CERTAMEN DE POESÍA JOVEN ABINDARRÁEZ VILLA DE CÁRTAMA",
+      "country": "España",
+      "deadline": "2026-12-01",
+      "category": "Poesía",
+      "prize": "Publicación, 50 ejemplares para el autor",
+      "conditions": "jóvenes de 18 a 25 años",
+      "acceptsEmail": true
+    },
+    {
       "url": "https://www.escritores.org/recursos-para-escritores/41960-i-premio-nacional-de-thriller-documental",
       "title": "I PREMIO NACIONAL DE THRILLER DOCUMENTAL",
       "country": "España",
@@ -1361,6 +1391,16 @@
       "category": "Poesía",
       "prize": "6.000 euros, publicación, 25 ejemplares para el autor",
       "conditions": "sin restricciones",
+      "acceptsEmail": true
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42210-premio-clemencia-isaura-de-poesia-2027",
+      "title": "PREMIO CLEMENCIA ISAURA DE POESÍA 2027",
+      "country": "México",
+      "deadline": "2026-12-07",
+      "category": "Poesía",
+      "prize": "Flor Natural y 100.000 pesos M.N.",
+      "conditions": "mayores de edad residentes en la República Mexicana",
       "acceptsEmail": true
     },
     {
@@ -1491,6 +1531,16 @@
       "category": "Narrativa breve",
       "prize": "300 euros y placa conmemorativa",
       "conditions": "mayores 18 años, residentes en España",
+      "acceptsEmail": true
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42208-certamen-literario-asociacion-desarrollo-autismo-albacete",
+      "title": "CERTAMEN LITERARIO ASOCIACIÓN DESARROLLO AUTISMO ALBACETE (España)",
+      "country": "España",
+      "deadline": "",
+      "category": "",
+      "prize": "",
+      "conditions": "",
       "acceptsEmail": true
     },
     {
