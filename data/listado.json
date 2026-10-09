@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-08T15:57:42.478Z",
+  "updatedAt": "2026-10-09T15:40:09.713Z",
   "sourceUrl": "https://www.escritores.org/concursos/concursos-1/concursos-literarios",
-  "count": 174,
+  "count": 173,
   "contests": [
     {
       "url": "https://www.escritores.org/recursos-para-escritores",
@@ -141,16 +141,6 @@
       "category": "",
       "prize": "",
       "conditions": "",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42165-concurso-literario-feafes-melilla-salud-mental-2026",
-      "title": "CONCURSO LITERARIO FEAFES MELILLA SALUD MENTAL 2026",
-      "country": "España",
-      "deadline": "2026-10-08",
-      "category": "Relato y Poesía",
-      "prize": "150 euros",
-      "conditions": "residentes en España",
       "acceptsEmail": true
     },
     {
