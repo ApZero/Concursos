@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-09T15:40:09.713Z",
+  "updatedAt": "2026-10-10T14:55:04.606Z",
   "sourceUrl": "https://www.escritores.org/concursos/concursos-1/concursos-literarios",
-  "count": 173,
+  "count": 167,
   "contests": [
     {
       "url": "https://www.escritores.org/recursos-para-escritores",
@@ -142,66 +142,6 @@
       "prize": "",
       "conditions": "",
       "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/41929-74-premio-de-novela-ateneo-ciudad-de-valladolid",
-      "title": "74º PREMIO DE NOVELA “ATENEO-CIUDAD DE VALLADOLID”",
-      "country": "España",
-      "deadline": "2026-10-09",
-      "category": "Novela",
-      "prize": "20.000 euros y publicación",
-      "conditions": "mayores de edad",
-      "acceptsEmail": false
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/41578-iii-certamen-de-relato-historico-mantua-carpetanorum",
-      "title": "III CERTAMEN DE RELATO HISTÓRICO \"MANTUA CARPETANORUM\"",
-      "country": "España",
-      "deadline": "2026-10-09",
-      "category": "Relato histórico",
-      "prize": "500 euros",
-      "conditions": "mayores de edad residentes en España",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/41982-iii-certamen-de-relatos-cortos-en-valenciano-y-castellano-online-sobre-memoria-democratica-el-moli",
-      "title": "III CERTAMEN DE RELATOS CORTOS EN VALENCIANO Y CASTELLANO ONLINE SOBRE MEMORIA DEMOCRÁTICA “EL MOLI”",
-      "country": "España",
-      "deadline": "2026-10-09",
-      "category": "Relato corto",
-      "prize": "trofeo, diploma y un vale para compra de libros",
-      "conditions": "mayores 18 años",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/41900-xxi-certamen-de-relatos-breves-mujeres",
-      "title": "XXI CERTAMEN DE RELATOS BREVES MUJERES",
-      "country": "España",
-      "deadline": "2026-10-09",
-      "category": "Relato breve",
-      "prize": "2.000 euros",
-      "conditions": "mujeres con nacionalidad española y extranjeras con residencia en España",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42128-xxii-concurso-de-poesia-luis-lopez-anglada",
-      "title": "XXII CONCURSO DE POESÍA 'LUIS LÓPEZ ANGLADA'",
-      "country": "España",
-      "deadline": "2026-10-09",
-      "category": "Poesía",
-      "prize": "1.500 euros",
-      "conditions": "sin restricciones",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/41769-certamenes-de-la-casa-de-leon-en-a-coruna",
-      "title": "CERTÁMENES DE LA CASA DE LEÓN EN A CORUÑA",
-      "country": "España",
-      "deadline": "2026-10-09",
-      "category": "Relato corto y Poesía",
-      "prize": "Diploma y 300 euros",
-      "conditions": "sin restricciones",
-      "acceptsEmail": false
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41901-concurso-literario-nacional-serafin-j-garcia-trigesima-edicion",
