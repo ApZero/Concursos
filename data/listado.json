@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-11T15:12:06.398Z",
+  "updatedAt": "2026-10-12T18:22:16.782Z",
   "sourceUrl": "https://www.escritores.org/concursos/concursos-1/concursos-literarios",
-  "count": 163,
+  "count": 164,
   "contests": [
     {
       "url": "https://www.escritores.org/recursos-para-escritores",
@@ -141,16 +141,6 @@
       "category": "",
       "prize": "",
       "conditions": "",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/41588-concurso-nacional-de-poesia-agustin-acosta-2026",
-      "title": "CONCURSO NACIONAL DE POESÍA “AGUSTÍN ACOSTA” - 2026",
-      "country": "Cuba",
-      "deadline": "2026-10-12",
-      "category": "Poesía",
-      "prize": "no se indica",
-      "conditions": "poetas cubanos",
       "acceptsEmail": true
     },
     {
@@ -804,6 +794,16 @@
       "acceptsEmail": true
     },
     {
+      "url": "https://www.escritores.org/recursos-para-escritores/42212-convocatoria-para-el-numero-21-de-la-revista-literaria-alborismos",
+      "title": "CONVOCATORIA PARA EL NÚMERO 21 DE LA REVISTA LITERARIA “ALBORISMOS”",
+      "country": "Venezuela",
+      "deadline": "2026-10-31",
+      "category": "narradores, ensayistas, ilustradores y poetas",
+      "prize": "Publicación",
+      "conditions": "mayores de 16 años",
+      "acceptsEmail": true
+    },
+    {
       "url": "https://www.escritores.org/recursos-para-escritores/42201-ii-concurso-de-microrrelatos-del-bienestar",
       "title": "II CONCURSO DE MICRORRELATOS DEL BIENESTAR",
       "country": "España",
@@ -1052,6 +1052,16 @@
       "prize": "",
       "conditions": "",
       "acceptsEmail": true
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42213-v-certamen-de-participacion-social-de-castilla-y-leon",
+      "title": "V CERTAMEN DE PARTICIPACIÓN SOCIAL DE CASTILLA Y LEÓN",
+      "country": "España",
+      "deadline": "2026-11-16",
+      "category": "ensayo, narrativa, poesía…",
+      "prize": "2.000 euros",
+      "conditions": "ciudadanos de Castilla y León",
+      "acceptsEmail": false
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41820-iii-certamen-literario-de-relato-y-poesia-la-tribu-educa",
