@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-12T18:22:16.782Z",
+  "updatedAt": "2026-10-13T16:35:26.777Z",
   "sourceUrl": "https://www.escritores.org/concursos/concursos-1/concursos-literarios",
-  "count": 164,
+  "count": 166,
   "contests": [
     {
       "url": "https://www.escritores.org/recursos-para-escritores",
@@ -141,16 +141,6 @@
       "category": "",
       "prize": "",
       "conditions": "",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42120-vii-premio-de-novela-corta-de-terror-e-historias-fantasticas-casa-de-cultura-marta-portal",
-      "title": "VII PREMIO DE NOVELA CORTA DE TERROR E HISTORIAS FANTÁSTICAS “CASA DE CULTURA MARTA PORTAL”",
-      "country": "España",
-      "deadline": "2026-10-13",
-      "category": "Novela corta",
-      "prize": "700 euros, publicación, 100 ejemplares para el autor",
-      "conditions": "mayores de edad residentes en España",
       "acceptsEmail": true
     },
     {
@@ -904,6 +894,16 @@
       "acceptsEmail": true
     },
     {
+      "url": "https://www.escritores.org/recursos-para-escritores/42218-historias-del-autobus-un-trayecto-mil-historias-cual-es-la-tuya",
+      "title": "HISTORIAS DEL AUTOBÚS. UN TRAYECTO, MIL HISTORIAS.¿CUÁL ES LA TUYA?",
+      "country": "España",
+      "deadline": "2026-11-05",
+      "category": "Microrrelato",
+      "prize": "premio valorado en 300 €.",
+      "conditions": "mayores 18 años",
+      "acceptsEmail": false
+    },
+    {
       "url": "https://www.escritores.org/recursos-para-escritores/42207-concurso-carmen-rubio-2026",
       "title": "CONCURSO CARMEN RUBIO 2026",
       "country": "Cuba",
@@ -1152,6 +1152,16 @@
       "prize": "lote de libros por valor de 100 euros",
       "conditions": "mayores 18 años",
       "acceptsEmail": true
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42216-lxxxvi-premio-alejandro-perez-lugin-2026-de-periodismo",
+      "title": "LXXXVI PREMIO “ALEJANDRO PÉREZ LUGÍN 2026” DE PERIODISMO",
+      "country": "España",
+      "deadline": "2026-11-30",
+      "category": "Periodismo",
+      "prize": "3.000 euros",
+      "conditions": "sin restricciones",
+      "acceptsEmail": false
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41915-ii-premio-literario-jorge-magico-gonzalez",
@@ -1441,6 +1451,16 @@
       "category": "",
       "prize": "",
       "conditions": "",
+      "acceptsEmail": true
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42217-concurso-literario-nacional-benigno-vazquez-los-arabos-2027",
+      "title": "CONCURSO LITERARIO NACIONAL BENIGNO VÁZQUEZ - LOS ARABOS 2027",
+      "country": "Cuba",
+      "deadline": "2027-01-05",
+      "category": "Poesía, Cuento, Ensayo...",
+      "prize": "$ 2000.00 M.N",
+      "conditions": "residentes en Cuba",
       "acceptsEmail": true
     },
     {
