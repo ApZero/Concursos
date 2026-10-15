@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-14T14:12:20.305Z",
+  "updatedAt": "2026-10-15T13:47:55.004Z",
   "sourceUrl": "https://www.escritores.org/concursos/concursos-1/concursos-literarios",
-  "count": 166,
+  "count": 169,
   "contests": [
     {
       "url": "https://www.escritores.org/recursos-para-escritores",
@@ -1084,6 +1084,26 @@
       "acceptsEmail": false
     },
     {
+      "url": "https://www.escritores.org/recursos-para-escritores/42220-53-concurso-de-cuentos-ciudad-de-tudela",
+      "title": "53º CONCURSO DE CUENTOS \"CIUDAD DE TUDELA\"",
+      "country": "España",
+      "deadline": "2026-11-20",
+      "category": "Cuento",
+      "prize": "3.000 euros",
+      "conditions": "mayores 18 años",
+      "acceptsEmail": false
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42221-42-concurso-de-poesia-ciudad-de-tudela",
+      "title": "42º CONCURSO DE POESÍA CIUDAD DE TUDELA",
+      "country": "España",
+      "deadline": "2026-11-20",
+      "category": "Poesía",
+      "prize": "1.500 euros",
+      "conditions": "mayores 18 años",
+      "acceptsEmail": false
+    },
+    {
       "url": "https://www.escritores.org/recursos-para-escritores/42143-xiii-concurso-de-micropoemas-jose-garcia-nieto-2026",
       "title": "XIII CONCURSO DE MICROPOEMAS JOSÉ GARCÍA NIETO 2026",
       "country": "España",
@@ -1581,6 +1601,16 @@
       "category": "Relato corto y Microrrelato con temática Centenario del Juan Sebastián de Elcano",
       "prize": "500 euros, trofeo y diploma",
       "conditions": "Personas de cualquier nacionalidad mayores de 18 años que residan en España o que dispongan de dirección en España a la que enviarles el premio",
+      "acceptsEmail": true
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42219-certamen-nacional-de-poesia-maxi-banegas-2027",
+      "title": "CERTAMEN NACIONAL DE POESÍA \"MAXI BANEGAS\" 2027",
+      "country": "España",
+      "deadline": "2027-04-15",
+      "category": "Poesía",
+      "prize": "1.100 euros y placa acreditativa",
+      "conditions": "mayores de 18 años, españoles o residentes en España",
       "acceptsEmail": true
     },
     {
