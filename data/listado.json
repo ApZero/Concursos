@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-16T13:38:08.397Z",
+  "updatedAt": "2026-10-17T12:35:27.138Z",
   "sourceUrl": "https://www.escritores.org/concursos/concursos-1/concursos-literarios",
-  "count": 152,
+  "count": 151,
   "contests": [
     {
       "url": "https://www.escritores.org/recursos-para-escritores",
@@ -141,66 +141,6 @@
       "category": "",
       "prize": "",
       "conditions": "",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42173-xxxiii-certamen-de-cuentos-y-xii-certamen-de-poesia-villa-de-moraleja",
-      "title": "XXXIII CERTAMEN DE CUENTOS Y XII CERTAMEN DE POESÍA \"VILLA DE MORALEJA\"",
-      "country": "España",
-      "deadline": "2026-10-16",
-      "category": "Cuento y Poesía",
-      "prize": "800 euros y placa",
-      "conditions": "mayores 16 años",
-      "acceptsEmail": false
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42031-i-premio-narrativa-elena-santiago-2026",
-      "title": "I PREMIO NARRATIVA «ELENA SANTIAGO» 2026",
-      "country": "España",
-      "deadline": "2026-10-16",
-      "category": "Narrativa",
-      "prize": "2.000 euros y publicación",
-      "conditions": "oriundos de la provincia de León o residentes en la misma",
-      "acceptsEmail": false
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42170-x-concurso-de-microrrelatos-y-carteles-de-emt-madrid",
-      "title": "X CONCURSO DE MICRORRELATOS Y CARTELES DE EMT MADRID",
-      "country": "España",
-      "deadline": "2026-10-16",
-      "category": "Microrrelato",
-      "prize": "400 euros",
-      "conditions": "sin restricciones",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42075-xxviii-certamen-literario-ciudad-de-tijola",
-      "title": "XXVIII CERTAMEN LITERARIO CIUDAD DE TÍJOLA",
-      "country": "España",
-      "deadline": "2026-10-16",
-      "category": "Novela corta",
-      "prize": "1.000 euros, publicación, diploma",
-      "conditions": "residentes en España",
-      "acceptsEmail": false
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42104-xxviii-certamen-de-relato-corto-tito-simon",
-      "title": "XXVIII CERTAMEN DE RELATO CORTO \"TITO SIMÓN\"",
-      "country": "España",
-      "deadline": "2026-10-17",
-      "category": "Relato corto",
-      "prize": "500 euros y diploma",
-      "conditions": "sin restricciones",
-      "acceptsEmail": false
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42191-iii-concurso-de-microrrelatos-de-terror-maritimo",
-      "title": "III CONCURSO DE MICRORRELATOS DE TERROR MARÍTIMO",
-      "country": "España",
-      "deadline": "2026-10-17",
-      "category": "Microrrelato",
-      "prize": "productos de la tienda del museo valorado en 80 €.",
-      "conditions": "sin restricciones",
       "acceptsEmail": true
     },
     {
@@ -774,6 +714,26 @@
       "acceptsEmail": true
     },
     {
+      "url": "https://www.escritores.org/recursos-para-escritores/42226-xxxvii-premio-literario-villa-de-almoradi-edicion-2026",
+      "title": "XXXVII PREMIO LITERARIO VILLA DE ALMORADÍ. EDICIÓN 2026",
+      "country": "España",
+      "deadline": "2026-11-10",
+      "category": "ensayo, relato o cuento",
+      "prize": "1.000 euros y diploma",
+      "conditions": "mayores de edad",
+      "acceptsEmail": false
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42227-xxxiii-concurso-de-relato-corto-antonio-sequeros",
+      "title": "XXXIII CONCURSO DE RELATO CORTO ANTONIO SEQUEROS",
+      "country": "España",
+      "deadline": "2026-11-10",
+      "category": "Relato corto",
+      "prize": "1.000 euros y diploma",
+      "conditions": "cualquier persona física mayor de edad, de nacionalidad española o extranjera, que sea natural o residente en la Comarca de la Vega Baja del Segura (Alicante",
+      "acceptsEmail": false
+    },
+    {
       "url": "https://www.escritores.org/recursos-para-escritores/41959-xx-premio-internacional-de-novela-grafica-fnac-salamandra-graphic",
       "title": "XX PREMIO INTERNACIONAL DE NOVELA GRÁFICA FNAC-SALAMANDRA GRAPHIC",
       "country": "España",
@@ -1114,6 +1074,16 @@
       "acceptsEmail": true
     },
     {
+      "url": "https://www.escritores.org/recursos-para-escritores/42223-v-concurso-nacional-de-poesias-y-microrrelatos-del-centro-de-participacion-activa-para-personas-mayores-isla-cristina",
+      "title": "V CONCURSO NACIONAL DE POESÍAS Y MICRORRELATOS DEL CENTRO DE PARTICIPACIÓN ACTIVA PARA PERSONAS MAYORES ISLA CRISTINA",
+      "country": "España",
+      "deadline": "2026-12-01",
+      "category": "Poesía y microrrelato",
+      "prize": "Lote de productos de USISA y un diploma",
+      "conditions": "mayores de 55 años de nacionalidad española",
+      "acceptsEmail": true
+    },
+    {
       "url": "https://www.escritores.org/recursos-para-escritores/41960-i-premio-nacional-de-thriller-documental",
       "title": "I PREMIO NACIONAL DE THRILLER DOCUMENTAL",
       "country": "España",
@@ -1182,6 +1152,16 @@
       "prize": "300 euros, lote de libros, diploma",
       "conditions": "mayores 18 años",
       "acceptsEmail": true
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42225-xxxix-certamen-de-relato-corto-biblioteca-publica-municipal-de-pilas",
+      "title": "XXXIX CERTAMEN DE RELATO CORTO \"BIBLIOTECA PÚBLICA MUNICIPAL DE PILAS\"",
+      "country": "España",
+      "deadline": "2026-12-11",
+      "category": "Relato",
+      "prize": "1.000 euros",
+      "conditions": "mayores 18 años",
+      "acceptsEmail": false
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42002-v-certamen-de-relato-y-cuento-literaria-kalean",
@@ -1331,6 +1311,16 @@
       "category": "Poesía",
       "prize": "2.000 euros, diploma, publicación",
       "conditions": "sin restricciones",
+      "acceptsEmail": true
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42224-8o-certamen-literario-papallones-liles",
+      "title": "8o CERTAMEN LITERARIO PAPALLONES LILES",
+      "country": "España",
+      "deadline": "2027-01-15",
+      "category": "Narrativa corta",
+      "prize": "300 euros",
+      "conditions": "mayores de edad",
       "acceptsEmail": true
     },
     {
