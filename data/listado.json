@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-18T12:52:38.237Z",
+  "updatedAt": "2026-10-19T16:01:36.471Z",
   "sourceUrl": "https://www.escritores.org/concursos/concursos-1/concursos-literarios",
-  "count": 151,
+  "count": 152,
   "contests": [
     {
       "url": "https://www.escritores.org/recursos-para-escritores",
@@ -142,26 +142,6 @@
       "prize": "",
       "conditions": "",
       "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42118-xx-premio-paco-rabal-de-periodismo-cultural",
-      "title": "XX PREMIO PACO RABAL DE PERIODISMO CULTURAL",
-      "country": "España",
-      "deadline": "2026-10-18",
-      "category": "Periodismo",
-      "prize": "5.000 euros",
-      "conditions": "artículos aparecidos en medios escritos, en soporte físico o digital",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42135-primer-certamen-de-poesia-del-castellano-y-leones-de-catalunya-v2-0",
-      "title": "PRIMER CERTAMEN DE POESÍA DEL CASTELLANO Y LEONÉS DE CATALUNYA (v2.0)",
-      "country": "España",
-      "deadline": "",
-      "category": "",
-      "prize": "",
-      "conditions": "",
-      "acceptsEmail": false
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42150-vii-edicion-del-premio-de-periodismo-david-gistau",
@@ -571,6 +551,16 @@
       "category": "Microrrelato",
       "prize": "Pack Ritual Brilla y 100 marcapáginas con su microrrelato",
       "conditions": "mayores de edad residentes en España",
+      "acceptsEmail": true
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42229-24-concurso-internacional-de-cartas-de-amor-del-programa-el-canal-2",
+      "title": "24º CONCURSO INTERNACIONAL DE CARTAS DE AMOR DEL PROGRAMA \"EL CANAL 2\"",
+      "country": "España",
+      "deadline": "",
+      "category": "",
+      "prize": "",
+      "conditions": "",
       "acceptsEmail": true
     },
     {
@@ -1324,6 +1314,16 @@
       "acceptsEmail": true
     },
     {
+      "url": "https://www.escritores.org/recursos-para-escritores/42228-vi-premio-internacional-de-poesia-dolors-alberola",
+      "title": "VI PREMIO INTERNACIONAL DE POESÍA DOLORS ALBEROLA",
+      "country": "España",
+      "deadline": "2027-01-15",
+      "category": "Poesía",
+      "prize": "Traducción del libro a un idioma diferente. Publicación del libro en edición bilingüe, sin cargos. 50 ejemplares del libro publicado. Los derechos correspondientes por la comercialización de su obra",
+      "conditions": "sin restricciones",
+      "acceptsEmail": true
+    },
+    {
       "url": "https://www.escritores.org/recursos-para-escritores/42149-iii-concurso-literario-de-relatos-breves-y-de-poesia-escritores-del-barrio-aefep",
       "title": "III CONCURSO LITERARIO DE RELATOS BREVES Y DE POESÍA “ESCRITORES DEL BARRIO” AEFEP",
       "country": "España",
@@ -1331,6 +1331,16 @@
       "category": "Poesía y Relato",
       "prize": "Placa conmemorativa y cheque regalo por valor de 100 €",
       "conditions": "personas residentes o vinculadas al distrito Fuencarral-El Pardo, de cualquier nacionalidad y mayores de 18 años",
+      "acceptsEmail": true
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42230-iii-concurso-de-microteatro-del-casino-17-de-gener-de-ciutadella-de-menorca",
+      "title": "III CONCURSO DE MICROTEATRO DEL CASINO 17 DE GENER DE CIUTADELLA DE MENORCA",
+      "country": "España",
+      "deadline": "2027-01-30",
+      "category": "Teatro",
+      "prize": "1.000 euros y representación",
+      "conditions": "sin restricciones",
       "acceptsEmail": true
     },
     {
