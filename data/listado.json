@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-20T13:58:32.627Z",
+  "updatedAt": "2026-10-21T14:14:52.008Z",
   "sourceUrl": "https://www.escritores.org/concursos/concursos-1/concursos-literarios",
-  "count": 147,
+  "count": 148,
   "contests": [
     {
       "url": "https://www.escritores.org/recursos-para-escritores",
@@ -141,16 +141,6 @@
       "category": "",
       "prize": "",
       "conditions": "",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42194-convocatoria-internacional-n-3-de-2026-revista-explorando-arte-y-cultura-de-latinoamerica-horizontes-que-nos-unen",
-      "title": "CONVOCATORIA INTERNACIONAL N.º 3 DE 2026. REVISTA EXPLORANDO ARTE Y CULTURA DE LATINOAMÉRICA. HORIZONTES QUE NOS UNEN",
-      "country": "Colombia",
-      "deadline": "2026-10-21",
-      "category": "Poesía, Cuento, Ensayo,...",
-      "prize": "Diploma, Publicación",
-      "conditions": "mayores 18 años",
       "acceptsEmail": true
     },
     {
@@ -591,6 +581,16 @@
       "category": "Poesía",
       "prize": "5.000 euros",
       "conditions": "residentes en España con una edad que no supere los 30 años",
+      "acceptsEmail": true
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42232-i-certamen-literario-las-voces-del-trabajo",
+      "title": "I CERTAMEN LITERARIO «LAS VOCES DEL TRABAJO»",
+      "country": "España",
+      "deadline": "2026-11-02",
+      "category": "Relato",
+      "prize": "100 € en tarjeta regalo Amazon",
+      "conditions": "mayores de 18 años residentes en España",
       "acceptsEmail": true
     },
     {
@@ -1111,6 +1111,16 @@
       "category": "Cuento, Relato",
       "prize": "Viaje en globo y publicación",
       "conditions": "mayores de 18 años, residentes en la Península Ibérica",
+      "acceptsEmail": true
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42231-iv-concurso-de-haikus-de-l-associacio-cultural-el-cercle",
+      "title": "IV CONCURSO DE HAIKUS DE L'ASSOCIACIÓ CULTURAL EL CERCLE",
+      "country": "España",
+      "deadline": "2026-12-15",
+      "category": "Haiku",
+      "prize": "marco de cristal con la inscripción del haiku ganador, una lámina estilo japones y una pluma estilográfica, con la inscripción de su nombre",
+      "conditions": "mayores de 15 años",
       "acceptsEmail": true
     },
     {
