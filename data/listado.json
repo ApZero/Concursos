@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-21T14:14:52.008Z",
+  "updatedAt": "2026-10-22T14:14:04.866Z",
   "sourceUrl": "https://www.escritores.org/concursos/concursos-1/concursos-literarios",
-  "count": 148,
+  "count": 147,
   "contests": [
     {
       "url": "https://www.escritores.org/recursos-para-escritores",
@@ -1031,16 +1031,6 @@
       "category": "Thriller Documental",
       "prize": "Publicación. 350 euros en concepto de adelanto de regalías. Trofeo acreditativo",
       "conditions": "mayores de edad con residencia en España",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42068-la-letra-con-orgullo-entra-microrrelatos-en-red",
-      "title": "LA LETRA CON ORGULLO ENTRA: MICRORRELATOS EN RED",
-      "country": "España",
-      "deadline": "2026-12-01",
-      "category": "Microrrelato",
-      "prize": "300 euros. Impresión",
-      "conditions": "sin restricciones",
       "acceptsEmail": true
     },
     {
