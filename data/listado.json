@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-25T13:27:25.622Z",
+  "updatedAt": "2026-10-26T15:38:41.248Z",
   "sourceUrl": "https://www.escritores.org/concursos/concursos-1/concursos-literarios",
-  "count": 153,
+  "count": 155,
   "contests": [
     {
       "url": "https://www.escritores.org/recursos-para-escritores",
@@ -764,6 +764,16 @@
       "acceptsEmail": true
     },
     {
+      "url": "https://www.escritores.org/recursos-para-escritores/42242-convocatoria-revista-literaria-papeles-del-caracol-otono-2026",
+      "title": "CONVOCATORIA REVISTA LITERARIA PAPELES DEL CARACOL. Otoño 2026",
+      "country": "España",
+      "deadline": "2026-11-15",
+      "category": "Poesía, relatos, ensayos, obra gráfica",
+      "prize": "Publicación",
+      "conditions": "sin restricciones",
+      "acceptsEmail": true
+    },
+    {
       "url": "https://www.escritores.org/recursos-para-escritores/42164-convocatoria-concurso-chispa-joven-2026",
       "title": "CONVOCATORIA CONCURSO CHISPA JOVEN 2026",
       "country": "Cuba",
@@ -1280,6 +1290,16 @@
       "deadline": "2027-01-08",
       "category": "Ensayo",
       "prize": "9.000 euros, diploma, publicación",
+      "conditions": "sin restricciones",
+      "acceptsEmail": true
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42241-premio-juan-valera-2027-novela",
+      "title": "PREMIO “JUAN VALERA” 2027 – NOVELA",
+      "country": "España",
+      "deadline": "2027-01-08",
+      "category": "Novela",
+      "prize": "600 euros y publicación. Le corresponderá al autor de la novela ganadora el 15 % del total de 250 volúmenes publicados",
       "conditions": "sin restricciones",
       "acceptsEmail": true
     },
