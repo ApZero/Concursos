@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-26T15:38:41.248Z",
+  "updatedAt": "2026-10-27T15:01:45.578Z",
   "sourceUrl": "https://www.escritores.org/concursos/concursos-1/concursos-literarios",
-  "count": 155,
+  "count": 157,
   "contests": [
     {
       "url": "https://www.escritores.org/recursos-para-escritores",
@@ -1204,6 +1204,16 @@
       "acceptsEmail": true
     },
     {
+      "url": "https://www.escritores.org/recursos-para-escritores/42243-concurso-literario-del-ayuntamiento-de-lasarte-oria-2026",
+      "title": "CONCURSO LITERARIO DEL AYUNTAMIENTO DE LASARTE-ORIA 2026",
+      "country": "España",
+      "deadline": "2026-12-22",
+      "category": "Poesía y micxrorrelato",
+      "prize": "650 euros y diploma",
+      "conditions": "mayores 16 años residentes en la Unión Europea",
+      "acceptsEmail": true
+    },
+    {
       "url": "https://www.escritores.org/recursos-para-escritores/41869-vii-premio-de-investigacion-historica",
       "title": "VII PREMIO DE INVESTIGACIÓN HISTÓRICA",
       "country": "España",
@@ -1482,6 +1492,16 @@
       "prize": "1.500 euros y flor natural",
       "conditions": "sin restricciones",
       "acceptsEmail": false
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42244-i-concurso-literario-quijote-muenchhausen-ia-para-obras-generadas-mediante-inteligencia-artificial",
+      "title": "I CONCURSO LITERARIO ‘QUIJOTE MÜNCHHAUSEN IA’ (PARA OBRAS GENERADAS MEDIANTE INTELIGENCIA ARTIFICIAL)",
+      "country": "España",
+      "deadline": "2027-04-23",
+      "category": "Novela corta",
+      "prize": "Publicación. El ganador recibirá 28 ejemplares de la obra publicada. Diploma. Pernoctará en un hotel con encanto y asistirá a una ruta turística guiada por el entramado misterioso de la ciudad de Toledo",
+      "conditions": "mayores de 18 años, españoles o residentes en España",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42195-iii-edicion-del-premio-de-novela-corta-de-ciencia-ficcion-y-fantasia-pedro-carbonell-castiller",
