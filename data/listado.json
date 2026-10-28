@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-27T15:01:45.578Z",
+  "updatedAt": "2026-10-28T15:37:39.552Z",
   "sourceUrl": "https://www.escritores.org/concursos/concursos-1/concursos-literarios",
-  "count": 157,
+  "count": 155,
   "contests": [
     {
       "url": "https://www.escritores.org/recursos-para-escritores",
@@ -142,56 +142,6 @@
       "prize": "",
       "conditions": "",
       "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42119-xxii-libro-y-premio-internacional-de-cuentos-escritos-por-personas-con-discapacidad",
-      "title": "XXII LIBRO Y PREMIO INTERNACIONAL DE CUENTOS ESCRITOS POR PERSONAS CON DISCAPACIDAD",
-      "country": "España",
-      "deadline": "2026-10-27",
-      "category": "Cuento",
-      "prize": "300 euros y diploma",
-      "conditions": "sin restricciones",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/41884-7-edicion-pallars-sobira-pirineos",
-      "title": "7ª EDICIÓN \"PALLARS SOBIRÀ, PIRINEOS\"",
-      "country": "España",
-      "deadline": "",
-      "category": "",
-      "prize": "",
-      "conditions": "",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42057-becas-2026-2027-del-ayuntamiento-de-madrid-para-estudiantes-de-postgrado-y-creadores-y-artistas-en-la-residencia-de-estudiantes",
-      "title": "BECAS 2026-2027 DEL AYUNTAMIENTO DE MADRID PARA ESTUDIANTES DE POSTGRADO Y CREADORES Y ARTISTAS EN LA RESIDENCIA DE ESTUDIANTES",
-      "country": "España",
-      "deadline": "",
-      "category": "",
-      "prize": "",
-      "conditions": "",
-      "acceptsEmail": false
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42085-xxxviii-certamen-literario-alberto-magno-de-ciencia-ficcion",
-      "title": "XXXVIII CERTAMEN LITERARIO ALBERTO MAGNO DE CIENCIA FICCIÓN",
-      "country": "España",
-      "deadline": "2026-10-23",
-      "category": "Relato",
-      "prize": "2.000 euros",
-      "conditions": "relatos originales e inéditos pertenecientes al género de la Ciencia Ficción y fantasía",
-      "acceptsEmail": false
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42188-concursos-de-poesia-fotografia-y-artesania-un-clavel-para-la-boda-imperial",
-      "title": "CONCURSOS DE POESÍA, FOTOGRAFÍA Y ARTESANIA \"UN CLAVEL PARA LA BODA IMPERIAL\"",
-      "country": "España",
-      "deadline": "2026-10-25",
-      "category": "Poesía",
-      "prize": "3.000 euros",
-      "conditions": "mayores 18 años",
-      "acceptsEmail": false
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42169-v-concurso-de-letras-de-fandango-mgg",
@@ -814,6 +764,16 @@
       "acceptsEmail": true
     },
     {
+      "url": "https://www.escritores.org/recursos-para-escritores/42246-viii-certamen-de-microrrelatos-violencia-contra-la-mujer",
+      "title": "VIII CERTAMEN DE MICRORRELATOS \"VIOLENCIA CONTRA LA MUJER\"",
+      "country": "España",
+      "deadline": "2026-11-19",
+      "category": "Microrrelato",
+      "prize": "Diploma y lote de libros",
+      "conditions": "mayores 15 años residentes en España",
+      "acceptsEmail": true
+    },
+    {
       "url": "https://www.escritores.org/recursos-para-escritores/42184-xxviii-certamen-de-relatos-breves-de-invierno-y-cuentos-de-navidad",
       "title": "XXVIII CERTAMEN DE RELATOS BREVES DE INVIERNO Y CUENTOS DE NAVIDAD",
       "country": "España",
@@ -1354,6 +1314,16 @@
       "acceptsEmail": true
     },
     {
+      "url": "https://www.escritores.org/recursos-para-escritores/42245-xxvii-premio-internacional-de-poesia-andres-garcia-madrid",
+      "title": "XXVII PREMIO INTERNACIONAL DE POESÍA ANDRÉS GARCÍA MADRID",
+      "country": "España",
+      "deadline": "2027-01-18",
+      "category": "Poesía",
+      "prize": "500 euros",
+      "conditions": "mayores 18 años",
+      "acceptsEmail": true
+    },
+    {
       "url": "https://www.escritores.org/recursos-para-escritores/42149-iii-concurso-literario-de-relatos-breves-y-de-poesia-escritores-del-barrio-aefep",
       "title": "III CONCURSO LITERARIO DE RELATOS BREVES Y DE POESÍA “ESCRITORES DEL BARRIO” AEFEP",
       "country": "España",
@@ -1461,6 +1431,16 @@
       "category": "Microrrelato",
       "prize": "200 Euros y diploma acreditativo",
       "conditions": "microrrelatos con contenido social",
+      "acceptsEmail": true
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42247-xxii-premio-de-novela-carolina-colorado-ciudad-de-almendralejo-2027",
+      "title": "XXII PREMIO DE NOVELA \"CAROLINA COLORADO\" CIUDAD DE ALMENDRALEJO 2027",
+      "country": "España",
+      "deadline": "2027-02-28",
+      "category": "Novela",
+      "prize": "8.000 euros",
+      "conditions": "mayores de edad",
       "acceptsEmail": true
     },
     {
