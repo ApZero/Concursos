@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-28T15:37:39.552Z",
+  "updatedAt": "2026-10-29T15:43:53.771Z",
   "sourceUrl": "https://www.escritores.org/concursos/concursos-1/concursos-literarios",
-  "count": 155,
+  "count": 159,
   "contests": [
     {
       "url": "https://www.escritores.org/recursos-para-escritores",
@@ -954,6 +954,16 @@
       "acceptsEmail": false
     },
     {
+      "url": "https://www.escritores.org/recursos-para-escritores/42248-xviii-certamen-nacional-de-poesia-carmen-arias",
+      "title": "XVIII CERTAMEN NACIONAL DE POESÍA \"CARMEN ARIAS\"",
+      "country": "España",
+      "deadline": "2026-11-30",
+      "category": "Poesía",
+      "prize": "1.500 euros",
+      "conditions": "residentes en España",
+      "acceptsEmail": false
+    },
+    {
       "url": "https://www.escritores.org/recursos-para-escritores/42066-certamenes-2026-del-ateneo-literario-de-artes-y-de-ciencias-de-puerto-real-v-concurso-de-sonetos-hernan-de-usero-vii-premio-de-poesia-rosa-butler-x-edicion-del-premio-de-novela-isaac-asimov-2026",
       "title": "CERTÁMENES 2026 DEL ATENEO LITERARIO DE ARTES Y DE CIENCIAS DE PUERTO REAL - VI CONCURSO DE SONETOS \"HERNÁN DE USERO\" - VII PREMIO DE POESÍA “ROSA BUTLER” - X EDICIÓN DEL PREMIO DE NOVELA ISAAC ASIMOV 2026",
       "country": "España",
@@ -1092,6 +1102,16 @@
       "prize": "1.000 euros",
       "conditions": "mayores 18 años",
       "acceptsEmail": false
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42249-xiii-certamen-poetico-margarita-perujo-nebro",
+      "title": "XIII CERTAMEN POÉTICO “MARGARITA PERUJO NEBRO”",
+      "country": "España",
+      "deadline": "2026-12-13",
+      "category": "Poesía",
+      "prize": "300 euros",
+      "conditions": "residentes en Andalucía",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42235-concurso-de-relatos-navidenos-del-club-de-lectura-carlota",
@@ -1294,6 +1314,16 @@
       "acceptsEmail": true
     },
     {
+      "url": "https://www.escritores.org/recursos-para-escritores/42250-i-premio-internacional-de-poesia-cantos-del-olivar",
+      "title": "I PREMIO INTERNACIONAL DE POESÍA “CANTOS DEL OLIVAR”",
+      "country": "España",
+      "deadline": "",
+      "category": "",
+      "prize": "",
+      "conditions": "",
+      "acceptsEmail": true
+    },
+    {
       "url": "https://www.escritores.org/recursos-para-escritores/42228-vi-premio-internacional-de-poesia-dolors-alberola",
       "title": "VI PREMIO INTERNACIONAL DE POESÍA DOLORS ALBEROLA",
       "country": "España",
@@ -1401,6 +1431,16 @@
       "category": "",
       "prize": "",
       "conditions": "",
+      "acceptsEmail": true
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42251-10-edicion-del-concurso-novela-corta-ramiro-pinilla",
+      "title": "10.ª EDICIÓN DEL CONCURSO NOVELA CORTA \"RAMIRO PINILLA\"",
+      "country": "España",
+      "deadline": "2027-02-20",
+      "category": "Novela corta",
+      "prize": "6.300 €, figura conmemorativa y credencial emitida por la Alcaldía",
+      "conditions": "personas vivas domiciliadas en España, cualquiera que sea su nacionalidad",
       "acceptsEmail": true
     },
     {
