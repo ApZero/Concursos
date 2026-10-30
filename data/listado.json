@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-29T15:43:53.771Z",
+  "updatedAt": "2026-10-30T15:26:18.842Z",
   "sourceUrl": "https://www.escritores.org/concursos/concursos-1/concursos-literarios",
-  "count": 159,
+  "count": 164,
   "contests": [
     {
       "url": "https://www.escritores.org/recursos-para-escritores",
@@ -141,26 +141,6 @@
       "category": "",
       "prize": "",
       "conditions": "",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42169-v-concurso-de-letras-de-fandango-mgg",
-      "title": "V CONCURSO DE LETRAS DE FANDANGO MGG",
-      "country": "España",
-      "deadline": "2026-10-29",
-      "category": "Letras de Fandango",
-      "prize": "400 euros",
-      "conditions": "sin restricciones",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42193-xv-concurso-intergeneracional-de-relatos-cortos-ubu-historias-que-nos-unen",
-      "title": "XV CONCURSO INTERGENERACIONAL DE RELATOS CORTOS UBU \"HISTORIAS QUE NOS UNEN\"",
-      "country": "España",
-      "deadline": "2026-10-29",
-      "category": "Relato corto",
-      "prize": "200 euros",
-      "conditions": "tres categorías de participación a las que podrán concurrir: • Estudiantes de la Universidad de Burgos. • Personas mayores de 60 años. • Participación conjunta. Una persona mayor de 60 años y una menor de 30 años. • En el caso de personas mayores y de concursantes de participación conjunta, los autores deberán tener residencia legal en España",
       "acceptsEmail": true
     },
     {
@@ -804,6 +784,16 @@
       "acceptsEmail": false
     },
     {
+      "url": "https://www.escritores.org/recursos-para-escritores/42257-vi-certamen-de-microrrelatos-entre-belenes-y-sentimientos",
+      "title": "VI CERTAMEN DE MICRORRELATOS “ENTRE BELENES Y SENTIMIENTOS”",
+      "country": "España",
+      "deadline": "2026-11-20",
+      "category": "Microrrelato",
+      "prize": "Una comida para dos personas, y acceso al primer curso de formación que se realice en el año 2027",
+      "conditions": "personas de nacionalidad española y extranjeras con residencia legal en España",
+      "acceptsEmail": true
+    },
+    {
       "url": "https://www.escritores.org/recursos-para-escritores/42143-xiii-concurso-de-micropoemas-jose-garcia-nieto-2026",
       "title": "XIII CONCURSO DE MICROPOEMAS JOSÉ GARCÍA NIETO 2026",
       "country": "España",
@@ -872,6 +862,16 @@
       "prize": "trofeo, diploma y libros.",
       "conditions": "mayores de 18 años que sean oriundos del país (Uruguay",
       "acceptsEmail": false
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42255-beca-michael-jacobs-de-cronica-viajera-2027",
+      "title": "BECA MICHAEL JACOBS DE CRÓNICA VIAJERA 2027",
+      "country": "Colombia",
+      "deadline": "2026-11-27",
+      "category": "Beca",
+      "prize": "10.000 dólares",
+      "conditions": "sin restricciones",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41625-vii-certamen-de-microrrelatos-de-voluntariado-en-cuidados-paliativos",
@@ -1102,6 +1102,16 @@
       "prize": "1.000 euros",
       "conditions": "mayores 18 años",
       "acceptsEmail": false
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42254-xxxii-certamen-cartas-de-amor-bihotzaren-hitzak-2027",
+      "title": "XXXII CERTAMEN CARTAS DE AMOR “BIHOTZAREN HITZAK 2027\"",
+      "country": "España",
+      "deadline": "2026-12-12",
+      "category": "Cartas de amor",
+      "prize": "550 euros y diploma",
+      "conditions": "mayores 18 años",
+      "acceptsEmail": true
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42249-xiii-certamen-poetico-margarita-perujo-nebro",
@@ -1494,6 +1504,16 @@
       "acceptsEmail": true
     },
     {
+      "url": "https://www.escritores.org/recursos-para-escritores/42253-ix-premio-de-poesia-facultad-de-filologia-uned",
+      "title": "IX PREMIO DE POESÍA “FACULTAD DE FILOLOGÍA. UNED”",
+      "country": "España",
+      "deadline": "",
+      "category": "",
+      "prize": "",
+      "conditions": "",
+      "acceptsEmail": true
+    },
+    {
       "url": "https://www.escritores.org/recursos-para-escritores/42219-certamen-nacional-de-poesia-maxi-banegas-2027",
       "title": "CERTAMEN NACIONAL DE POESÍA \"MAXI BANEGAS\" 2027",
       "country": "España",
@@ -1521,6 +1541,36 @@
       "category": "Novela corta",
       "prize": "Publicación. El ganador recibirá 28 ejemplares de la obra publicada. Diploma. Pernoctará en un hotel con encanto y asistirá a una ruta turística guiada por el entramado misterioso de la ciudad de Toledo",
       "conditions": "mayores de 18 años, españoles o residentes en España",
+      "acceptsEmail": true
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42256-iii-premio-de-ensayo-es-posible-utopias-que-caben-en-el-boe",
+      "title": "III PREMIO DE ENSAYO ¿ES POSIBLE? UTOPÍAS QUE CABEN EN EL BOE",
+      "country": "España",
+      "deadline": "2027-04-30",
+      "category": "Ensayo",
+      "prize": "4.500 euros. Publicación",
+      "conditions": "sin restricciones",
+      "acceptsEmail": true
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42252-premio-ensayo-casa-africa-2027",
+      "title": "PREMIO «ENSAYO CASA ÁFRICA» 2027",
+      "country": "España",
+      "deadline": "2027-05-02",
+      "category": "Ensayo",
+      "prize": "3.000 euros",
+      "conditions": "mayores 18 años",
+      "acceptsEmail": true
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42258-32-certamen-de-comic-manga-e-ilustracion-mutantes-paseantes",
+      "title": "32.º CERTAMEN DE CÓMIC, MANGA E ILUSTRACIÓN «MUTANTES PASEANTES»",
+      "country": "España",
+      "deadline": "2027-05-28",
+      "category": "Cómic, Manga, Ilustración",
+      "prize": "600 euros",
+      "conditions": "Dibujantes no profesionales residentes en España, de 14 a 35 años",
       "acceptsEmail": true
     },
     {
