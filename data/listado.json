@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-30T15:26:18.842Z",
+  "updatedAt": "2026-10-31T14:54:24.110Z",
   "sourceUrl": "https://www.escritores.org/concursos/concursos-1/concursos-literarios",
-  "count": 164,
+  "count": 154,
   "contests": [
     {
       "url": "https://www.escritores.org/recursos-para-escritores",
@@ -141,106 +141,6 @@
       "category": "",
       "prize": "",
       "conditions": "",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/41958-premio-aristas-de-novela-grafica-2026",
-      "title": "PREMIO ARISTAS DE NOVELA GRÁFICA 2026",
-      "country": "España",
-      "deadline": "2026-10-30",
-      "category": "Novela Gráfica",
-      "prize": "2.500€ y edición",
-      "conditions": "mayores 18 años",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42134-convocatoria-abierta-libro-anuario-pedagogico-de-las-trabajadoras-y-trabajadores-de-la-educacion",
-      "title": "CONVOCATORIA ABIERTA: LIBRO-ANUARIO PEDAGÓGICO DE LAS TRABAJADORAS Y TRABAJADORES DE LA EDUCACIÓN",
-      "country": "Argentina",
-      "deadline": "2026-10-30",
-      "category": "Pedagogía",
-      "prize": "Publiación",
-      "conditions": "maestras, profesores, directivos y educadores de todos los niveles del sistema de escuelas públicas de la Ciudad Autónoma de Buenos Aires (CABA",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42112-xxxv-edicion-premios-otono-villa-de-chiva",
-      "title": "XXXV EDICIÓN PREMIOS OTOÑO VILLA DE CHIVA",
-      "country": "España",
-      "deadline": "2026-10-30",
-      "category": "Novelas, conjuntos de relatos, narrativa breve, poesía y escritura teatral",
-      "prize": "1.800 euros, 10 ejemplares de la edición impresa",
-      "conditions": "mayores 18 años",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/41968-ix-concurso-literario-de-relato-breve-para-mayores",
-      "title": "IX CONCURSO LITERARIO DE RELATO BREVE PARA MAYORES",
-      "country": "España",
-      "deadline": "2026-10-30",
-      "category": "Relato breve",
-      "prize": "225 euros",
-      "conditions": "mayores de 60 años residentes en España",
-      "acceptsEmail": false
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42199-premio-jose-jacinto-milanes-2026",
-      "title": "PREMIO JOSÉ JACINTO MILANÉS 2026",
-      "country": "Cuba",
-      "deadline": "",
-      "category": "",
-      "prize": "",
-      "conditions": "",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42203-tercer-concurso-latinoamericano-de-cuentos-marta-brunet",
-      "title": "TERCER “CONCURSO LATINOAMERICANO DE CUENTOS MARTA BRUNET”",
-      "country": "Chile",
-      "deadline": "",
-      "category": "",
-      "prize": "",
-      "conditions": "",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42200-xiv-concurso-de-microrrelatos-san-silvestre-salmantina-2026",
-      "title": "XIV CONCURSO DE MICRORRELATOS “SAN SILVESTRE SALMANTINA 2026”",
-      "country": "España",
-      "deadline": "2026-10-30",
-      "category": "Microrrelato",
-      "prize": "500 euros",
-      "conditions": "sin restricciones",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42196-concurso-literario-aama-asociacion-amigos-del-museo-del-aire",
-      "title": "CONCURSO LITERARIO AAMA (Asociación Amigos del Museo del Aire)",
-      "country": "España",
-      "deadline": "2026-10-30",
-      "category": "Relato",
-      "prize": "Trofeo de diseño exclusivo para A.A.M.A. ● Un premio en metálico de 200 € ● Una membresía de A.A.M.A. para el año 2027",
-      "conditions": "sin restricciones",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42189-xli-edicion-del-concurso-de-narrativa-ciudad-de-elda",
-      "title": "XLI EDICIÓN DEL CONCURSO DE NARRATIVA “CIUDAD DE ELDA”",
-      "country": "España",
-      "deadline": "2026-10-30",
-      "category": "Cuento",
-      "prize": "2.000 euros",
-      "conditions": "sin restricciones",
-      "acceptsEmail": false
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42137-lxx-juegos-florales-guadalupanos-sahuayenses",
-      "title": "LXX JUEGOS FLORALES GUADALUPANOS SAHUAYENSES",
-      "country": "México",
-      "deadline": "2026-10-30",
-      "category": "Poesía",
-      "prize": "$70,000.00 pesos mexicanos y la entrega de la presea Poeta Alberto Barragán Degollado",
-      "conditions": "Mayores de 18 años (excepto poetas residentes en la ciudad de Sahuayo",
       "acceptsEmail": true
     },
     {
