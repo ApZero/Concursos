@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-01T15:36:06.396Z",
+  "updatedAt": "2026-11-02T18:58:39.442Z",
   "sourceUrl": "https://www.escritores.org/concursos/concursos-1/concursos-literarios",
-  "count": 138,
+  "count": 132,
   "contests": [
     {
       "url": "https://www.escritores.org/recursos-para-escritores",
@@ -141,106 +141,6 @@
       "category": "",
       "prize": "",
       "conditions": "",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42201-ii-concurso-de-microrrelatos-del-bienestar",
-      "title": "II CONCURSO DE MICRORRELATOS DEL BIENESTAR",
-      "country": "España",
-      "deadline": "2026-11-01",
-      "category": "Microrrelato",
-      "prize": "Pack Ritual Brilla y 100 marcapáginas con su microrrelato",
-      "conditions": "mayores de edad residentes en España",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42238-premio-internacional-cuadernos-del-laberinto-de-historia-biografia-y-memorias",
-      "title": "PREMIO INTERNACIONAL CUADERNOS DEL LABERINTO DE HISTORIA, BIOGRAFÍA Y MEMORIAS",
-      "country": "España",
-      "deadline": "2026-11-01",
-      "category": "libros de historia, memorias, biografías y literatura sapiencial de no ficción",
-      "prize": "Publicación y 10 ejemplares para el autor",
-      "conditions": "sin restricciones",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42229-24-concurso-internacional-de-cartas-de-amor-del-programa-el-canal-2",
-      "title": "24º CONCURSO INTERNACIONAL DE CARTAS DE AMOR DEL PROGRAMA \"EL CANAL 2\"",
-      "country": "España",
-      "deadline": "",
-      "category": "",
-      "prize": "",
-      "conditions": "",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/41920-vi-edicion-certamen-literario-angeles-alvarez-arazola",
-      "title": "VI EDICIÓN CERTAMEN LITERARIO ÁNGELES ÁLVAREZ ARAZOLA",
-      "country": "España",
-      "deadline": "2026-11-01",
-      "category": "Microrrelato",
-      "prize": "Obra artística",
-      "conditions": "mayores de edad",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42046-vi-concurso-de-relatos-de-astronomia-aster",
-      "title": "VI CONCURSO DE RELATOS DE ASTRONOMÍA ASTER",
-      "country": "España",
-      "deadline": "2026-11-01",
-      "category": "Relato",
-      "prize": "Una \"Cena con estrellas\" para dos personas en el Observatorio Fabra",
-      "conditions": "sin restricciones",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/41996-vii-premio-de-no-ficcion-libros-del-asteroide",
-      "title": "VII PREMIO DE NO FICCIÓN LIBROS DEL ASTEROIDE",
-      "country": "España",
-      "deadline": "2026-11-01",
-      "category": "proyecto de libro de no ficción literaria, sin restricción de género; se valorarán propuestas de ensayo, memorias, biografía o reportaje",
-      "prize": "10.000 euros y publicación",
-      "conditions": "sin restricciones",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/41961-iii-certamen-nacional-de-poesia-manuel-campazas",
-      "title": "III CERTAMEN NACIONAL DE POESÍA «MANUEL CAMPAZAS»",
-      "country": "España",
-      "deadline": "2026-11-01",
-      "category": "Poesía",
-      "prize": "Trofeo, diploma, publicación en e-Book",
-      "conditions": "mayores 18 años, nacidos o residentes en España",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/41893-xvi-certamen-terbi-de-relato-tematico-humor-cosmico",
-      "title": "XVI CERTAMEN TERBI DE RELATO TEMÁTICO “HUMOR COSMICO”",
-      "country": "España",
-      "deadline": "2026-11-01",
-      "category": "Relato",
-      "prize": "Trofeo conmemorativo",
-      "conditions": "mayores de edad",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42142-iii-premio-de-novela-corta-angeles-martin",
-      "title": "III PREMIO DE NOVELA CORTA ÁNGELES MARTÍN",
-      "country": "España",
-      "deadline": "2026-11-01",
-      "category": "Novela",
-      "prize": "1.000 euros y edición",
-      "conditions": "escritoras, mayores de edad, que residan en España",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/41917-segundo-premio-de-poesia-el-laberinto-de-ariadna-2027",
-      "title": "SEGUNDO PREMIO DE POESÍA “EL LABERINTO DE ARIADNA” 2027",
-      "country": "España",
-      "deadline": "2026-11-01",
-      "category": "Poesía",
-      "prize": "Publicación y obra artística",
-      "conditions": "mayores 18 años residentes en España",
       "acceptsEmail": true
     },
     {
@@ -944,6 +844,16 @@
       "acceptsEmail": true
     },
     {
+      "url": "https://www.escritores.org/recursos-para-escritores/42262-xli-premio-internacional-de-cuentos-max-aub-2027",
+      "title": "XLI PREMIO INTERNACIONAL DE CUENTOS MAX AUB 2027",
+      "country": "España",
+      "deadline": "2026-12-29",
+      "category": "Cuento",
+      "prize": "6.000 euros y edición",
+      "conditions": "sin restricciones",
+      "acceptsEmail": false
+    },
+    {
       "url": "https://www.escritores.org/recursos-para-escritores/41869-vii-premio-de-investigacion-historica",
       "title": "VII PREMIO DE INVESTIGACIÓN HISTÓRICA",
       "country": "España",
@@ -1234,6 +1144,16 @@
       "acceptsEmail": true
     },
     {
+      "url": "https://www.escritores.org/recursos-para-escritores/42260-vi-certamen-de-novela-corta-pueblo-de-bobadilla",
+      "title": "VI CERTAMEN DE NOVELA CORTA “PUEBLO DE BOBADILLA”",
+      "country": "España",
+      "deadline": "2027-03-01",
+      "category": "Novela corta",
+      "prize": "publicación de la obra. Dicha publicación constará de una tirada no menor a 500 ejemplares, de los cuales 200 se entregarán al autor ganador del certamen",
+      "conditions": "residentes en España",
+      "acceptsEmail": false
+    },
+    {
       "url": "https://www.escritores.org/recursos-para-escritores/42100-certamen-literario-cbjse-sobre-el-centenario-de-la-botadura-del-buque-escuela-juan-sebastian-elcano",
       "title": "CERTAMEN LITERARIO CBJSE SOBRE EL CENTENARIO DE LA BOTADURA DEL BUQUE ESCUELA JUAN SEBASTIÁN ELCANO",
       "country": "España",
@@ -1291,6 +1211,26 @@
       "category": "Ensayo",
       "prize": "4.500 euros. Publicación",
       "conditions": "sin restricciones",
+      "acceptsEmail": true
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42259-vi-edicion-del-certamen-literario-nacional-rosalia-sala-vallejo",
+      "title": "VI EDICIÓN DEL CERTAMEN LITERARIO NACIONAL ROSALÍA SALA VALLEJO",
+      "country": "España",
+      "deadline": "2027-04-30",
+      "category": "Poesía",
+      "prize": "1.000 euros, diploma, publicación",
+      "conditions": "residentes en España, mayores de 18 años",
+      "acceptsEmail": true
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42261-iii-concurso-de-relatos-cortos-estacion-internacional-de-canfranc-2027",
+      "title": "III CONCURSO DE RELATOS CORTOS “ESTACIÓN INTERNACIONAL DE CANFRANC” 2027",
+      "country": "España",
+      "deadline": "2027-04-30",
+      "category": "Relato corto",
+      "prize": "Una estancia con desayuno, de una noche y para dos personas, en el Royal Hideaway Hotel de la estación de Canfranc",
+      "conditions": "mayores de 18 años",
       "acceptsEmail": true
     },
     {
