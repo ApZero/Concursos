@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-02T18:58:39.442Z",
+  "updatedAt": "2026-11-03T16:43:50.789Z",
   "sourceUrl": "https://www.escritores.org/concursos/concursos-1/concursos-literarios",
-  "count": 132,
+  "count": 129,
   "contests": [
     {
       "url": "https://www.escritores.org/recursos-para-escritores",
@@ -137,36 +137,6 @@
       "url": "https://www.escritores.org/recursos-para-escritores/recursos-2/articulos-de-interes",
       "title": "Artículos de interés",
       "country": "",
-      "deadline": "",
-      "category": "",
-      "prize": "",
-      "conditions": "",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/41667-xxiii-premio-nacional-de-poesia-joven-grande-aguirre",
-      "title": "XXIII PREMIO NACIONAL DE POESÍA JOVEN GRANDE AGUIRRE",
-      "country": "España",
-      "deadline": "2026-11-02",
-      "category": "Poesía",
-      "prize": "5.000 euros",
-      "conditions": "residentes en España con una edad que no supere los 30 años",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42232-i-certamen-literario-las-voces-del-trabajo",
-      "title": "I CERTAMEN LITERARIO «LAS VOCES DEL TRABAJO»",
-      "country": "España",
-      "deadline": "2026-11-02",
-      "category": "Relato",
-      "prize": "100 € en tarjeta regalo Amazon",
-      "conditions": "mayores de 18 años residentes en España",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42045-premio-alfaguara-de-novela-2027",
-      "title": "PREMIO ALFAGUARA DE NOVELA 2027",
-      "country": "España",
       "deadline": "",
       "category": "",
       "prize": "",
