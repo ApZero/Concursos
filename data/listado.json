@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-04T16:40:45.930Z",
+  "updatedAt": "2026-11-05T16:57:29.696Z",
   "sourceUrl": "https://www.escritores.org/concursos/concursos-1/concursos-literarios",
-  "count": 129,
+  "count": 138,
   "contests": [
     {
       "url": "https://www.escritores.org/recursos-para-escritores",
@@ -161,7 +161,7 @@
       "category": "Literatura Infantil",
       "prize": "obra de arte de reconocido artista de la localidad, libros, afiches, diploma",
       "conditions": "residentes en Cuba",
-      "acceptsEmail": true
+      "acceptsEmail": false
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42131-convocatoria-tierra-adentro-de-novela-inedita-2026",
@@ -484,6 +484,16 @@
       "acceptsEmail": true
     },
     {
+      "url": "https://www.escritores.org/recursos-para-escritores/42272-x-concurso-de-microrrelatos-sobre-derechos-humanos-de-amnistia-internacional-extremadura",
+      "title": "X CONCURSO DE MICRORRELATOS SOBRE DERECHOS HUMANOS DE AMNISTÍA INTERNACIONAL EXTREMADURA",
+      "country": "España",
+      "deadline": "2026-11-29",
+      "category": "Microrrelato",
+      "prize": "obra de un artista extremeño",
+      "conditions": "mayores 16 años residentes en España",
+      "acceptsEmail": true
+    },
+    {
       "url": "https://www.escritores.org/recursos-para-escritores/41625-vii-certamen-de-microrrelatos-de-voluntariado-en-cuidados-paliativos",
       "title": "VII CERTAMEN DE MICRORRELATOS DE VOLUNTARIADO EN CUIDADOS PALIATIVOS",
       "country": "España",
@@ -614,6 +624,16 @@
       "acceptsEmail": true
     },
     {
+      "url": "https://www.escritores.org/recursos-para-escritores/42273-concurso-de-relatos-de-mujeres-2026",
+      "title": "CONCURSO DE RELATOS DE MUJERES 2026",
+      "country": "España",
+      "deadline": "2026-11-30",
+      "category": "Relato",
+      "prize": "2.000 euros",
+      "conditions": "mujeres mayores de edad",
+      "acceptsEmail": false
+    },
+    {
       "url": "https://www.escritores.org/recursos-para-escritores/42209-i-certamen-de-poesia-joven-abindarraez-villa-de-cartama",
       "title": "I CERTAMEN DE POESÍA JOVEN ABINDARRÁEZ VILLA DE CÁRTAMA",
       "country": "España",
@@ -684,6 +704,16 @@
       "acceptsEmail": true
     },
     {
+      "url": "https://www.escritores.org/recursos-para-escritores/42271-vii-premio-de-novela-historica-escritores-con-la-historia-de-pozuelo-de-alarcon",
+      "title": "VII PREMIO DE NOVELA HISTÓRICA ESCRITORES CON LA HISTORIA DE POZUELO DE ALARCÓN",
+      "country": "España",
+      "deadline": "2026-12-08",
+      "category": "Novela histórica",
+      "prize": "4.000 euros",
+      "conditions": "Autores con un máximo de tres obras publicadas, con una obra en idioma castellano, publicada bajo sello editorial durante el año 2025",
+      "acceptsEmail": false
+    },
+    {
       "url": "https://www.escritores.org/recursos-para-escritores/42055-primer-concurso-ensayo-gran-mariscal-de-ayacucho",
       "title": "PRIMER CONCURSO ENSAYO GRAN MARISCAL DE AYACUCHO",
       "country": "Venezuela",
@@ -744,6 +774,16 @@
       "acceptsEmail": true
     },
     {
+      "url": "https://www.escritores.org/recursos-para-escritores/42267-xxviii-certamen-de-cartas-de-amor",
+      "title": "XXVIII CERTAMEN DE CARTAS DE AMOR",
+      "country": "España",
+      "deadline": "2026-12-14",
+      "category": "Carta",
+      "prize": "250 euros, trofeo y diploma",
+      "conditions": "sin restricciones",
+      "acceptsEmail": false
+    },
+    {
       "url": "https://www.escritores.org/recursos-para-escritores/42002-v-certamen-de-relato-y-cuento-literaria-kalean",
       "title": "V CERTAMEN DE RELATO Y CUENTO LITERARIA KALEAN",
       "country": "España",
@@ -791,6 +831,16 @@
       "category": "Poesía",
       "prize": "300 euros y placa",
       "conditions": "mayores 16 años",
+      "acceptsEmail": true
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42268-xiv-concurso-microrrelatos-lenteja-de-tierra-de-campos",
+      "title": "XIV CONCURSO MICRORRELATOS LENTEJA DE TIERRA DE CAMPOS",
+      "country": "España",
+      "deadline": "2026-12-17",
+      "category": "Microrrelato",
+      "prize": "300 euros + lote",
+      "conditions": "residentes en España",
       "acceptsEmail": true
     },
     {
@@ -894,6 +944,26 @@
       "acceptsEmail": true
     },
     {
+      "url": "https://www.escritores.org/recursos-para-escritores/42266-xxv-premio-de-teatro-jose-martin-recuerda",
+      "title": "XXV PREMIO DE TEATRO JOSÉ MARTÍN RECUERDA",
+      "country": "España",
+      "deadline": "2026-12-31",
+      "category": "Teatro",
+      "prize": "1.500 euros",
+      "conditions": "residentes en España",
+      "acceptsEmail": true
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42270-iv-concurso-literario-de-terror-berenice-2027",
+      "title": "IV CONCURSO LITERARIO DE TERROR «BERENICE» 2027",
+      "country": "Cuba",
+      "deadline": "2026-12-31",
+      "category": "Cuento",
+      "prize": "20 000 CUP y diploma",
+      "conditions": "Escritores cubanos (vivan o no en la isla",
+      "acceptsEmail": true
+    },
+    {
       "url": "https://www.escritores.org/recursos-para-escritores/42217-concurso-literario-nacional-benigno-vazquez-los-arabos-2027",
       "title": "CONCURSO LITERARIO NACIONAL BENIGNO VÁZQUEZ - LOS ARABOS 2027",
       "country": "Cuba",
@@ -994,6 +1064,16 @@
       "acceptsEmail": true
     },
     {
+      "url": "https://www.escritores.org/recursos-para-escritores/42265-xv-certamen-literario-de-la-biblioteca-universitaria-de-granada",
+      "title": "XV CERTAMEN LITERARIO DE LA BIBLIOTECA UNIVERSITARIA DE GRANADA",
+      "country": "España",
+      "deadline": "2027-01-25",
+      "category": "Relato corto",
+      "prize": "1.500 euros",
+      "conditions": "estudiantado matriculado en el curso 2026-2027 en la UGR",
+      "acceptsEmail": true
+    },
+    {
       "url": "https://www.escritores.org/recursos-para-escritores/42230-iii-concurso-de-microteatro-del-casino-17-de-gener-de-ciutadella-de-menorca",
       "title": "III CONCURSO DE MICROTEATRO DEL CASINO 17 DE GENER DE CIUTADELLA DE MENORCA",
       "country": "España",
@@ -1031,6 +1111,16 @@
       "category": "Relato",
       "prize": "10.000 euros, publicación",
       "conditions": "mayores de 16 años residentes en España",
+      "acceptsEmail": true
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42269-xxxvii-certamen-literario-villa-de-iniesta-2027",
+      "title": "XXXVII CERTAMEN LITERARIO \"VILLA DE INIESTA\" 2027",
+      "country": "España",
+      "deadline": "2027-01-31",
+      "category": "Cuento y Poesía",
+      "prize": "850 euros y diploma",
+      "conditions": "mayores 18 años residentes en España",
       "acceptsEmail": true
     },
     {
