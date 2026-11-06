@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-05T16:57:29.696Z",
+  "updatedAt": "2026-11-06T16:29:43.213Z",
   "sourceUrl": "https://www.escritores.org/concursos/concursos-1/concursos-literarios",
-  "count": 138,
+  "count": 137,
   "contests": [
     {
       "url": "https://www.escritores.org/recursos-para-escritores",
@@ -142,26 +142,6 @@
       "prize": "",
       "conditions": "",
       "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42218-historias-del-autobus-un-trayecto-mil-historias-cual-es-la-tuya",
-      "title": "HISTORIAS DEL AUTOBÚS. UN TRAYECTO, MIL HISTORIAS.¿CUÁL ES LA TUYA?",
-      "country": "España",
-      "deadline": "2026-11-05",
-      "category": "Microrrelato",
-      "prize": "premio valorado en 300 €.",
-      "conditions": "mayores 18 años",
-      "acceptsEmail": false
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42207-concurso-carmen-rubio-2026",
-      "title": "CONCURSO CARMEN RUBIO 2026",
-      "country": "Cuba",
-      "deadline": "2026-11-06",
-      "category": "Literatura Infantil",
-      "prize": "obra de arte de reconocido artista de la localidad, libros, afiches, diploma",
-      "conditions": "residentes en Cuba",
-      "acceptsEmail": false
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42131-convocatoria-tierra-adentro-de-novela-inedita-2026",
@@ -861,6 +841,16 @@
       "category": "Poesía y micxrorrelato",
       "prize": "650 euros y diploma",
       "conditions": "mayores 16 años residentes en la Unión Europea",
+      "acceptsEmail": true
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42275-v-premio-de-literatura-diversa-editorial-siete-islas",
+      "title": "V PREMIO DE LITERATURA DIVERSA EDITORIAL SIETE ISLAS",
+      "country": "España",
+      "deadline": "",
+      "category": "",
+      "prize": "",
+      "conditions": "",
       "acceptsEmail": true
     },
     {
