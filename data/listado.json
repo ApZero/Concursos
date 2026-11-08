@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-07T15:16:32.790Z",
+  "updatedAt": "2026-11-08T15:40:11.642Z",
   "sourceUrl": "https://www.escritores.org/concursos/concursos-1/concursos-literarios",
-  "count": 137,
+  "count": 134,
   "contests": [
     {
       "url": "https://www.escritores.org/recursos-para-escritores",
@@ -141,36 +141,6 @@
       "category": "",
       "prize": "",
       "conditions": "",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42131-convocatoria-tierra-adentro-de-novela-inedita-2026",
-      "title": "CONVOCATORIA TIERRA ADENTRO DE NOVELA INÉDITA 2026",
-      "country": "España",
-      "deadline": "2026-11-07",
-      "category": "Novela",
-      "prize": "Publicación",
-      "conditions": "autores/as de nacionalidad española, nacionalizados o con residencia legal en España, que tengan su domicilio en territorio español, de entre 18 y 35 años de edad a la fecha de presentación de los manuscritos",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42132-xiv-premio-intergeneracional-de-ensayo-y-relato-breves-tema-valores-para-unir",
-      "title": "XIV PREMIO INTERGENERACIONAL DE ENSAYO Y RELATO BREVES: TEMA “VALORES PARA UNIR”",
-      "country": "España",
-      "deadline": "2026-11-08",
-      "category": "Ensayo y Relato breve",
-      "prize": "Escultura",
-      "conditions": "sin restricciones",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42139-iv-concurso-de-relato-juan-maria-molina-jimenez-convocatoria-para-ceuta",
-      "title": "IV CONCURSO DE RELATO JUAN MARÍA MOLINA JIMÉNEZ (Convocatoria para CEUTA)",
-      "country": "España",
-      "deadline": "2026-11-08",
-      "category": "Relato",
-      "prize": "800 euros",
-      "conditions": "mayores de edad, nacidos o residentes en Ceuta",
       "acceptsEmail": true
     },
     {
@@ -1268,7 +1238,7 @@
       "title": "VI EDICIÓN DEL CERTAMEN LITERARIO NACIONAL ROSALÍA SALA VALLEJO",
       "country": "España",
       "deadline": "2027-04-30",
-      "category": "Poesía",
+      "category": "Narraciones cortas o ensayos",
       "prize": "1.000 euros, diploma, publicación",
       "conditions": "residentes en España, mayores de 18 años",
       "acceptsEmail": true
