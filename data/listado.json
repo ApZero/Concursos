@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-08T15:40:11.642Z",
+  "updatedAt": "2026-11-09T19:20:40.321Z",
   "sourceUrl": "https://www.escritores.org/concursos/concursos-1/concursos-literarios",
-  "count": 134,
+  "count": 138,
   "contests": [
     {
       "url": "https://www.escritores.org/recursos-para-escritores",
@@ -394,6 +394,16 @@
       "acceptsEmail": false
     },
     {
+      "url": "https://www.escritores.org/recursos-para-escritores/42280-convocatoria-revista-literaria-internacional-mensual-de-erato-al-mundo",
+      "title": "CONVOCATORIA REVISTA LITERARIA INTERNACIONAL MENSUAL “DE ERATO AL MUNDO”",
+      "country": "Uruguay",
+      "deadline": "2026-11-25",
+      "category": "Relatos; Ensayo; Poesía",
+      "prize": "Certificado. Publicación en revista",
+      "conditions": "sin restricciones",
+      "acceptsEmail": true
+    },
+    {
       "url": "https://www.escritores.org/recursos-para-escritores/41962-iv-concurso-maga-de-relatos-cortos-e-ilustraciones-diversidad-funcional",
       "title": "IV CONCURSO \"MAGA\" DE RELATOS CORTOS E ILUSTRACIONES (DIVERSIDAD FUNCIONAL)",
       "country": "España",
@@ -544,6 +554,16 @@
       "acceptsEmail": true
     },
     {
+      "url": "https://www.escritores.org/recursos-para-escritores/42279-vi-premio-platta-de-teatro-breve",
+      "title": "VI PREMIO PLATTA DE TEATRO BREVE",
+      "country": "España",
+      "deadline": "",
+      "category": "",
+      "prize": "",
+      "conditions": "",
+      "acceptsEmail": true
+    },
+    {
       "url": "https://www.escritores.org/recursos-para-escritores/42175-xxi-certamen-literario-manuel-oreste-rodiguez",
       "title": "XXI CERTAMEN LITERARIO \"MANUEL ORESTE RODÍGUEZ\"",
       "country": "España",
@@ -591,6 +611,16 @@
       "category": "Poesía",
       "prize": "Publicación, 50 ejemplares para el autor",
       "conditions": "jóvenes de 18 a 25 años",
+      "acceptsEmail": true
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42277-residencia-de-escritores-malba-2027",
+      "title": "RESIDENCIA DE ESCRITORES MALBA 2027",
+      "country": "Argentina",
+      "deadline": "",
+      "category": "",
+      "prize": "",
+      "conditions": "",
       "acceptsEmail": true
     },
     {
@@ -961,6 +991,16 @@
       "category": "Poesía",
       "prize": "2.000 euros, diploma, publicación",
       "conditions": "sin restricciones",
+      "acceptsEmail": true
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42278-premios-de-la-ciudad-de-holguin-2027",
+      "title": "PREMIOS DE LA CIUDAD DE HOLGUÍN 2027",
+      "country": "Cuba",
+      "deadline": "2027-01-11",
+      "category": "Poesía y Narrativa",
+      "prize": "6000 pesos moneda nacional, una reproducción del Cemí Baibrama y diploma acreditativo",
+      "conditions": "escritores cubanos residentes en el país",
       "acceptsEmail": true
     },
     {
