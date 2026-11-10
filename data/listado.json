@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T19:20:40.321Z",
+  "updatedAt": "2026-11-10T16:40:40.006Z",
   "sourceUrl": "https://www.escritores.org/concursos/concursos-1/concursos-literarios",
   "count": 138,
   "contests": [
@@ -142,26 +142,6 @@
       "prize": "",
       "conditions": "",
       "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42226-xxxvii-premio-literario-villa-de-almoradi-edicion-2026",
-      "title": "XXXVII PREMIO LITERARIO VILLA DE ALMORADÍ. EDICIÓN 2026",
-      "country": "España",
-      "deadline": "2026-11-10",
-      "category": "ensayo, relato o cuento",
-      "prize": "1.000 euros y diploma",
-      "conditions": "mayores de edad",
-      "acceptsEmail": false
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42227-xxxiii-concurso-de-relato-corto-antonio-sequeros",
-      "title": "XXXIII CONCURSO DE RELATO CORTO ANTONIO SEQUEROS",
-      "country": "España",
-      "deadline": "2026-11-10",
-      "category": "Relato corto",
-      "prize": "1.000 euros y diploma",
-      "conditions": "cualquier persona física mayor de edad, de nacionalidad española o extranjera, que sea natural o residente en la Comarca de la Vega Baja del Segura (Alicante",
-      "acceptsEmail": false
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41959-xx-premio-internacional-de-novela-grafica-fnac-salamandra-graphic",
@@ -611,6 +591,16 @@
       "category": "Poesía",
       "prize": "Publicación, 50 ejemplares para el autor",
       "conditions": "jóvenes de 18 a 25 años",
+      "acceptsEmail": true
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42282-i-convocatoria-de-relatos-meri-crismas-nexiok",
+      "title": "I CONVOCATORIA DE RELATOS «MERI CRISMAS» | NEXIOK",
+      "country": "España",
+      "deadline": "2026-12-01",
+      "category": "Relato",
+      "prize": "entrevista individual, adaptación del relato a formato de audio y su publicación en Nexiok junto con la versión escrita",
+      "conditions": "mayores de edad",
       "acceptsEmail": true
     },
     {
@@ -1131,6 +1121,16 @@
       "category": "Cuento, Poesía",
       "prize": "2000 CUP y diploma por categoría",
       "conditions": "escritores de cualquier nacionalidad residentes en la isla de Cuba y cubanos en el exterior",
+      "acceptsEmail": true
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42281-vii-certamen-poetico-internacional-estrofa-julia",
+      "title": "VII CERTAMEN POÉTICO INTERNACIONAL \"ESTROFA JULIA\"",
+      "country": "España",
+      "deadline": "2027-02-14",
+      "category": "Poesía",
+      "prize": "200 euros y diploma",
+      "conditions": "mayores de edad",
       "acceptsEmail": true
     },
     {
