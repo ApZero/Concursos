@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-10T16:40:40.006Z",
+  "updatedAt": "2026-11-11T16:46:33.069Z",
   "sourceUrl": "https://www.escritores.org/concursos/concursos-1/concursos-literarios",
-  "count": 138,
+  "count": 144,
   "contests": [
     {
       "url": "https://www.escritores.org/recursos-para-escritores",
@@ -754,6 +754,16 @@
       "acceptsEmail": false
     },
     {
+      "url": "https://www.escritores.org/recursos-para-escritores/42286-xvi-concurso-literario-de-relatos-breves",
+      "title": "XVI CONCURSO LITERARIO DE RELATOS BREVES",
+      "country": "España",
+      "deadline": "2026-12-15",
+      "category": "Relato breve",
+      "prize": "500 euros",
+      "conditions": "sin restricciones",
+      "acceptsEmail": false
+    },
+    {
       "url": "https://www.escritores.org/recursos-para-escritores/42002-v-certamen-de-relato-y-cuento-literaria-kalean",
       "title": "V CERTAMEN DE RELATO Y CUENTO LITERARIA KALEAN",
       "country": "España",
@@ -842,6 +852,16 @@
       "prize": "",
       "conditions": "",
       "acceptsEmail": true
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42285-xxv-concurso-de-poesia-tema-la-mujer",
+      "title": "XXV CONCURSO DE POESÍA TEMA: “LA MUJER”",
+      "country": "España",
+      "deadline": "2026-12-28",
+      "category": "Poesía",
+      "prize": "250 euros",
+      "conditions": "sin restricciones",
+      "acceptsEmail": false
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42262-xli-premio-internacional-de-cuentos-max-aub-2027",
@@ -964,6 +984,16 @@
       "acceptsEmail": true
     },
     {
+      "url": "https://www.escritores.org/recursos-para-escritores/42283-11-edicion-premio-fell-good",
+      "title": "11ª EDICIÓN PREMIO FELL GOOD ™",
+      "country": "España",
+      "deadline": "2027-01-08",
+      "category": "obras de ficción, autoficción y no ficción",
+      "prize": "3.000 euros, publicación",
+      "conditions": "mayores de edad",
+      "acceptsEmail": true
+    },
+    {
       "url": "https://www.escritores.org/recursos-para-escritores/42241-premio-juan-valera-2027-novela",
       "title": "PREMIO “JUAN VALERA” 2027 – NOVELA",
       "country": "España",
@@ -1001,6 +1031,16 @@
       "category": "Narrativa corta",
       "prize": "300 euros",
       "conditions": "mayores de edad",
+      "acceptsEmail": true
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42276-premio-iberoamericano-antonio-skarmeta-universidad-de-chile-2026",
+      "title": "PREMIO IBEROAMERICANO ANTONIO SKÁRMETA UNIVERSIDAD DE CHILE 2026",
+      "country": "Chile",
+      "deadline": "",
+      "category": "",
+      "prize": "",
+      "conditions": "",
       "acceptsEmail": true
     },
     {
@@ -1061,6 +1101,16 @@
       "category": "Relato corto",
       "prize": "1.500 euros",
       "conditions": "estudiantado matriculado en el curso 2026-2027 en la UGR",
+      "acceptsEmail": true
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42284-lii-certamen-literario-maria-agustina",
+      "title": "LII CERTAMEN LITERARIO MARÍA AGUSTINA",
+      "country": "España",
+      "deadline": "2027-01-28",
+      "category": "Narración corta, Poesía",
+      "prize": "1.500 euros",
+      "conditions": "jóvenes que el 28 de enero de 2027 tengan entre 16 y 23 años",
       "acceptsEmail": true
     },
     {
@@ -1311,6 +1361,16 @@
       "category": "Cómic, Manga, Ilustración",
       "prize": "600 euros",
       "conditions": "Dibujantes no profesionales residentes en España, de 14 a 35 años",
+      "acceptsEmail": true
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42274-xxix-edicion-del-premio-desnivel-de-literatura-de-montana-viajes-y-aventuras",
+      "title": "XXIX EDICIÓN DEL PREMIO DESNIVEL DE LITERATURA DE MONTAÑA, VIAJES Y AVENTURAS",
+      "country": "España",
+      "deadline": "2027-06-15",
+      "category": "obras narrativas o ensayísticas",
+      "prize": "3.000 euros y publicación",
+      "conditions": "sin restricciones",
       "acceptsEmail": true
     },
     {
