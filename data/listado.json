@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-11T16:46:33.069Z",
+  "updatedAt": "2026-11-12T17:14:54.979Z",
   "sourceUrl": "https://www.escritores.org/concursos/concursos-1/concursos-literarios",
-  "count": 144,
+  "count": 149,
   "contests": [
     {
       "url": "https://www.escritores.org/recursos-para-escritores",
@@ -964,6 +964,16 @@
       "acceptsEmail": true
     },
     {
+      "url": "https://www.escritores.org/recursos-para-escritores/42288-xxii-premio-aguila-de-poesia",
+      "title": "XXII PREMIO «ÁGUILA DE POESÍA»",
+      "country": "España",
+      "deadline": "2026-12-31",
+      "category": "Poesía",
+      "prize": "Publicación. El autor o autora recibirá una quinta parte de los ejemplares editados.",
+      "conditions": "autores y autoras españoles",
+      "acceptsEmail": true
+    },
+    {
       "url": "https://www.escritores.org/recursos-para-escritores/42217-concurso-literario-nacional-benigno-vazquez-los-arabos-2027",
       "title": "CONCURSO LITERARIO NACIONAL BENIGNO VÁZQUEZ - LOS ARABOS 2027",
       "country": "Cuba",
@@ -1024,6 +1034,16 @@
       "acceptsEmail": true
     },
     {
+      "url": "https://www.escritores.org/recursos-para-escritores/42290-25-concurso-cuentos-infantiles-sin-fronteras",
+      "title": "25 CONCURSO CUENTOS INFANTILES SIN FRONTERAS",
+      "country": "España",
+      "deadline": "2027-01-11",
+      "category": "Cuento Infantil",
+      "prize": "Edición y 24 ejemplares del libro",
+      "conditions": "sin restricciones",
+      "acceptsEmail": true
+    },
+    {
       "url": "https://www.escritores.org/recursos-para-escritores/42224-8o-certamen-literario-papallones-liles",
       "title": "8o CERTAMEN LITERARIO PAPALLONES LILES",
       "country": "España",
@@ -1031,6 +1051,16 @@
       "category": "Narrativa corta",
       "prize": "300 euros",
       "conditions": "mayores de edad",
+      "acceptsEmail": true
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42291-certamen-de-poesia-villa-de-la-zubia-2027",
+      "title": "CERTAMEN DE POESÍA “VILLA DE LA ZUBIA” 2027",
+      "country": "",
+      "deadline": "2027-01-15",
+      "category": "Poesía",
+      "prize": "1.500 euros, publicación y 20 ejemplares de la obra",
+      "conditions": "mayores de edad residentes en España",
       "acceptsEmail": true
     },
     {
@@ -1164,6 +1194,16 @@
       "acceptsEmail": true
     },
     {
+      "url": "https://www.escritores.org/recursos-para-escritores/42289-17-certamen-picapedreros-de-poesia-guion-sketch-y-microrrelato",
+      "title": "17º CERTAMEN \"PICAPEDREROS\" DE POESÍA, GUION (SKETCH) Y MICRORRELATO",
+      "country": "España",
+      "deadline": "",
+      "category": "",
+      "prize": "",
+      "conditions": "",
+      "acceptsEmail": true
+    },
+    {
       "url": "https://www.escritores.org/recursos-para-escritores/42021-xviii-concurso-de-ciencia-ficcion-y-fantasia-oscar-hurtado-2027",
       "title": "XVIII CONCURSO DE CIENCIA FICCIÓN Y FANTASÍA OSCAR HURTADO 2027",
       "country": "Cuba",
@@ -1231,6 +1271,16 @@
       "category": "Teatro",
       "prize": "300 euros",
       "conditions": "sin restricciones",
+      "acceptsEmail": true
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42287-concurso-literario-la-felguera-2027",
+      "title": "CONCURSO LITERARIO \"LA FELGUERA\" 2027",
+      "country": "España",
+      "deadline": "2027-02-28",
+      "category": "Relato corto",
+      "prize": "4.000 euros",
+      "conditions": "mayores de edad",
       "acceptsEmail": true
     },
     {
