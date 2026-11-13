@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-12T17:14:54.979Z",
+  "updatedAt": "2026-11-13T16:51:33.554Z",
   "sourceUrl": "https://www.escritores.org/concursos/concursos-1/concursos-literarios",
-  "count": 149,
+  "count": 148,
   "contests": [
     {
       "url": "https://www.escritores.org/recursos-para-escritores",
@@ -142,16 +142,6 @@
       "prize": "",
       "conditions": "",
       "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/41959-xx-premio-internacional-de-novela-grafica-fnac-salamandra-graphic",
-      "title": "XX PREMIO INTERNACIONAL DE NOVELA GRÁFICA FNAC-SALAMANDRA GRAPHIC",
-      "country": "España",
-      "deadline": "2026-11-13",
-      "category": "Novela Gráfica",
-      "prize": "25.000 euros, publicación",
-      "conditions": "sin restricciones",
-      "acceptsEmail": false
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/41889-i-premio-espasa-calpe-de-novela-juvenil-2027",
