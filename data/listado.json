@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-15T15:58:01.386Z",
+  "updatedAt": "2026-11-16T19:03:46.207Z",
   "sourceUrl": "https://www.escritores.org/concursos/concursos-1/concursos-literarios",
-  "count": 148,
+  "count": 149,
   "contests": [
     {
       "url": "https://www.escritores.org/recursos-para-escritores",
@@ -141,106 +141,6 @@
       "category": "",
       "prize": "",
       "conditions": "",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/41889-i-premio-espasa-calpe-de-novela-juvenil-2027",
-      "title": "I PREMIO ESPASA CALPE DE NOVELA JUVENIL - 2027",
-      "country": "España",
-      "deadline": "2026-11-15",
-      "category": "Novela juvenil",
-      "prize": "60.000 euros",
-      "conditions": "escritores de cualquier nacionalidad, desde 14 hasta 39 años de edad",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42162-i-concurso-de-relatos-cortos-2026",
-      "title": "I CONCURSO DE RELATOS CORTOS 2026",
-      "country": "España",
-      "deadline": "2026-11-15",
-      "category": "Relato corto",
-      "prize": "500 euros",
-      "conditions": "sin restricciones",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42020-ii-edicion-premio-literario-vidas-que-inspiran",
-      "title": "II EDICIÓN PREMIO LITERARIO VIDAS QUE INSPIRAN",
-      "country": "España",
-      "deadline": "2026-11-15",
-      "category": "Novela",
-      "prize": "3.000 euros y publicación",
-      "conditions": "mayores de edad residentes en España",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42103-beca-de-residencia-2027-del-centro-de-creadores-contemporaneos-de-cuenca-4c",
-      "title": "BECA DE RESIDENCIA 2027 DEL CENTRO DE CREADORES CONTEMPORÁNEOS DE CUENCA (4C)",
-      "country": "España",
-      "deadline": "",
-      "category": "",
-      "prize": "",
-      "conditions": "",
-      "acceptsEmail": false
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42008-premio-de-ensayo-humanistico-humanidad-global-y-sistemas-inteligentes-nuevos-retos",
-      "title": "PREMIO DE ENSAYO HUMANÍSTICO \"HUMANIDAD GLOBAL Y SISTEMAS INTELIGENTES. NUEVOS RETOS\"",
-      "country": "España",
-      "deadline": "2026-11-15",
-      "category": "Ensayo",
-      "prize": "200.000 euros",
-      "conditions": "sin restricciones",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42010-xxxi-premio-primavera-de-novela-2027",
-      "title": "XXXI PREMIO PRIMAVERA DE NOVELA – 2027",
-      "country": "España",
-      "deadline": "2026-11-15",
-      "category": "Novela",
-      "prize": "100.000 euros, publicación",
-      "conditions": "mayores de edad",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42111-concurso-internacional-tu-historia-en-pantalla",
-      "title": "CONCURSO INTERNACIONAL “TU HISTORIA EN PANTALLA”",
-      "country": "Colombia",
-      "deadline": "2026-11-15",
-      "category": "Relato",
-      "prize": "Adaptación y producción como cortometraje del relato ganador",
-      "conditions": "mayores 18 años",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42190-concurso-intergeneracional-memoria-del-corazon",
-      "title": "CONCURSO INTERGENERACIONAL «MEMORIA DEL CORAZÓN»",
-      "country": "España",
-      "deadline": "",
-      "category": "",
-      "prize": "",
-      "conditions": "",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42242-convocatoria-revista-literaria-papeles-del-caracol-otono-2026",
-      "title": "CONVOCATORIA REVISTA LITERARIA PAPELES DEL CARACOL. Otoño 2026",
-      "country": "España",
-      "deadline": "2026-11-15",
-      "category": "Poesía, relatos, ensayos, obra gráfica",
-      "prize": "Publicación",
-      "conditions": "sin restricciones",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42164-convocatoria-concurso-chispa-joven-2026",
-      "title": "CONVOCATORIA CONCURSO CHISPA JOVEN 2026",
-      "country": "Cuba",
-      "deadline": "2026-11-15",
-      "category": "Humor gráfico y literario",
-      "prize": "10.000 pesos",
-      "conditions": "la edad de los concursantes deberá estar comprendida entre los 15 y los 35 años",
       "acceptsEmail": true
     },
     {
@@ -804,6 +704,16 @@
       "acceptsEmail": true
     },
     {
+      "url": "https://www.escritores.org/recursos-para-escritores/42296-premio-provincial-de-narrativa-alcides-greca-2026",
+      "title": "PREMIO PROVINCIAL DE NARRATIVA \"ALCIDES GRECA\" 2026",
+      "country": "Argentina",
+      "deadline": "",
+      "category": "",
+      "prize": "",
+      "conditions": "",
+      "acceptsEmail": true
+    },
+    {
       "url": "https://www.escritores.org/recursos-para-escritores/42268-xiv-concurso-microrrelatos-lenteja-de-tierra-de-campos",
       "title": "XIV CONCURSO MICRORRELATOS LENTEJA DE TIERRA DE CAMPOS",
       "country": "España",
@@ -811,6 +721,16 @@
       "category": "Microrrelato",
       "prize": "300 euros + lote",
       "conditions": "residentes en España",
+      "acceptsEmail": true
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42301-xxiii-certamen-de-relato-breve-gerald-brenan",
+      "title": "XXIII CERTAMEN DE RELATO BREVE \"GERALD BRENAN\"",
+      "country": "España",
+      "deadline": "2026-12-18",
+      "category": "Relato breve",
+      "prize": "3.000 euros, publicación, 50 ejemplares",
+      "conditions": "mayores de edad",
       "acceptsEmail": true
     },
     {
@@ -831,6 +751,16 @@
       "category": "Poesía y micxrorrelato",
       "prize": "650 euros y diploma",
       "conditions": "mayores 16 años residentes en la Unión Europea",
+      "acceptsEmail": true
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42300-ii-premio-internacional-de-novela-breve-almadia-ventosa-arrufat",
+      "title": "II PREMIO INTERNACIONAL DE NOVELA BREVE ALMADÍA-VENTOSA ARRUFAT",
+      "country": "España",
+      "deadline": "2027-12-22",
+      "category": "Novela breve",
+      "prize": "20.000 euros y publicación",
+      "conditions": "mayores 25 años",
       "acceptsEmail": true
     },
     {
@@ -961,6 +891,16 @@
       "category": "Poesía",
       "prize": "Publicación. El autor o autora recibirá una quinta parte de los ejemplares editados.",
       "conditions": "autores y autoras españoles",
+      "acceptsEmail": true
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42294-xlviii-edicion-juegos-florales-2027",
+      "title": "XLVIII EDICIÓN JUEGOS FLORALES 2027",
+      "country": "España",
+      "deadline": "2026-12-31",
+      "category": "Poesía",
+      "prize": "500 euros",
+      "conditions": "residentes en España",
       "acceptsEmail": true
     },
     {
@@ -1104,6 +1044,16 @@
       "acceptsEmail": true
     },
     {
+      "url": "https://www.escritores.org/recursos-para-escritores/42298-vigesimo-premio-fernan-caballero-de-relato-corto",
+      "title": "VIGÉSIMO PREMIO FERNÁN CABALLERO DE RELATO CORTO",
+      "country": "España",
+      "deadline": "",
+      "category": "",
+      "prize": "",
+      "conditions": "",
+      "acceptsEmail": true
+    },
+    {
       "url": "https://www.escritores.org/recursos-para-escritores/42149-iii-concurso-literario-de-relatos-breves-y-de-poesia-escritores-del-barrio-aefep",
       "title": "III CONCURSO LITERARIO DE RELATOS BREVES Y DE POESÍA “ESCRITORES DEL BARRIO” AEFEP",
       "country": "España",
@@ -1124,6 +1074,16 @@
       "acceptsEmail": true
     },
     {
+      "url": "https://www.escritores.org/recursos-para-escritores/42299-xvi-concurso-de-poesia-y-relato-granajoven-2027",
+      "title": "XVI CONCURSO DE POESÍA Y RELATO GRANAJOVEN 2027",
+      "country": "España",
+      "deadline": "2027-01-26",
+      "category": "Poesía y Relato",
+      "prize": "1.500 euros",
+      "conditions": "jóvenes residentes en España con edades comprendidas entre 18 y 35 años",
+      "acceptsEmail": true
+    },
+    {
       "url": "https://www.escritores.org/recursos-para-escritores/42284-lii-certamen-literario-maria-agustina",
       "title": "LII CERTAMEN LITERARIO MARÍA AGUSTINA",
       "country": "España",
@@ -1134,6 +1094,16 @@
       "acceptsEmail": true
     },
     {
+      "url": "https://www.escritores.org/recursos-para-escritores/42292-lii-premio-caceres-de-novela-corta-2027",
+      "title": "LII PREMIO CÁCERES DE NOVELA CORTA 2027",
+      "country": "España",
+      "deadline": "2027-01-29",
+      "category": "Novela corta",
+      "prize": "9.000 euros y publicación",
+      "conditions": "mayores de edad",
+      "acceptsEmail": true
+    },
+    {
       "url": "https://www.escritores.org/recursos-para-escritores/42230-iii-concurso-de-microteatro-del-casino-17-de-gener-de-ciutadella-de-menorca",
       "title": "III CONCURSO DE MICROTEATRO DEL CASINO 17 DE GENER DE CIUTADELLA DE MENORCA",
       "country": "España",
@@ -1141,6 +1111,16 @@
       "category": "Teatro",
       "prize": "1.000 euros y representación",
       "conditions": "sin restricciones",
+      "acceptsEmail": true
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42293-xii-certamen-literario-universidad-popular-de-almansa",
+      "title": "XII CERTAMEN LITERARIO \"UNIVERSIDAD POPULAR DE ALMANSA\"",
+      "country": "España",
+      "deadline": "2027-01-30",
+      "category": "Relato breve y Poesía",
+      "prize": "300 euros",
+      "conditions": "mayores de edad residentes en España",
       "acceptsEmail": true
     },
     {
@@ -1191,6 +1171,16 @@
       "category": "",
       "prize": "",
       "conditions": "",
+      "acceptsEmail": true
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42295-iv-premio-internacional-de-novela-corta-francisco-ayala",
+      "title": "IV PREMIO INTERNACIONAL DE NOVELA CORTA FRANCISCO AYALA",
+      "country": "España",
+      "deadline": "2027-01-31",
+      "category": "Novela corta",
+      "prize": "6.000 euros. Publicación",
+      "conditions": "sin restricciones",
       "acceptsEmail": true
     },
     {
@@ -1316,6 +1306,26 @@
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42253-ix-premio-de-poesia-facultad-de-filologia-uned",
       "title": "IX PREMIO DE POESÍA “FACULTAD DE FILOLOGÍA. UNED”",
+      "country": "España",
+      "deadline": "",
+      "category": "",
+      "prize": "",
+      "conditions": "",
+      "acceptsEmail": true
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42302-ii-concurso-literario-voces-del-insomnio",
+      "title": "II CONCURSO LITERARIO VOCES DEL INSOMNIO",
+      "country": "España",
+      "deadline": "2027-03-15",
+      "category": "Narrativa, Artículo",
+      "prize": "Publicación",
+      "conditions": "mayores 18 años",
+      "acceptsEmail": true
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42297-concurso-de-novela-kalathos-ediciones",
+      "title": "CONCURSO DE NOVELA KÁLATHOS EDICIONES",
       "country": "España",
       "deadline": "",
       "category": "",
