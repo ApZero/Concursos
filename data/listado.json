@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T19:03:46.207Z",
+  "updatedAt": "2026-11-17T17:59:26.915Z",
   "sourceUrl": "https://www.escritores.org/concursos/concursos-1/concursos-literarios",
   "count": 149,
   "contests": [
@@ -137,36 +137,6 @@
       "url": "https://www.escritores.org/recursos-para-escritores/recursos-2/articulos-de-interes",
       "title": "Artículos de interés",
       "country": "",
-      "deadline": "",
-      "category": "",
-      "prize": "",
-      "conditions": "",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42174-beca-de-creacion-literaria-leandro-gonzalez-alcorta-2026",
-      "title": "BECA DE CREACIÓN LITERARIA LEANDRO GONZÁLEZ ALCORTA 2026",
-      "country": "Cuba",
-      "deadline": "",
-      "category": "",
-      "prize": "",
-      "conditions": "",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42213-v-certamen-de-participacion-social-de-castilla-y-leon",
-      "title": "V CERTAMEN DE PARTICIPACIÓN SOCIAL DE CASTILLA Y LEÓN",
-      "country": "España",
-      "deadline": "2026-11-16",
-      "category": "ensayo, narrativa, poesía…",
-      "prize": "2.000 euros",
-      "conditions": "ciudadanos de Castilla y León",
-      "acceptsEmail": false
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/41820-iii-certamen-literario-de-relato-y-poesia-la-tribu-educa",
-      "title": "III CERTAMEN LITERARIO DE RELATO Y POESÍA \"LA TRIBU EDUCA\"",
-      "country": "España",
       "deadline": "",
       "category": "",
       "prize": "",
@@ -1104,6 +1074,26 @@
       "acceptsEmail": true
     },
     {
+      "url": "https://www.escritores.org/recursos-para-escritores/42305-xxxvii-premio-ciudad-de-coria-de-cuentos-2027",
+      "title": "XXXVII PREMIO CIUDAD DE CORIA DE CUENTOS 2027",
+      "country": "España",
+      "deadline": "2027-01-29",
+      "category": "Cuento",
+      "prize": "3.000 euros",
+      "conditions": "mayores de edad",
+      "acceptsEmail": true
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42304-xxx-premio-flor-de-jara-de-poesia-2027",
+      "title": "XXX PREMIO FLOR DE JARA DE POESÍA 2027",
+      "country": "España",
+      "deadline": "2027-01-29",
+      "category": "Poesía",
+      "prize": "6.000 euros",
+      "conditions": "mayores de edad",
+      "acceptsEmail": true
+    },
+    {
       "url": "https://www.escritores.org/recursos-para-escritores/42230-iii-concurso-de-microteatro-del-casino-17-de-gener-de-ciutadella-de-menorca",
       "title": "III CONCURSO DE MICROTEATRO DEL CASINO 17 DE GENER DE CIUTADELLA DE MENORCA",
       "country": "España",
@@ -1231,6 +1221,16 @@
       "category": "Novela corta",
       "prize": "6.300 €, figura conmemorativa y credencial emitida por la Alcaldía",
       "conditions": "personas vivas domiciliadas en España, cualquiera que sea su nacionalidad",
+      "acceptsEmail": true
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42303-xlvii-premio-dionisio-acedo-de-periodismo-2027",
+      "title": "XLVII PREMIO DIONISIO ACEDO DE PERIODISMO 2027",
+      "country": "España",
+      "deadline": "2027-02-19",
+      "category": "Periodismo",
+      "prize": "3.000 euros",
+      "conditions": "trabajos periodísticos en cualquiera de sus modalidades y estilos",
       "acceptsEmail": true
     },
     {
