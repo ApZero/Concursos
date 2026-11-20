@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-19T17:50:18.015Z",
+  "updatedAt": "2026-11-20T17:25:36.009Z",
   "sourceUrl": "https://www.escritores.org/concursos/concursos-1/concursos-literarios",
-  "count": 152,
+  "count": 148,
   "contests": [
     {
       "url": "https://www.escritores.org/recursos-para-escritores",
@@ -141,46 +141,6 @@
       "category": "",
       "prize": "",
       "conditions": "",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42184-xxviii-certamen-de-relatos-breves-de-invierno-y-cuentos-de-navidad",
-      "title": "XXVIII CERTAMEN DE RELATOS BREVES DE INVIERNO Y CUENTOS DE NAVIDAD",
-      "country": "España",
-      "deadline": "2026-11-20",
-      "category": "Cuento",
-      "prize": "1.000 euros",
-      "conditions": "mayores de edad residentes en España",
-      "acceptsEmail": false
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42220-53-concurso-de-cuentos-ciudad-de-tudela",
-      "title": "53º CONCURSO DE CUENTOS \"CIUDAD DE TUDELA\"",
-      "country": "España",
-      "deadline": "2026-11-20",
-      "category": "Cuento",
-      "prize": "3.000 euros",
-      "conditions": "mayores 18 años",
-      "acceptsEmail": false
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42221-42-concurso-de-poesia-ciudad-de-tudela",
-      "title": "42º CONCURSO DE POESÍA CIUDAD DE TUDELA",
-      "country": "España",
-      "deadline": "2026-11-20",
-      "category": "Poesía",
-      "prize": "1.500 euros",
-      "conditions": "mayores 18 años",
-      "acceptsEmail": false
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42257-vi-certamen-de-microrrelatos-entre-belenes-y-sentimientos",
-      "title": "VI CERTAMEN DE MICRORRELATOS “ENTRE BELENES Y SENTIMIENTOS”",
-      "country": "España",
-      "deadline": "2026-11-20",
-      "category": "Microrrelato",
-      "prize": "Una comida para dos personas, y acceso al primer curso de formación que se realice en el año 2027",
-      "conditions": "personas de nacionalidad española y extranjeras con residencia legal en España",
       "acceptsEmail": true
     },
     {
