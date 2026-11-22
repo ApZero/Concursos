@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-21T16:29:39.838Z",
+  "updatedAt": "2026-11-22T16:47:27.325Z",
   "sourceUrl": "https://www.escritores.org/concursos/concursos-1/concursos-literarios",
-  "count": 148,
+  "count": 147,
   "contests": [
     {
       "url": "https://www.escritores.org/recursos-para-escritores",
@@ -141,16 +141,6 @@
       "category": "",
       "prize": "",
       "conditions": "",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42143-xiii-concurso-de-micropoemas-jose-garcia-nieto-2026",
-      "title": "XIII CONCURSO DE MICROPOEMAS JOSÉ GARCÍA NIETO 2026",
-      "country": "España",
-      "deadline": "2026-11-22",
-      "category": "Micropoemas",
-      "prize": "tableta electrónica y diploma acreditativo. Publicación en las plataformas digitales de las entidades colaboradoras",
-      "conditions": "mayores de edad",
       "acceptsEmail": true
     },
     {
