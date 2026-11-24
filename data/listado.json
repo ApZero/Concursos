@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-23T20:43:24.514Z",
+  "updatedAt": "2026-11-24T19:48:14.962Z",
   "sourceUrl": "https://www.escritores.org/concursos/concursos-1/concursos-literarios",
-  "count": 147,
+  "count": 148,
   "contests": [
     {
       "url": "https://www.escritores.org/recursos-para-escritores",
@@ -141,46 +141,6 @@
       "category": "",
       "prize": "",
       "conditions": "",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42171-xvi-certamen-internacional-de-microrrelatos-2026-cross-de-atapuerca",
-      "title": "XVI CERTAMEN INTERNACIONAL DE MICRORRELATOS 2026 «CROSS DE ATAPUERCA»",
-      "country": "España",
-      "deadline": "2026-11-23",
-      "category": "Microrrelato",
-      "prize": "600 euros",
-      "conditions": "mayores 16 años",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42172-premio-latinoamericano-de-primera-novela-sergio-galindo",
-      "title": "PREMIO LATINOAMERICANO DE PRIMERA NOVELA SERGIO GALINDO 2027",
-      "country": "México",
-      "deadline": "",
-      "category": "",
-      "prize": "",
-      "conditions": "",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42161-xxxii-certamen-literario-internacional-xvi-certamen-literario-local-ana-de-velasco-de-marcilla",
-      "title": "XXXII CERTAMEN LITERARIO INTERNACIONAL - XVI CERTAMEN LITERARIO LOCAL “ANA DE VELASCO” DE MARCILLA",
-      "country": "España",
-      "deadline": "2026-11-23",
-      "category": "Relato corto",
-      "prize": "600 euros",
-      "conditions": "sin restricciones",
-      "acceptsEmail": false
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42280-convocatoria-revista-literaria-internacional-mensual-de-erato-al-mundo",
-      "title": "CONVOCATORIA REVISTA LITERARIA INTERNACIONAL MENSUAL “DE ERATO AL MUNDO”",
-      "country": "Uruguay",
-      "deadline": "2026-11-25",
-      "category": "Relatos; Ensayo; Poesía",
-      "prize": "Certificado. Publicación en revista",
-      "conditions": "sin restricciones",
       "acceptsEmail": true
     },
     {
@@ -494,6 +454,16 @@
       "acceptsEmail": false
     },
     {
+      "url": "https://www.escritores.org/recursos-para-escritores/42311-iv-concurso-de-microrrelatos-y-dibujos-el-portal-2026",
+      "title": "IV CONCURSO DE MICRORRELATOS Y DIBUJOS EL PORTAL 2026",
+      "country": "España",
+      "deadline": "2026-12-09",
+      "category": "Microrrelato",
+      "prize": "Cesta de Navidad",
+      "conditions": "personas que residan en Aragón",
+      "acceptsEmail": true
+    },
+    {
       "url": "https://www.escritores.org/recursos-para-escritores/41852-v-concurso-de-relato-breve-sant-boi-negre",
       "title": "V CONCURSO DE RELATO BREVE SANT BOI NEGRE",
       "country": "España",
@@ -724,6 +694,16 @@
       "acceptsEmail": true
     },
     {
+      "url": "https://www.escritores.org/recursos-para-escritores/42310-xxxv-edicion-del-certamen-literario-helenides-de-salamina",
+      "title": "XXXV EDICIÓN DEL CERTAMEN LITERARIO \"HELÉNIDES DE SALAMINA\"",
+      "country": "España",
+      "deadline": "2026-12-30",
+      "category": "Relato",
+      "prize": "1.000 euros y placa de reconocimiento",
+      "conditions": "mayores 14 años",
+      "acceptsEmail": false
+    },
+    {
       "url": "https://www.escritores.org/recursos-para-escritores/42059-vii-premio-internacional-de-poesia-joven-jose-antonio-santono",
       "title": "VII PREMIO INTERNACIONAL DE POESÍA JOVEN JOSÉ ANTONIO SANTONO",
       "country": "España",
@@ -871,6 +851,26 @@
       "category": "Poesía",
       "prize": "2.000 euros, diploma, publicación",
       "conditions": "sin restricciones",
+      "acceptsEmail": true
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42312-iv-concurso-de-relatos-cortos-vallekas-negra",
+      "title": "IV CONCURSO DE RELATOS CORTOS VALLEKAS NEGRA",
+      "country": "España",
+      "deadline": "2027-01-10",
+      "category": "Relato corto",
+      "prize": "Lote de libros",
+      "conditions": "mayores 18 años",
+      "acceptsEmail": true
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42313-i-premio-vallekas-negra-de-novela-publicada",
+      "title": "I PREMIO VALLEKAS NEGRA DE NOVELA PUBLICADA",
+      "country": "España",
+      "deadline": "",
+      "category": "",
+      "prize": "",
+      "conditions": "",
       "acceptsEmail": true
     },
     {
@@ -1261,6 +1261,16 @@
       "category": "Novela",
       "prize": "8.000 euros",
       "conditions": "mayores de edad",
+      "acceptsEmail": true
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42314-i-certamen-regional-de-poesia-vidriales-2026",
+      "title": "I CERTAMEN REGIONAL DE POESÍA «VIDRIALES» 2026",
+      "country": "España",
+      "deadline": "2027-02-28",
+      "category": "Poesía",
+      "prize": "200 euros y diploma",
+      "conditions": "nacidos y/o residentes en Castilla y León mayores de 18 años",
       "acceptsEmail": true
     },
     {
