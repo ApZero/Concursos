@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-24T19:48:14.962Z",
+  "updatedAt": "2026-11-25T18:54:14.944Z",
   "sourceUrl": "https://www.escritores.org/concursos/concursos-1/concursos-literarios",
-  "count": 148,
+  "count": 151,
   "contests": [
     {
       "url": "https://www.escritores.org/recursos-para-escritores",
@@ -694,6 +694,16 @@
       "acceptsEmail": true
     },
     {
+      "url": "https://www.escritores.org/recursos-para-escritores/42316-primer-numero-revista-fluctuaciones",
+      "title": "PRIMER NÚMERO REVISTA FLUCTUACIONES",
+      "country": "Colombia",
+      "deadline": "2026-12-30",
+      "category": "antropología, comunicación, medios, bioética, memoria, cultura, pensamiento social y otras disciplinas de las ciencias sociales y humanidades",
+      "prize": "Publicación en revista",
+      "conditions": "sin restricciones",
+      "acceptsEmail": true
+    },
+    {
       "url": "https://www.escritores.org/recursos-para-escritores/42310-xxxv-edicion-del-certamen-literario-helenides-de-salamina",
       "title": "XXXV EDICIÓN DEL CERTAMEN LITERARIO \"HELÉNIDES DE SALAMINA\"",
       "country": "España",
@@ -1244,6 +1254,16 @@
       "acceptsEmail": true
     },
     {
+      "url": "https://www.escritores.org/recursos-para-escritores/42317-convocatoria-editorial-de-opera-prima-de-ficcion",
+      "title": "CONVOCATORIA EDITORIAL DE ÓPERA PRIMA DE FICCIÓN",
+      "country": "Argentina",
+      "deadline": "2027-02-28",
+      "category": "Narrativa de Ficción",
+      "prize": "Publicación",
+      "conditions": "mayores de 18 años residentes en el territorio de la República Argentina",
+      "acceptsEmail": true
+    },
+    {
       "url": "https://www.escritores.org/recursos-para-escritores/42063-xiii-certamen-internacional-de-microrrelatos-javier-tomeo-de-tematica-social-2026-2027-alcaniz",
       "title": "XIII CERTAMEN INTERNACIONAL DE MICRORRELATOS JAVIER TOMEO DE TEMÁTICA SOCIAL -2026-2027- ALCAÑIZ",
       "country": "España",
@@ -1321,6 +1341,16 @@
       "category": "",
       "prize": "",
       "conditions": "",
+      "acceptsEmail": true
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42315-concurso-internacional-de-poesia-undecimas-endecasilabas-jose-escolano-vergel-2027",
+      "title": "CONCURSO INTERNACIONAL DE POESÍA \"UNDÉCIMAS ENDECASÍLABAS JOSÉ ESCOLANO\". VERGEL 2027",
+      "country": "España",
+      "deadline": "2027-04-01",
+      "category": "Poesía",
+      "prize": "1.000 euros",
+      "conditions": "sin restricciones",
       "acceptsEmail": true
     },
     {
