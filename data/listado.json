@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-26T18:43:30.793Z",
+  "updatedAt": "2026-11-27T18:35:04.423Z",
   "sourceUrl": "https://www.escritores.org/concursos/concursos-1/concursos-literarios",
-  "count": 151,
+  "count": 153,
   "contests": [
     {
       "url": "https://www.escritores.org/recursos-para-escritores",
@@ -141,46 +141,6 @@
       "category": "",
       "prize": "",
       "conditions": "",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/41962-iv-concurso-maga-de-relatos-cortos-e-ilustraciones-diversidad-funcional",
-      "title": "IV CONCURSO \"MAGA\" DE RELATOS CORTOS E ILUSTRACIONES (DIVERSIDAD FUNCIONAL)",
-      "country": "España",
-      "deadline": "2026-11-26",
-      "category": "Relato corto, Ilustración",
-      "prize": "15 ejemplares de la Antología de Relatos Cortos e Ilustraciones 2026",
-      "conditions": "mayores de 18 años, que residan en territorio español y españoles residentes en el extranjero con Diversidad Funcional",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42236-x-edicion-premio-edhasa-narrativas-historicas-2027",
-      "title": "X EDICIÓN PREMIO EDHASA NARRATIVAS HISTÓRICAS 2027",
-      "country": "España",
-      "deadline": "2026-11-26",
-      "category": "Novela histórica",
-      "prize": "10.000 euros, publicación",
-      "conditions": "sin restricciones",
-      "acceptsEmail": true
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42187-48-concurso-literario-dr-alberto-manini-rios-2026",
-      "title": "48º. CONCURSO LITERARIO “DR. ALBERTO MANINI RÍOS” - 2026",
-      "country": "Uruguay",
-      "deadline": "2026-11-27",
-      "category": "Cuento y Poesía",
-      "prize": "trofeo, diploma y libros.",
-      "conditions": "mayores de 18 años que sean oriundos del país (Uruguay",
-      "acceptsEmail": false
-    },
-    {
-      "url": "https://www.escritores.org/recursos-para-escritores/42255-beca-michael-jacobs-de-cronica-viajera-2027",
-      "title": "BECA MICHAEL JACOBS DE CRÓNICA VIAJERA 2027",
-      "country": "Colombia",
-      "deadline": "2026-11-27",
-      "category": "Beca",
-      "prize": "10.000 dólares",
-      "conditions": "sin restricciones",
       "acceptsEmail": true
     },
     {
@@ -624,6 +584,16 @@
       "acceptsEmail": true
     },
     {
+      "url": "https://www.escritores.org/recursos-para-escritores/42323-beca-de-investigacion-trad-2027",
+      "title": "BECA DE INVESTIGACIÓN TRAD 2027",
+      "country": "España",
+      "deadline": "2026-12-20",
+      "category": "Beca destinada a desarrollar un proyecto de investigación, digitalización y difusión del patrimonio gráfico catalán",
+      "prize": "20.000 euros",
+      "conditions": "Mayores de edad. - Sean residentes en Cataluña y/o, alternativamente, se hayan graduado en una universidad catalana. - Tengan permiso legal para trabajar en España",
+      "acceptsEmail": true
+    },
+    {
       "url": "https://www.escritores.org/recursos-para-escritores/42243-concurso-literario-del-ayuntamiento-de-lasarte-oria-2026",
       "title": "CONCURSO LITERARIO DEL AYUNTAMIENTO DE LASARTE-ORIA 2026",
       "country": "España",
@@ -641,6 +611,16 @@
       "category": "Novela breve",
       "prize": "20.000 euros y publicación",
       "conditions": "mayores 25 años",
+      "acceptsEmail": true
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42326-i-certamen-de-comic-ateneo-de-mairena-del-aljarafe-2026",
+      "title": "I CERTAMEN DE CÓMIC «ATENEO DE MAIRENA DEL ALJARAFE» 2026",
+      "country": "España",
+      "deadline": "2027-12-23",
+      "category": "Cómic",
+      "prize": "400 euros",
+      "conditions": "personas de nacionalidad española y residentes en el territorio nacional",
       "acceptsEmail": true
     },
     {
@@ -874,6 +854,16 @@
       "acceptsEmail": true
     },
     {
+      "url": "https://www.escritores.org/recursos-para-escritores/42324-iv-certamen-de-microteatro-de-coslada",
+      "title": "IV CERTAMEN DE MICROTEATRO DE COSLADA",
+      "country": "España",
+      "deadline": "2027-01-10",
+      "category": "Microteatro",
+      "prize": "400 euros y representación",
+      "conditions": "compañías de cualquier índole (profesionales o amateurs",
+      "acceptsEmail": true
+    },
+    {
       "url": "https://www.escritores.org/recursos-para-escritores/42313-i-premio-vallekas-negra-de-novela-publicada",
       "title": "I PREMIO VALLEKAS NEGRA DE NOVELA PUBLICADA",
       "country": "España",
@@ -1011,6 +1001,16 @@
       "category": "Relato corto",
       "prize": "1.500 euros",
       "conditions": "estudiantado matriculado en el curso 2026-2027 en la UGR",
+      "acceptsEmail": true
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42325-xxii-concurso-de-cuento-y-relato-corto-villa-de-carcabuey",
+      "title": "XXII CONCURSO DE CUENTO Y RELATO CORTO “VILLA DE CARCABUEY”",
+      "country": "España",
+      "deadline": "2027-01-25",
+      "category": "Cuento, Relato corto",
+      "prize": "600 euros y diploma",
+      "conditions": "residentes en España",
       "acceptsEmail": true
     },
     {
@@ -1154,6 +1154,16 @@
       "acceptsEmail": false
     },
     {
+      "url": "https://www.escritores.org/recursos-para-escritores/42327-iii-certamen-de-relato-corto-enrejarios",
+      "title": "III CERTAMEN DE RELATO CORTO ENREJARIOS",
+      "country": "España",
+      "deadline": "2027-01-31",
+      "category": "Relato corto",
+      "prize": "250€ + alojamiento para dos personas en apartamento rural",
+      "conditions": "mayores 18 años",
+      "acceptsEmail": true
+    },
+    {
       "url": "https://www.escritores.org/recursos-para-escritores/42021-xviii-concurso-de-ciencia-ficcion-y-fantasia-oscar-hurtado-2027",
       "title": "XVIII CONCURSO DE CIENCIA FICCIÓN Y FANTASÍA OSCAR HURTADO 2027",
       "country": "Cuba",
@@ -1182,6 +1192,16 @@
       "prize": "edición de 100 ejemplares, que se entregarán a su autor",
       "conditions": "personas de 16 años en adelante residentes en la comarca del Campo de Gibraltar",
       "acceptsEmail": true
+    },
+    {
+      "url": "https://www.escritores.org/recursos-para-escritores/42322-xlii-edicion-de-los-juegos-florales-de-primavera-y-xxxiv-premio-nacional-de-poesia-poeta-mario-lopez",
+      "title": "XLII EDICIÓN DE LOS JUEGOS FLORALES DE PRIMAVERA Y XXXIV PREMIO NACIONAL DE POESÍA \"POETA MARIO LÓPEZ\"",
+      "country": "España",
+      "deadline": "2027-02-15",
+      "category": "Poesía",
+      "prize": "3.000 euros y publicación",
+      "conditions": "sin restricciones",
+      "acceptsEmail": false
     },
     {
       "url": "https://www.escritores.org/recursos-para-escritores/42110-concurso-internacional-de-relatos-cortos-prix-hemingway",
